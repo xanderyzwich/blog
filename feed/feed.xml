@@ -1,65 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Your Blog Name</title>
-	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
-	<link href="https://myurl.com/feed/feed.xml" rel="self"/>
-	<link href="https://myurl.com/"/>
-	<updated>2018-09-30T00:00:00+00:00</updated>
-	<id>https://myurl.com/</id>
+	<title>Adventures in Coding</title>
+	<subtitle>Daydreaming of better ways.</subtitle>
+	<link href="https://coreydmccarty.dev/blog/feed/feed.xml" rel="self"/>
+	<link href="https://coreydmccarty.dev/blog/"/>
+	<updated>2019-08-13T00:00:00+00:00</updated>
+	<id>https://coreydmccarty.dev/</id>
 	<author>
-		<name>Your Name Here</name>
-		<email>youremailaddress@example.com</email>
+		<name>Corey McCarty</name>
+		<email>Corey.D.McCarty@gmail.com</email>
 	</author>
 	
 	<entry>
-		<title>This is my first post.</title>
-		<link href="https://myurl.com/blog/posts/firstpost/"/>
-		<updated>2018-05-01T00:00:00+00:00</updated>
-		<id>https://myurl.com/blog/posts/firstpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;// this is a command&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;function myCommand() {&lt;/span&gt;&lt;br&gt;&lt;mark class=&quot;highlight-line highlight-line-active&quot;&gt;	let counter = 0;&lt;/mark&gt;&lt;br&gt;&lt;mark class=&quot;highlight-line highlight-line-active&quot;&gt;	counter++;&lt;/mark&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;// Test with a line break above this line.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;console.log(&#39;Test&#39;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+		<title>Getting Started with Stack Overflow</title>
+		<link href="https://coreydmccarty.dev/blog/posts/usingstackoverflow/"/>
+		<updated>2019-05-31T00:00:00+00:00</updated>
+		<id>https://coreydmccarty.dev/blog/posts/usingstackoverflow/</id>
+		<content type="html">&lt;p&gt;Yesterday morning I woke up to find a comment had been made on an old answer that I&#39;d posted to Stack Overflow, and I opened up the site. Quickly I remembered why I don&#39;t enjoy using it. I had a reputation score of 46 and was unable to comment on anything other than my own answers. Without having much work that was pressing I decided to change that.&lt;/p&gt;
+&lt;p&gt;The first thing that I did was to read through posts and vote up any question or answer that I found interesting. Quickly I had finished the forty vote max for the day, and earned three badges (Citizen Patrol, Suffrage, and Vox Populi).&lt;/p&gt;
+&lt;p&gt;The next badge that came up for tracking was to edit a question that had been dormant for 6 months (Excavator). I set into the depths of #python posts. I quickly found many posts with irrelevant tags, missing tags, or poor wording, and I submitted some few dozen edits. Along the way I actually found a couple of questions that I could answer. After the first two edits were accepted I had gotten myself over the comment barrier of fifty reputation, and that was the goal.&lt;/p&gt;
+&lt;p&gt;At this point something happened, and I started to enjoy the ability to comment in order to evoke more information on questions. Before I knew it, I had an answer accepted and jumped above seventy reputation.&lt;/p&gt;
+&lt;p&gt;This morning I opened up Stack Overflow and was greeted with having 105 reputation and 13 badges. After years of frustration with one of our most beneficial tools as a developer, I was able to break through in the span of one afternoon. I know that many of us have frustrations with that site and how difficult it can be when you are trying to ask questions (to this day I have not posted any question). But there are many ways that you can contribute to Stack Overflow that help to raise your reputation AND help get people answers to their questions.&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>This is my second post.</title>
-		<link href="https://myurl.com/blog/posts/secondpost/"/>
-		<updated>2018-07-04T00:00:00+00:00</updated>
-		<id>https://myurl.com/blog/posts/secondpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://myurl.com/blog/posts/firstpost/&quot;&gt;First post&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;https://myurl.com/blog/posts/thirdpost/&quot;&gt;Third post&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>This is my third post.</title>
-		<link href="https://myurl.com/blog/posts/thirdpost/"/>
-		<updated>2018-08-24T00:00:00+00:00</updated>
-		<id>https://myurl.com/blog/posts/thirdpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;ins class=&quot;highlight-line highlight-line-add&quot;&gt;	&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/ins&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;del class=&quot;highlight-line highlight-line-remove&quot;&gt;	counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/del&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>This is my fourth post.</title>
-		<link href="https://myurl.com/blog/posts/fourthpost/"/>
-		<updated>2018-09-30T00:00:00+00:00</updated>
-		<id>https://myurl.com/blog/posts/fourthpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+		<title>Customizing 11ty Blog</title>
+		<link href="https://coreydmccarty.dev/blog/posts/starting11ty/"/>
+		<updated>2019-08-13T00:00:00+00:00</updated>
+		<id>https://coreydmccarty.dev/blog/posts/starting11ty/</id>
+		<content type="html">&lt;p&gt;I started down this road after a simple engagement on Twitter with &lt;a href=&quot;https://dev.to/brob&quot;&gt;Brob&lt;/a&gt; and he suggested that I start blogging on &lt;a href=&quot;http://dev.to/&quot;&gt;dev.to&lt;/a&gt; and even went so far as to say that I should think about posting to my own site and syndicating over &lt;a href=&quot;http://dev.to/&quot;&gt;dev.to&lt;/a&gt;.  At that point I had a custom domain without any clue what to do with it.&lt;/p&gt;
+&lt;h2 id=&quot;but-how&quot;&gt;But How &lt;a class=&quot;direct-link&quot; href=&quot;#but-how&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Luckily Brob went on to direct me &lt;a href=&quot;https://t.co/ervT8kEx1k?amp=1&quot;&gt;here&lt;/a&gt; for a straight forward tool that can publish a personal blog using GitHub Pages and TravisCI.  The instructions are really easy and after having setup my custom domain through GitHub Pages already, I had this &#39;up and running&#39; within an hour.  This is where is really stalled for a while. At this point I had my build process up and running and could view the sample blog from my custom url.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://coreydmccarty.dev/img/Generic11ty.bmp&quot;&gt;&lt;/center&gt;
+&lt;h2 id=&quot;get-started&quot;&gt;Get Started &lt;a class=&quot;direct-link&quot; href=&quot;#get-started&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Letting this thing go stagnant for too long made it feel progressively harder to get done.  The page gives clear instruction on first steps.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Edit the _data/metadata.json with your blog’s information.&lt;/li&gt;
+&lt;li&gt;(Optional) Edit .eleventy.js with your configuration preferences.&lt;/li&gt;
+&lt;li&gt;Delete this message from _includes/layouts/base.njk.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;edit-_data%2Fmetadata.json&quot;&gt;Edit _data/metadata.json &lt;a class=&quot;direct-link&quot; href=&quot;#edit-_data%2Fmetadata.json&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;{
+  &amp;quot;title&amp;quot;: &amp;quot;Your Blog Name&amp;quot;,
+  &amp;quot;url&amp;quot;: &amp;quot;https://myurl.com/&amp;quot;,
+  &amp;quot;description&amp;quot;: &amp;quot;I am writing about my experiences as a naval navel-gazer.&amp;quot;,
+  &amp;quot;feed&amp;quot;: {
+    &amp;quot;subtitle&amp;quot;: &amp;quot;I am writing about my experiences as a naval navel-gazer.&amp;quot;,
+    &amp;quot;filename&amp;quot;: &amp;quot;feed.xml&amp;quot;,
+    &amp;quot;path&amp;quot;: &amp;quot;/feed/feed.xml&amp;quot;,
+    &amp;quot;url&amp;quot;: &amp;quot;https://myurl.com/feed/feed.xml&amp;quot;,
+    &amp;quot;id&amp;quot;: &amp;quot;https://myurl.com/&amp;quot;
+  },
+  &amp;quot;author&amp;quot;: {
+    &amp;quot;name&amp;quot;: &amp;quot;Your Name Here&amp;quot;,
+    &amp;quot;email&amp;quot;: &amp;quot;youremailaddress@example.com&amp;quot;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This stuff is really easy.  I&#39;m starting to feel ashamed of having waited so long to work on this. All of the data here can be put together inside of 5 minutes.&lt;/p&gt;
+&lt;h2 id=&quot;delete-this-message-from-_includes%2Flayouts%2Fbase.njk&quot;&gt;Delete this message from _includes/layouts/base.njk &lt;a class=&quot;direct-link&quot; href=&quot;#delete-this-message-from-_includes%2Flayouts%2Fbase.njk&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;    &amp;lt;main class=&amp;quot;tmpl-post&amp;quot;&amp;gt;
+      &amp;lt;div class=&amp;quot;warning&amp;quot;&amp;gt;
+        &amp;lt;ol&amp;gt;
+          &amp;lt;li&amp;gt;Edit the &amp;lt;code&amp;gt;_data/metadata.json&amp;lt;/code&amp;gt; with your blog’s information.&amp;lt;/li&amp;gt;
+          &amp;lt;li&amp;gt;(Optional) Edit &amp;lt;code&amp;gt;.eleventy.js&amp;lt;/code&amp;gt; with your configuration preferences.&amp;lt;/li&amp;gt;
+          &amp;lt;li&amp;gt;Delete this message from &amp;lt;code&amp;gt;_includes/layouts/base.njk&amp;lt;/code&amp;gt;.&amp;lt;/li&amp;gt;
+        &amp;lt;/ol&amp;gt;
+        &amp;lt;p&amp;gt;&amp;lt;em&amp;gt;This is an &amp;lt;a href=&amp;quot;https://www.11ty.io/&amp;quot;&amp;gt;Eleventy project&amp;lt;/a&amp;gt; created from the &amp;lt;a href=&amp;quot;https://github.com/11ty/eleventy-base-blog&amp;quot;&amp;gt;&amp;lt;code&amp;gt;eleventy-base-blog&amp;lt;/code&amp;gt; repo&amp;lt;/a&amp;gt;.&amp;lt;/em&amp;gt;&amp;lt;/p&amp;gt;
+      &amp;lt;/div&amp;gt;
+
+      
+    &amp;lt;/main&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Hack off that one div.  Again I&#39;m not sure what I was expecting to be difficult in this setup.&lt;/p&gt;
+&lt;h2 id=&quot;about&quot;&gt;About &lt;a class=&quot;direct-link&quot; href=&quot;#about&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In order to customize the &amp;quot;About&amp;quot; page that is linked in the top nav pane you will need to edit about/index.md. While the markdown spec is prolifically generic, if you have any experience with using markdown on Reddit, Discord, or GitHub then it is pretty easy to use. Personally I am writing this through IntelliJ Community Edition with Markdown Support plugin and I&#39;m able to see the output in realtime. Put in some basic information that you would like to be displayed on your page.&lt;/p&gt;
+&lt;h2 id=&quot;start-blogging&quot;&gt;Start Blogging &lt;a class=&quot;direct-link&quot; href=&quot;#start-blogging&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;After getting these things all completed you can start writing your first blog entry.  I&#39;m writing this entry as I complete the work that I&#39;m describing.  While working I have Eleventy running as &lt;code&gt;npx eleventy --server --watch&lt;/code&gt; so that the build picks up whatever changes I make and automatically serves them for viewing in the browser (I&#39;d hate to be publishing this without first testing that it works).&lt;/p&gt;
+&lt;p&gt;While writing this post I was able to get an image included using the included html templating language with &lt;code&gt;&amp;lt;center&amp;gt;&amp;lt;img src=&amp;quot;/img/Generic11ty.bmp&amp;quot;/&amp;gt;&amp;lt;/center&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Creating tags for your posts is as easy as adding them in the heading of the markdown file after the default of &#39;post&#39;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;title: Customizing 11ty Blog  
+description: Cleaning up after forking  
+date: 2019-08-13  
+tags:  
+  - post
+  - 11ty  
+  - travisci  
+  - meta  
+layout: layouts/post.njk  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;still-a-work-in-progress&quot;&gt;Still a work in progress &lt;a class=&quot;direct-link&quot; href=&quot;#still-a-work-in-progress&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;At this point I have gotten the blorunning with my custom information so that it feels more like mine and less like some code that I forked and forgot about.  While I&#39;m not exactly a frontend developer, I plan on sharing my future work on some custom css as well as my online resume generator.&lt;br&gt;
+g up and&lt;/p&gt;
 </content>
 	</entry>
 </feed>

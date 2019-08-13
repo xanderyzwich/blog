@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://myurl.com/blog/posts/firstpost/</loc>
-    <lastmod>2018-05-01</lastmod>
+    <loc>https://coreydmccarty.dev/blog/posts/usingstackoverflow/</loc>
+    <lastmod>2019-05-31</lastmod>
   </url>
   
   <url>
-    <loc>https://myurl.com/blog/posts/secondpost/</loc>
-    <lastmod>2018-07-04</lastmod>
+    <loc>https://coreydmccarty.dev/blog/posts/starting11ty/</loc>
+    <lastmod>2019-08-13</lastmod>
   </url>
   
   <url>
-    <loc>https://myurl.com/blog/posts/thirdpost/</loc>
-    <lastmod>2018-08-24</lastmod>
+    <loc>https://coreydmccarty.dev/blog/about/</loc>
+    <lastmod>2019-08-13</lastmod>
   </url>
   
   <url>
-    <loc>https://myurl.com/blog/posts/fourthpost/</loc>
-    <lastmod>2018-09-30</lastmod>
+    <loc>https://coreydmccarty.dev/blog/posts/</loc>
+    <lastmod>2019-08-13</lastmod>
   </url>
   
   <url>
-    <loc>https://myurl.com/blog/about/</loc>
-    <lastmod>2019-06-11</lastmod>
+    <loc>https://coreydmccarty.dev/blog/</loc>
+    <lastmod>2019-08-13</lastmod>
   </url>
   
   <url>
-    <loc>https://myurl.com/blog/posts/</loc>
-    <lastmod>2019-06-11</lastmod>
+    <loc>https://coreydmccarty.dev/blog/page-list/</loc>
+    <lastmod>2019-08-13</lastmod>
   </url>
   
   <url>
-    <loc>https://myurl.com/blog/</loc>
-    <lastmod>2019-06-11</lastmod>
+    <loc>https://coreydmccarty.dev/blog/tags/</loc>
+    <lastmod>2019-08-13</lastmod>
   </url>
   
   <url>
-    <loc>https://myurl.com/blog/page-list/</loc>
-    <lastmod>2019-06-11</lastmod>
+    <loc>https://coreydmccarty.dev/blog/tags/travisci/</loc>
+    <lastmod>2019-08-13</lastmod>
   </url>
   
   <url>
-    <loc>https://myurl.com/blog/tags/</loc>
-    <lastmod>2019-06-11</lastmod>
+    <loc>https://coreydmccarty.dev/blog/tags/meta/</loc>
+    <lastmod>2019-08-13</lastmod>
   </url>
   
   <url>
-    <loc>https://myurl.com/blog/tags/another-tag/</loc>
-    <lastmod>2019-06-11</lastmod>
+    <loc>https://coreydmccarty.dev/blog/tags/stack%20overflow/</loc>
+    <lastmod>2019-08-13</lastmod>
   </url>
   
   <url>
-    <loc>https://myurl.com/blog/tags/second-tag/</loc>
-    <lastmod>2019-06-11</lastmod>
+    <loc>https://coreydmccarty.dev/blog/tags/motivation/</loc>
+    <lastmod>2019-08-13</lastmod>
   </url>
   
   <url>
-    <loc>https://myurl.com/blog/tags/number-2/</loc>
-    <lastmod>2019-06-11</lastmod>
+    <loc>https://coreydmccarty.dev/blog/tags/11ty/</loc>
+    <lastmod>2019-08-13</lastmod>
   </url>
 </urlset>
