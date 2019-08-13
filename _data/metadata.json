@@ -1,16 +1,16 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Adventures in Coding",
+  "url": "https://coreydmccarty.dev/blog/",
+  "description": "Recording interesting bits of my life as a developer.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Daydreaming of better ways.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://myurl.com/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "url": "https://coreydmccarty.dev/blog/feed/feed.xml",
+    "id": "https://coreydmccarty.dev/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Corey McCarty",
+    "email": "Corey.D.McCarty@gmail.com"
   }
 }
