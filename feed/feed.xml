@@ -32,7 +32,7 @@
 		<content type="html">&lt;p&gt;I started down this road after a simple engagement on Twitter with &lt;a href=&quot;https://dev.to/brob&quot;&gt;Brob&lt;/a&gt; and he suggested that I start blogging on &lt;a href=&quot;http://dev.to/&quot;&gt;dev.to&lt;/a&gt; and even went so far as to say that I should think about posting to my own site and syndicating over &lt;a href=&quot;http://dev.to/&quot;&gt;dev.to&lt;/a&gt;.  At that point I had a custom domain without any clue what to do with it.&lt;/p&gt;
 &lt;h2 id=&quot;but-how&quot;&gt;But How &lt;a class=&quot;direct-link&quot; href=&quot;#but-how&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Luckily Brob went on to direct me &lt;a href=&quot;https://t.co/ervT8kEx1k?amp=1&quot;&gt;here&lt;/a&gt; for a straight forward tool that can publish a personal blog using GitHub Pages and TravisCI.  The instructions are really easy and after having setup my custom domain through GitHub Pages already, I had this &#39;up and running&#39; within an hour.  This is where is really stalled for a while. At this point I had my build process up and running and could view the sample blog from my custom url.&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;https://coreydmccarty.dev/img/Generic11ty.bmp&quot;&gt;&lt;/center&gt;
+&lt;p&gt;&lt;img src=&quot;https://coreydmccarty.dev/img/Generic11ty.jpg&quot; alt=&quot;Default Blog&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;get-started&quot;&gt;Get Started &lt;a class=&quot;direct-link&quot; href=&quot;#get-started&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Letting this thing go stagnant for too long made it feel progressively harder to get done.  The page gives clear instruction on first steps.&lt;/p&gt;
 &lt;blockquote&gt;
