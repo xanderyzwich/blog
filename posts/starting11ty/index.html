@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customizing 11ty Blog</title>
+    <meta name="Description" content="Cleaning up after forking">
+    <link rel="stylesheet" href="/blog/css/index.css">
+    <link rel="stylesheet" href="/blog/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/blog/feed/feed.xml" type="application/atom+xml" title="Adventures in Coding">
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/blog/">Adventures in Coding</a></h1>
+      <ul class="nav"><li class="nav-item"><a href="/blog/">Home</a></li><li class="nav-item"><a href="/blog/posts/">Archive</a></li><li class="nav-item"><a href="/blog/about/">Bio</a></li></ul>
+    </header>
+
+    <main class="tmpl-post">
+
+      <h1>Customizing 11ty Blog</h1>
+
+<p>I started down this road after a simple engagement on Twitter with <a href="https://dev.to/brob">Brob</a> and he suggested that I start blogging on <a href="http://dev.to">dev.to</a> and even went so far as to say that I should think about posting to my own site and syndicating over <a href="http://dev.to">dev.to</a>.  At that point I had a custom domain without any clue what to do with it.</p>
+<h2 id="but-how">But How <a class="direct-link" href="#but-how" aria-hidden="true">#</a></h2>
+<p>Luckily Brob went on to direct me <a href="https://t.co/ervT8kEx1k?amp=1">here</a> for a straight forward tool that can publish a personal blog using GitHub Pages and TravisCI.  The instructions are really easy and after having setup my custom domain through GitHub Pages already, I had this 'up and running' within an hour.  This is where is really stalled for a while. At this point I had my build process up and running and could view the sample blog from my custom url.</p>
+<center><img src="https://coreydmccarty.dev/blog/img/Generic11ty.bmp"/></center>
+<h2 id="get-started">Get Started <a class="direct-link" href="#get-started" aria-hidden="true">#</a></h2>
+<p>Letting this thing go stagnant for too long made it feel progressively harder to get done.  The page gives clear instruction on first steps.</p>
+<blockquote>
+<ol>
+<li>Edit the _data/metadata.json with your blog’s information.</li>
+<li>(Optional) Edit .eleventy.js with your configuration preferences.</li>
+<li>Delete this message from _includes/layouts/base.njk.</li>
+</ol>
+</blockquote>
+<h2 id="edit-_data%2Fmetadata.json">Edit _data/metadata.json <a class="direct-link" href="#edit-_data%2Fmetadata.json" aria-hidden="true">#</a></h2>
+<pre><code>{
+  &quot;title&quot;: &quot;Your Blog Name&quot;,
+  &quot;url&quot;: &quot;https://myurl.com/&quot;,
+  &quot;description&quot;: &quot;I am writing about my experiences as a naval navel-gazer.&quot;,
+  &quot;feed&quot;: {
+    &quot;subtitle&quot;: &quot;I am writing about my experiences as a naval navel-gazer.&quot;,
+    &quot;filename&quot;: &quot;feed.xml&quot;,
+    &quot;path&quot;: &quot;/feed/feed.xml&quot;,
+    &quot;url&quot;: &quot;https://myurl.com/feed/feed.xml&quot;,
+    &quot;id&quot;: &quot;https://myurl.com/&quot;
+  },
+  &quot;author&quot;: {
+    &quot;name&quot;: &quot;Your Name Here&quot;,
+    &quot;email&quot;: &quot;youremailaddress@example.com&quot;
+  }
+}
+</code></pre>
+<p>This stuff is really easy.  I'm starting to feel ashamed of having waited so long to work on this. All of the data here can be put together inside of 5 minutes.</p>
+<h2 id="delete-this-message-from-_includes%2Flayouts%2Fbase.njk">Delete this message from _includes/layouts/base.njk <a class="direct-link" href="#delete-this-message-from-_includes%2Flayouts%2Fbase.njk" aria-hidden="true">#</a></h2>
+<pre><code>    &lt;main class=&quot;tmpl-post&quot;&gt;
+      &lt;div class=&quot;warning&quot;&gt;
+        &lt;ol&gt;
+          &lt;li&gt;Edit the &lt;code&gt;_data/metadata.json&lt;/code&gt; with your blog’s information.&lt;/li&gt;
+          &lt;li&gt;(Optional) Edit &lt;code&gt;.eleventy.js&lt;/code&gt; with your configuration preferences.&lt;/li&gt;
+          &lt;li&gt;Delete this message from &lt;code&gt;_includes/layouts/base.njk&lt;/code&gt;.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;em&gt;This is an &lt;a href=&quot;https://www.11ty.io/&quot;&gt;Eleventy project&lt;/a&gt; created from the &lt;a href=&quot;https://github.com/11ty/eleventy-base-blog&quot;&gt;&lt;code&gt;eleventy-base-blog&lt;/code&gt; repo&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+      &lt;/div&gt;
+
+      
+    &lt;/main&gt;
+</code></pre>
+<p>Hack off that one div.  Again I'm not sure what I was expecting to be difficult in this setup.</p>
+<h2 id="about">About <a class="direct-link" href="#about" aria-hidden="true">#</a></h2>
+<p>In order to customize the &quot;About&quot; page that is linked in the top nav pane you will need to edit about/index.md. While the markdown spec is prolifically generic, if you have any experience with using markdown on Reddit, Discord, or GitHub then it is pretty easy to use. Personally I am writing this through IntelliJ Community Edition with Markdown Support plugin and I'm able to see the output in realtime. Put in some basic information that you would like to be displayed on your page.</p>
+<h2 id="start-blogging">Start Blogging <a class="direct-link" href="#start-blogging" aria-hidden="true">#</a></h2>
+<p>After getting these things all completed you can start writing your first blog entry.  I'm writing this entry as I complete the work that I'm describing.  While working I have Eleventy running as <code>npx eleventy --server --watch</code> so that the build picks up whatever changes I make and automatically serves them for viewing in the browser (I'd hate to be publishing this without first testing that it works).</p>
+<p>While writing this post I was able to get an image included using the included html templating language with <code>&lt;center&gt;&lt;img src=&quot;/img/Generic11ty.bmp&quot;/&gt;&lt;/center&gt;</code></p>
+<p>Creating tags for your posts is as easy as adding them in the heading of the markdown file after the default of 'post'.</p>
+<pre><code>title: Customizing 11ty Blog  
+description: Cleaning up after forking  
+date: 2019-08-13  
+tags:  
+  - post
+  - 11ty  
+  - travisci  
+  - meta  
+layout: layouts/post.njk  
+</code></pre>
+<h2 id="still-a-work-in-progress">Still a work in progress <a class="direct-link" href="#still-a-work-in-progress" aria-hidden="true">#</a></h2>
+<p>At this point I have gotten the blog up and running with my custom information so that it feels more like mine and less like some code that I forked and forgot about.  While I'm not exactly a frontend developer, I plan on sharing my future work on some custom css as well as my online resume generator.</p>
+
+
+<p><a href="/blog/">← Home</a></p>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /blog/posts/starting11ty/ -->
+  </body>
+</html>
