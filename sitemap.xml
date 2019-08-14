@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://coreydmccarty.dev/blog/posts/usingstackoverflow/</loc>
+    <loc>https://coreydmccarty.dev/posts/usingstackoverflow/</loc>
     <lastmod>2019-05-31</lastmod>
   </url>
   
   <url>
-    <loc>https://coreydmccarty.dev/blog/posts/starting11ty/</loc>
+    <loc>https://coreydmccarty.dev/posts/starting11ty/</loc>
     <lastmod>2019-08-13</lastmod>
   </url>
   
   <url>
-    <loc>https://coreydmccarty.dev/blog/about/</loc>
+    <loc>https://coreydmccarty.dev/about/</loc>
     <lastmod>2019-08-14</lastmod>
   </url>
   
   <url>
-    <loc>https://coreydmccarty.dev/blog/posts/</loc>
+    <loc>https://coreydmccarty.dev/posts/</loc>
     <lastmod>2019-08-14</lastmod>
   </url>
   
   <url>
-    <loc>https://coreydmccarty.dev/blog/</loc>
+    <loc>https://coreydmccarty.dev/</loc>
     <lastmod>2019-08-14</lastmod>
   </url>
   
   <url>
-    <loc>https://coreydmccarty.dev/blog/page-list/</loc>
+    <loc>https://coreydmccarty.dev/page-list/</loc>
     <lastmod>2019-08-14</lastmod>
   </url>
   
   <url>
-    <loc>https://coreydmccarty.dev/blog/tags/</loc>
+    <loc>https://coreydmccarty.dev/tags/</loc>
     <lastmod>2019-08-14</lastmod>
   </url>
   
   <url>
-    <loc>https://coreydmccarty.dev/blog/tags/travisci/</loc>
+    <loc>https://coreydmccarty.dev/tags/travisci/</loc>
     <lastmod>2019-08-14</lastmod>
   </url>
   
   <url>
-    <loc>https://coreydmccarty.dev/blog/tags/meta/</loc>
+    <loc>https://coreydmccarty.dev/tags/meta/</loc>
     <lastmod>2019-08-14</lastmod>
   </url>
   
   <url>
-    <loc>https://coreydmccarty.dev/blog/tags/stack%20overflow/</loc>
+    <loc>https://coreydmccarty.dev/tags/stack%20overflow/</loc>
     <lastmod>2019-08-14</lastmod>
   </url>
   
   <url>
-    <loc>https://coreydmccarty.dev/blog/tags/motivation/</loc>
+    <loc>https://coreydmccarty.dev/tags/motivation/</loc>
     <lastmod>2019-08-14</lastmod>
   </url>
   
   <url>
-    <loc>https://coreydmccarty.dev/blog/tags/11ty/</loc>
+    <loc>https://coreydmccarty.dev/tags/11ty/</loc>
     <lastmod>2019-08-14</lastmod>
   </url>
 </urlset>

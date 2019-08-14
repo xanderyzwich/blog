@@ -13,9 +13,9 @@
 	
 	<entry>
 		<title>Getting Started with Stack Overflow</title>
-		<link href="https://coreydmccarty.dev/blog/posts/usingstackoverflow/"/>
+		<link href="https://coreydmccarty.dev/posts/usingstackoverflow/"/>
 		<updated>2019-05-31T00:00:00+00:00</updated>
-		<id>https://coreydmccarty.dev/blog/posts/usingstackoverflow/</id>
+		<id>https://coreydmccarty.dev/posts/usingstackoverflow/</id>
 		<content type="html">&lt;p&gt;Yesterday morning I woke up to find a comment had been made on an old answer that I&#39;d posted to Stack Overflow, and I opened up the site. Quickly I remembered why I don&#39;t enjoy using it. I had a reputation score of 46 and was unable to comment on anything other than my own answers. Without having much work that was pressing I decided to change that.&lt;/p&gt;
 &lt;p&gt;The first thing that I did was to read through posts and vote up any question or answer that I found interesting. Quickly I had finished the forty vote max for the day, and earned three badges (Citizen Patrol, Suffrage, and Vox Populi).&lt;/p&gt;
 &lt;p&gt;The next badge that came up for tracking was to edit a question that had been dormant for 6 months (Excavator). I set into the depths of #python posts. I quickly found many posts with irrelevant tags, missing tags, or poor wording, and I submitted some few dozen edits. Along the way I actually found a couple of questions that I could answer. After the first two edits were accepted I had gotten myself over the comment barrier of fifty reputation, and that was the goal.&lt;/p&gt;
@@ -26,9 +26,9 @@
 	
 	<entry>
 		<title>Customizing 11ty Blog</title>
-		<link href="https://coreydmccarty.dev/blog/posts/starting11ty/"/>
+		<link href="https://coreydmccarty.dev/posts/starting11ty/"/>
 		<updated>2019-08-13T00:00:00+00:00</updated>
-		<id>https://coreydmccarty.dev/blog/posts/starting11ty/</id>
+		<id>https://coreydmccarty.dev/posts/starting11ty/</id>
 		<content type="html">&lt;p&gt;I started down this road after a simple engagement on Twitter with &lt;a href=&quot;https://dev.to/brob&quot;&gt;Brob&lt;/a&gt; and he suggested that I start blogging on &lt;a href=&quot;http://dev.to/&quot;&gt;dev.to&lt;/a&gt; and even went so far as to say that I should think about posting to my own site and syndicating over &lt;a href=&quot;http://dev.to/&quot;&gt;dev.to&lt;/a&gt;.  At that point I had a custom domain without any clue what to do with it.&lt;/p&gt;
 &lt;h2 id=&quot;but-how&quot;&gt;But How &lt;a class=&quot;direct-link&quot; href=&quot;#but-how&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Luckily Brob went on to direct me &lt;a href=&quot;https://t.co/ervT8kEx1k?amp=1&quot;&gt;here&lt;/a&gt; for a straight forward tool that can publish a personal blog using GitHub Pages and TravisCI.  The instructions are really easy and after having setup my custom domain through GitHub Pages already, I had this &#39;up and running&#39; within an hour.  This is where is really stalled for a while. At this point I had my build process up and running and could view the sample blog from my custom url.&lt;/p&gt;
