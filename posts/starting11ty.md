@@ -28,7 +28,7 @@ Letting this thing go stagnant for too long made it feel progressively harder to
 
 ## Edit _data/metadata.json
 
-```
+```json
 {
   "title": "Your Blog Name",
   "url": "https://myurl.com/",
@@ -51,7 +51,7 @@ This stuff is really easy.  I'm starting to feel ashamed of having waited so lon
 
 ## Delete this message from _includes/layouts/base.njk
 
-```
+```html
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       <div class="warning">
         <ol>
@@ -80,7 +80,7 @@ While writing this post I was able to get an image included using the included h
 
 Creating tags for your posts is as easy as adding them in the heading of the markdown file after the default of 'post'.
 
-```
+```yaml
 title: Customizing 11ty Blog  
 description: Cleaning up after forking  
 date: 2019-08-13  
