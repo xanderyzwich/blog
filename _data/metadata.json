@@ -1,12 +1,12 @@
 {
   "title": "Adventures in Coding",
-  "url": "https://coreydmccarty.dev/blog/",
+  "url": "https://coreydmccarty.dev/",
   "description": "Recording interesting bits of my life as a developer.",
   "feed": {
     "subtitle": "Daydreaming of better ways.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://coreydmccarty.dev/blog/feed/feed.xml",
+    "url": "https://coreydmccarty.dev/feed/feed.xml",
     "id": "https://coreydmccarty.dev/"
   },
   "author": {

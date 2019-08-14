@@ -16,7 +16,7 @@ I started down this road after a simple engagement on Twitter with [Brob](https:
 
 Luckily Brob went on to direct me [here](https://t.co/ervT8kEx1k?amp=1) for a straight forward tool that can publish a personal blog using GitHub Pages and TravisCI.  The instructions are really easy and after having setup my custom domain through GitHub Pages already, I had this 'up and running' within an hour.  This is where is really stalled for a while. At this point I had my build process up and running and could view the sample blog from my custom url.
 
-<center><img src="{{ 'https://coreydmccarty.dev/blog/img/Generic11ty.bmp' | img }}"/></center>
+<center><img src="{{ 'https://coreydmccarty.dev/img/Generic11ty.bmp' | img }}"/></center>
 
 ## Get Started
 
