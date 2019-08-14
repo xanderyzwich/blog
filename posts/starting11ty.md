@@ -95,5 +95,4 @@ layout: layouts/post.njk
 
 ## Still a work in progress
 
-At this point I have gotten the blorunning with my custom information so that it feels more like mine and less like some code that I forked and forgot about.  While I'm not exactly a frontend developer, I plan on sharing my future work on some custom css as well as my online resume generator.  
-g up and 
+At this point I have gotten the blog up and running with my custom information so that it feels more like mine and less like some code that I forked and forgot about.  While I'm not exactly a frontend developer, I plan on sharing my future work on some custom css as well as my online resume generator.
