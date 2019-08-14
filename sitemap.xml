@@ -37,16 +37,6 @@
   </url>
   
   <url>
-    <loc>https://coreydmccarty.dev/blog/tags/motivation/</loc>
-    <lastmod>2019-08-14</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://coreydmccarty.dev/blog/tags/11ty/</loc>
-    <lastmod>2019-08-14</lastmod>
-  </url>
-  
-  <url>
     <loc>https://coreydmccarty.dev/blog/tags/travisci/</loc>
     <lastmod>2019-08-14</lastmod>
   </url>
@@ -58,6 +48,16 @@
   
   <url>
     <loc>https://coreydmccarty.dev/blog/tags/stack%20overflow/</loc>
+    <lastmod>2019-08-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://coreydmccarty.dev/blog/tags/motivation/</loc>
+    <lastmod>2019-08-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://coreydmccarty.dev/blog/tags/11ty/</loc>
     <lastmod>2019-08-14</lastmod>
   </url>
 </urlset>
