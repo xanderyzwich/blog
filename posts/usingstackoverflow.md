@@ -3,7 +3,6 @@ title: Getting Started with Stack Overflow
 description: I finally decided to join the community
 date: 2019-05-31
 tags:
-  - post
   - stack overflow
   - motivation
 layout: layouts/post.njk

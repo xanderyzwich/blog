@@ -3,11 +3,10 @@ title: Customizing 11ty Blog
 description: Cleaning up after forking  
 date: 2019-08-13  
 tags:  
-  - post
-  - 11ty  
-  - travisci  
+  - 11ty    
+  - travisci    
   - meta  
-layout: layouts/post.njk  
+layout: layouts/post.njk    
 ---  
 
 I started down this road after a simple engagement on Twitter with [Brob](https://dev.to/brob) and he suggested that I start blogging on dev.to and even went so far as to say that I should think about posting to my own site and syndicating over dev.to.  At that point I had a custom domain without any clue what to do with it.
