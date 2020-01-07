@@ -2,8 +2,34 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<h1>{{ title }}</h1>
 
-{{ content | safe }}
+<div class="post top">
+  <h1>{{ title }}</h1>
+  {% for tag in tags %}
+    {%- if tag not in [ "posts" , "nav" , "me" ] -%}
+    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+    <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+    {%- endif -%}
+  {% endfor %}
+  {% if description %}
+    <p>{{ description }}</p>
+  {% endif %}
+  <hr>
+</div>
 
-<p><a href="{{ '/' | url }}">← Home</a></p>
+<div class="post main">
+  {{ content | safe }}
+</div>
+
+<div class="post bottom">
+  <hr>
+  <p>Related topics:
+  {% for tag in tags %}
+    {%- if tag != "posts" and tag != "nav" -%}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+    {%- endif -%}
+  {% endfor %}
+  </p>
+  <p><a href="{{ '/' | url }}">← Home</a></p>
+</div>

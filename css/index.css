@@ -7,6 +7,22 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
+
+  /* University of Memphis */
+  /* BLUES */
+	--university-blue:	#003087;
+	--rhythm-blue:		#1F3A60;
+	--spirit-blue:		#00ADE6;
+	--river-blue:		#D0E6E8;
+ 	--true-blue:		#3569A7;
+  /* GRAYS */
+ 	--university-gray:	#898D8D;
+ 	--patterson-gray:	#717C7D;
+ 	--highland-gray:	#BFCDCB;
+
+ 	--bluff-beige:		#F5E9BD;
+ 	--font-bitter:		'Bitter'; /*serif*/
+ 	font-family: 'Montserrat';
 }
 * {
   box-sizing: border-box;
@@ -16,7 +32,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: var(--darkgray);
+  color: var(--university-blue);
   background-color: var(--white);
 }
 p:last-child {
@@ -31,11 +47,15 @@ p,
 .tmpl-post li {
   line-height: 1.45;
 }
+blockquote p{
+  background-color: var(--highland-gray);
+  color: var(--true-blue);
+}
 a[href] {
-  color: var(--blue);
+  color: var(--university-blue);
 }
 a[href]:visited {
-  color: var(--navy);
+  color: var(--black);
 }
 main {
   padding: 1rem;
@@ -115,13 +135,30 @@ pre {
 }
 
 /* Header */
-.home {
+header, footer {
+  background-color: var(--patterson-gray);
+}
+header .contact{
+  float: right;
   padding: 0 1rem;
+  margin: 1rem 1rem; /* 16px /16 */
+  font-size: 1.5rem;
+}
+.home {
   float: left;
-  margin: 1rem 0; /* 16px /16 */
+  padding: 0 1rem;
+  margin: 1rem 1rem; /* 16px /16 */
   font-size: 1em; /* 16px /16 */
 }
-.home :link:not(:hover) {
+footer {
+  width: 100%;
+  text-align: center;
+}
+foot *{
+  text-align: center;
+}
+.home :link:not(:hover),
+footer :link:not(:hover){
   text-decoration: none;
 }
 
@@ -188,8 +225,8 @@ pre {
   font-size: 0.625em; /* 10px /16 */
   padding: 2px 4px;
   margin-left: 0.8em; /* 8px /10 */
-  background-color: var(--red);
-  color: var(--white);
+  background-color: var(--university-blue);
+  color: var(--university-gray);
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
 }
@@ -223,4 +260,42 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+/* Margin Sizing Based on Screen Size */
+@media only screen and(max-width:600px){
+  main{
+    margin: 0 10px;
+  }
+}
+@media only screen and (min-width:601px){
+  main{
+    margin: 0 5%;
+  }
+}
+@media only screen and (min-width:992px){
+  main{
+    margin: 0 10%;
+  }
+}
+@media only screen and (min-width:1200px){
+  main{
+    margin: 0 15%;
+  }
+}
+
+/* footer controls */
+html, body{
+  height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+/* header */
+main{
+  flex: 1 0 auto;
+}
+footer{
+  flex-shrink: 0;
 }

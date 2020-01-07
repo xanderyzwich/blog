@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk  
+templateClass: tmpl-resume  
+---
+<link rel="stylesheet" href="{{ '/css/resume.css' | url }}">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bitter">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat">
+<div id="resume">
+  <div id='title'>
+    <h1>
+      {{ name }}
+      <a href="tel: {{ phone }}"><i class="fas fa-phone"></i>‬</a>
+      <a href="mailto: {{ email }}"><i class="fas fa-envelope"></i></a>
+      <a href="{{ linkedin }}"><i class="fab fa-linkedin"></i></a>
+      <a href="{{ github }}"><i class="fab fa-github"></i></a>
+    </h1>        
+  </div>
+  {{ content | safe }}
+</div>
