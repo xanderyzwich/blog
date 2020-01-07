@@ -1,0 +1,105 @@
+/* div{ debugging
+	border: #F00;
+	border-width: thick;
+	border-style: solid;
+} */
+:root {
+  /* BLUES */
+	--university-blue:	#003087;
+	--rhythm-blue:		#1F3A60;
+	--spirit-blue:		#00ADE6;
+	--river-blue:		#D0E6E8;
+  --true-blue:		#3569A7;
+  /* GRAYS */
+  --university-gray:	#898D8D;
+  --patterson-gray:	#717C7D;
+  --highland-gray:	#BFCDCB;
+  
+  --bluff-beige:		#F5E9BD;
+  --font-bitter:		'Bitter'; /*serif*/
+
+  /* font-size: 75%; */
+  color: black;
+}
+#resume {
+  font-family: 'Montserrat';
+}
+#resume *{
+  margin-top: 2px !important;
+  margin-bottom: 0px !important;
+  padding-right: 0px !important;
+  font-weight: bold;
+}
+#resume p{
+max-width: 100%;
+}
+
+/*BY TAG TYPE*/
+#resume h1, #resume h2{
+ 	font-family: var(--font-bitter);
+}
+/* Color by Tag */
+#resume h1{
+  color: var(--university-blue);
+}
+#resume h2{
+ 	color: var(--university-gray);
+}
+#resume h3{
+ 	color: var(--rhythm-blue);
+}
+#resume h4{
+ 	color: var(--patterson-gray);
+}
+#resume h5{
+ 	color: var(--spirit-blue);
+}
+#resume h6{
+ 	color: var(--highland-gray);
+}
+
+ /* Margins by tag */
+#resume h2{
+ 	margin: 0 0 0 2% !important;
+}
+#resume h3{
+ 	margin: 0 0 0 3% !important;
+}
+#resume h4{
+  margin: 0 0 0 4% !important;
+}
+#resume h5{
+  margin: 0 0 0 5% !important;
+}
+#resume h6{
+  margin: 0 0 0 6% !important;
+}
+#resume p,
+#resume ul{
+  margin: 0 0 0 7%;
+}
+#resume li p{
+  margin: 0;
+  padding: 0;
+}
+
+/* Making the Contact Info Align with Name */
+#title i {
+  font-size: 1rem;
+  color: var(--true-blue);
+}
+
+/* #title {
+  width: 100%;
+  display: flex;
+} */
+/* h1{
+  flex-direction: row;
+  float: left;
+}
+.contact {
+  flex-direction: row;
+  font-family:  "Font Awesome 5 Pro" !important;
+  float: right;
+  margin-top: 0;
+} */

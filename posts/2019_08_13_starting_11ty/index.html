@@ -8,22 +8,44 @@
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Adventures in Coding">
+
+    <script src="https://kit.fontawesome.com/1b01ea6d0e.js" crossorigin="anonymous"></script>
+      
   </head>
   <body>
+  
     <header>
       <h1 class="home"><a href="/">Adventures in Coding</a></h1>
-      <ul class="nav"><li class="nav-item"><a href="/">Home</a></li><li class="nav-item"><a href="/posts/">Archive</a></li><li class="nav-item"><a href="/about/">Bio</a></li></ul>
+      <ul class="nav"><li class="nav-item"><a href="/resume/">Resume</a></li><li class="nav-item"><a href="/">Home</a></li><li class="nav-item"><a href="/posts/">Archive</a></li><li class="nav-item"><a href="/about/">Bio</a></li></ul>
+      <span class='contact'>
+        <a href="tel:‪(901) 213-6747‬"><i class="fas fa-phone"></i>‬</a>
+        <a href="mailto:Corey.D.McCarty@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/coreydmccarty"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.github.com/xanderyzwich"><i class="fab fa-github"></i></a>
+      </span>
     </header>
 
     <main class="tmpl-post">
 
-      <h1>Customizing 11ty Blog</h1>
+      
+<div class="post top">
+  <h1>Customizing 11ty Blog</h1>
+  
+    <a href="/tags/11ty/" class="tag">11ty</a>
+    <a href="/tags/travisci/" class="tag">travisci</a>
+    <a href="/tags/meta/" class="tag">meta</a>
+  
+    <p>Cleaning up after forking</p>
+  
+  <hr>
+</div>
 
-<p>I started down this road after a simple engagement on Twitter with <a href="https://dev.to/brob">Brob</a> and he suggested that I start blogging on <a href="http://dev.to">dev.to</a> and even went so far as to say that I should think about posting to my own site and syndicating over <a href="http://dev.to">dev.to</a>.  At that point I had a custom domain without any clue what to do with it.</p>
-<h2 id="but-how">But How <a class="direct-link" href="#but-how" aria-hidden="true">#</a></h2>
+<div class="post main">
+  <p>I started down this road after a simple engagement on Twitter with <a href="https://dev.to/brob">Brob</a> and he suggested that I start blogging on <a href="http://dev.to">dev.to</a> and even went so far as to say that I should think about posting to my own site and syndicating over <a href="http://dev.to">dev.to</a>.  At that point I had a custom domain without any clue what to do with it.</p>
+<h2 id="but-how">But How <a class="direct-link" href="#but-how">#</a></h2>
 <p>Luckily Brob went on to direct me <a href="https://t.co/ervT8kEx1k?amp=1">here</a> for a straight forward tool that can publish a personal blog using GitHub Pages and TravisCI.  The instructions are really easy and after having setup my custom domain through GitHub Pages already, I had this 'up and running' within an hour.  This is where is really stalled for a while. At this point I had my build process up and running and could view the sample blog from my custom url.</p>
 <p><img src="https://coreydmccarty.dev/img/Generic11ty.jpg" alt="Default Blog"></p>
-<h2 id="get-started">Get Started <a class="direct-link" href="#get-started" aria-hidden="true">#</a></h2>
+<h2 id="get-started">Get Started <a class="direct-link" href="#get-started">#</a></h2>
 <p>Letting this thing go stagnant for too long made it feel progressively harder to get done.  The page gives clear instruction on first steps.</p>
 <blockquote>
 <ol>
@@ -32,29 +54,48 @@
 <li>Delete this message from _includes/layouts/base.njk.</li>
 </ol>
 </blockquote>
-<h2 id="edit-_data%2Fmetadata.json">Edit _data/metadata.json <a class="direct-link" href="#edit-_data%2Fmetadata.json" aria-hidden="true">#</a></h2>
+<h2 id="edit-_data%2Fmetadata.json">Edit _data/metadata.json <a class="direct-link" href="#edit-_data%2Fmetadata.json">#</a></h2>
 <pre class="language-json"><code class="language-json"><span class="highlight-line"><span class="token punctuation">{</span></span><br><span class="highlight-line">  <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"Your Blog Name"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">  <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://myurl.com/"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">  <span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">"I am writing about my experiences as a naval navel-gazer."</span><span class="token punctuation">,</span></span><br><span class="highlight-line">  <span class="token property">"feed"</span><span class="token operator">:</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">    <span class="token property">"subtitle"</span><span class="token operator">:</span> <span class="token string">"I am writing about my experiences as a naval navel-gazer."</span><span class="token punctuation">,</span></span><br><span class="highlight-line">    <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"feed.xml"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">    <span class="token property">"path"</span><span class="token operator">:</span> <span class="token string">"/feed/feed.xml"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">    <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://myurl.com/feed/feed.xml"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">    <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"https://myurl.com/"</span></span><br><span class="highlight-line">  <span class="token punctuation">}</span><span class="token punctuation">,</span></span><br><span class="highlight-line">  <span class="token property">"author"</span><span class="token operator">:</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">    <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Your Name Here"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">    <span class="token property">"email"</span><span class="token operator">:</span> <span class="token string">"youremailaddress@example.com"</span></span><br><span class="highlight-line">  <span class="token punctuation">}</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
 <p>This stuff is really easy.  I'm starting to feel ashamed of having waited so long to work on this. All of the data here can be put together inside of 5 minutes.</p>
-<h2 id="delete-this-message-from-_includes%2Flayouts%2Fbase.njk">Delete this message from _includes/layouts/base.njk <a class="direct-link" href="#delete-this-message-from-_includes%2Flayouts%2Fbase.njk" aria-hidden="true">#</a></h2>
+<h2 id="delete-this-message-from-_includes%2Flayouts%2Fbase.njk">Delete this message from _includes/layouts/base.njk <a class="direct-link" href="#delete-this-message-from-_includes%2Flayouts%2Fbase.njk">#</a></h2>
 <pre class="language-html"><code class="language-html"><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>tmpl-post<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>warning<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Edit the <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">></span></span>_data/metadata.json<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">></span></span> with your blog’s information.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>(Optional) Edit <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">></span></span>.eleventy.js<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">></span></span> with your configuration preferences.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Delete this message from <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">></span></span>_includes/layouts/base.njk<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">></span></span>.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ol</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">></span></span>This is an <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.11ty.io/<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Eleventy project<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span> created from the <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://github.com/11ty/eleventy-base-blog<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">></span></span>eleventy-base-blog<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">></span></span> repo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"></span><br><span class="highlight-line">      </span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span></span></code></pre>
 <p>Hack off that one div.  Again I'm not sure what I was expecting to be difficult in this setup.</p>
-<h2 id="about">About <a class="direct-link" href="#about" aria-hidden="true">#</a></h2>
+<h2 id="about">About <a class="direct-link" href="#about">#</a></h2>
 <p>In order to customize the &quot;About&quot; page that is linked in the top nav pane you will need to edit about/index.md. While the markdown spec is prolifically generic, if you have any experience with using markdown on Reddit, Discord, or GitHub then it is pretty easy to use. Personally I am writing this through IntelliJ Community Edition with Markdown Support plugin and I'm able to see the output in realtime. Put in some basic information that you would like to be displayed on your page.</p>
-<h2 id="start-blogging">Start Blogging <a class="direct-link" href="#start-blogging" aria-hidden="true">#</a></h2>
+<h2 id="start-blogging">Start Blogging <a class="direct-link" href="#start-blogging">#</a></h2>
 <p>After getting these things all completed you can start writing your first blog entry.  I'm writing this entry as I complete the work that I'm describing.  While working I have Eleventy running as <code>npx eleventy --server --watch</code> so that the build picks up whatever changes I make and automatically serves them for viewing in the browser (I'd hate to be publishing this without first testing that it works).</p>
 <p>While writing this post I was able to get an image included using the included html templating language with <code>&lt;center&gt;&lt;img src=&quot;/img/Generic11ty.bmp&quot;/&gt;&lt;/center&gt;</code></p>
 <p>Creating tags for your posts is as easy as adding them in the heading of the markdown file after the default of 'post'.</p>
 <pre class="language-yaml"><code class="language-yaml"><span class="highlight-line"><span class="token key atrule">title</span><span class="token punctuation">:</span> Customizing 11ty Blog  </span><br><span class="highlight-line"><span class="token key atrule">description</span><span class="token punctuation">:</span> Cleaning up after forking  </span><br><span class="highlight-line"><span class="token key atrule">date</span><span class="token punctuation">:</span> <span class="token datetime number">2019-08-13</span>  </span><br><span class="highlight-line"><span class="token key atrule">tags</span><span class="token punctuation">:</span>  </span><br><span class="highlight-line">  <span class="token punctuation">-</span> post</span><br><span class="highlight-line">  <span class="token punctuation">-</span> 11ty  </span><br><span class="highlight-line">  <span class="token punctuation">-</span> travisci  </span><br><span class="highlight-line">  <span class="token punctuation">-</span> meta  </span><br><span class="highlight-line"><span class="token key atrule">layout</span><span class="token punctuation">:</span> layouts/post.njk  </span></code></pre>
-<h2 id="still-a-work-in-progress">Still a work in progress <a class="direct-link" href="#still-a-work-in-progress" aria-hidden="true">#</a></h2>
+<h2 id="still-a-work-in-progress">Still a work in progress <a class="direct-link" href="#still-a-work-in-progress">#</a></h2>
 <p>At this point I have gotten the blog up and running with my custom information so that it feels more like mine and less like some code that I forked and forgot about.  While I'm not exactly a frontend developer, I plan on sharing my future work on some custom css as well as my online resume generator.</p>
 
+</div>
 
-<p><a href="/">← Home</a></p>
+<div class="post bottom">
+  <hr>
+  <p>Related topics:
+  
+      <a href="/tags/11ty/" class="tag">11ty</a>
+      <a href="/tags/travisci/" class="tag">travisci</a>
+      <a href="/tags/meta/" class="tag">meta</a>
+  </p>
+  <p><a href="/">← Home</a></p>
+</div>
 
     </main>
 
-    <footer></footer>
+    <footer>
+      
+        &copy; Corey McCarty | 
+        
 
-    <!-- Current page: /posts/starting11ty/ -->
+        <br>
+        Thanks for reading! Built with love using <a href="https://11ty.io">11ty</a>.
+        <br>
+      
+    </footer>
+
+    <!-- Current page: /posts/2019_08_13_starting_11ty/ -->
   </body>
 </html>
