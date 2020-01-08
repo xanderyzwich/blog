@@ -8,21 +8,8 @@ navtitle: Bio
 templateClass: tmpl-bio  
 ---
 
-I'm a full time developer working in an enterprise Java shop working primarily on web services. I got my BS in Computer Engineering at the University of Memphis.
+I'm a developer with a passion for making things better. Sometimes that means undertaking excessive code cleanup activities in a large code base, and other times that means development of tools to bring integration, deployment, and testing into our CI/CD/CT process with a mix of bash, python, and jenkins. While it seems like most of the industry is getting to go off into green fields and play with new languages and technologies, I enjoy learning more about the tools we use and figure out how we can better use them.
 
-To me software development is a lot like playing a puzzle game. I enjoy figuring out ways to solve odd problems using common tools. One of my favorite things about this industry is talking with friends and coworkers about issues that they are facing and brainstorming solutions.
+My job description would tell you that I am a Java web services developer with five years of experience at an international logistics company via contract through an onsite/offshore model development company. I am interested in programming of application logic wherever that may be. I historically lean more towards backend systems, but I'm currently enjoying studying and tinkering with JavaScript, React, 11ty static site generator, Nunjucks templating, and Markdown. 
 
-I look forward to sharing my development journey as frequently as work allows.
-
----
-
-##  Question Everything
-
-Sometimes asking a question helps you to understand things more deeply, and other times it reveals a broken assumption that an entire group holds.
-
-Moving into a new project makes you question why things are the way that they are, and while some of the answers can be quite frustrating other answers can open up your world to take lead on new and exciting pieces of the project.
-
-I really enjoy seeing how different things work tinkering with them. While it seems like most of the industry is getting to go off into green fields and play with new languages and technologies, I enjoy learning more about the tools we use and figure out how we can better use them to become better at our job.
-
-
-
+I question everything I come across that I don't understand or that seems frustrating. This leads me to what can be improved, whether that is my knowledge, my teams' processes, or the applications that we develop. Asking questions helps to understand more deeply often times it through revealing broken assumptions that an entire group holds.
