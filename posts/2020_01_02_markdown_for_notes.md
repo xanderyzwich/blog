@@ -10,10 +10,6 @@ tags:
 layout: layouts/post.njk  
 ---  
 
-
-# Markdown for Notes
-
-
 I recently found myself with four different files opened long term in Notepad++ that all centered around one set of changes that I was working on, and that seemed a bit absurd.  I was keeping one file open for schema definitions, another for java snippets, another for meeting notes, and another for the actual requirement description. I decided that I should be able to consolidate these notes in a meaningful way, and spent several hours walking through formatting these things together as YAML and then XML before settling on Markdown. 
 
 If you aren't familiar with Markdown, [Wikipedia](https://en.wikipedia.org/wiki/Markdown) says this:
