@@ -3,9 +3,10 @@ title: Discovering My Impostor Syndrome
 description: Coming to better understanding of my skill level  
 date: 2019-09-13  
 tags:  
-  - impostor syndrome  
-  - mental health
-  - meta  
+  - impostorsyndrome  
+  - mentalhealth
+  - career  
+  - beginners
 layout: layouts/post.njk    
 ---  
 

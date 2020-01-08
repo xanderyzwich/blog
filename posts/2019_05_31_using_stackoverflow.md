@@ -5,6 +5,8 @@ date: 2019-05-31
 tags:
   - stack overflow
   - motivation
+  - career
+  - beginners
 layout: layouts/post.njk
 ---
 Yesterday morning I woke up to find a comment had been made on an old answer that I'd posted to Stack Overflow, and I opened up the site. Quickly I remembered why I don't enjoy using it. I had a reputation score of 46 and was unable to comment on anything other than my own answers. Without having much work that was pressing I decided to change that.

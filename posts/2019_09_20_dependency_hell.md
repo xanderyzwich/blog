@@ -5,6 +5,8 @@ date: 2019-09-20
 tags:  
   - java  
   - gradle  
+  - technicaldebt
+  - codequality
 layout: layouts/post.njk    
 ---  
 ## Traditional Best Practices ##
