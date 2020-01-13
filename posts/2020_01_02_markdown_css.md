@@ -9,8 +9,7 @@ tags:
 layout: layouts/post.njk  
 ---  
 
-
-While writing about [using Markdown to boost productivity in note taking](here) I thought that maybe some people might be interested. in this configuration.
+While writing about [using Markdown to boost productivity in note taking]({{ '../2020_01_02_markdown_for_notes' | url }}) I thought that maybe some people might be interested. in this configuration.
 
 
 ```css
