@@ -20,6 +20,7 @@
  	--patterson-gray:	#717C7D;
  	--highland-gray:	#BFCDCB;
 
+  --black: #000;
  	--bluff-beige:		#F5E9BD;
  	--font-bitter:		'Bitter'; /*serif*/
  	font-family: 'Montserrat';
@@ -64,7 +65,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  border-bottom: 1px dashed var(--university-blue);
 }
 header:after {
   content: "";
@@ -136,13 +137,22 @@ pre {
 
 /* Header */
 header, footer {
-  background-color: var(--patterson-gray);
+  background-color: var(--university-blue);
+  color: var(--white);
 }
 header .contact{
   float: right;
   padding: 0 1rem;
   margin: 1rem 1rem; /* 16px /16 */
   font-size: 1.5rem;
+}
+header a[href], 
+footer a[href] {
+  color: var(--highland-gray);
+}
+header a[href]:visited,
+footer a[href]:visited {
+  color: var(--patterson-gray);
 }
 .home {
   float: left;
