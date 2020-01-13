@@ -1,8 +1,8 @@
 ---
+title: All Posts
 layout: layouts/home.njk
 tags:
-  - nav
-navtitle: Archive
+  - archive
 permalink: /posts/
 ---
 
@@ -10,3 +10,5 @@ permalink: /posts/
 
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
+
+<p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>

@@ -8,3 +8,5 @@ layout: layouts/home.njk
   {% set tagUrl %}/tags/{{ tag }}/{% endset %}
   <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
 {% endfor %}
+<p>All posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+

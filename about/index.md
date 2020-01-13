@@ -4,7 +4,7 @@ title: About Me
 tags:  
   - nav
   - me    
-navtitle: Bio  
+navtitle: About Me  
 templateClass: tmpl-bio  
 ---
 
