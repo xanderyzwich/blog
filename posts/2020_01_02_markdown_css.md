@@ -1,7 +1,7 @@
 ---  
 title: Markdown Style  
 description: This is what I use for markdown in VSCode  
-date: 2020-01-02  
+date: 2020-01-13  
 tags:  
   - markdown  
   - css

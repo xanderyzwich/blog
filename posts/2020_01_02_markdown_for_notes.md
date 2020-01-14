@@ -1,7 +1,7 @@
 ---
 title: Using Markdown for Notes
 description: Increasing Productivity with Markup Language
-date: 2020-01-02
+date: 2020-01-13
 tags:
   - productivity
   - markdown
