@@ -309,3 +309,8 @@ main{
 footer{
   flex-shrink: 0;
 }
+
+p.description{
+  margin: 0 0 0.5em 2em;
+  margin-block-start: 0;
+}
