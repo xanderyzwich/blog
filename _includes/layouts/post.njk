@@ -4,7 +4,7 @@ templateClass: tmpl-post
 ---
 
 <div class="post top">
-  <h1>{{ title }}</h1>
+  <h1><i class="fas fa-terminal"></i> {{ title }}</h1>
   {% for tag in tags %}
     {%- if tag not in [ "posts" , "nav" , "me" ] -%}
     {% set tagUrl %}/tags/{{ tag }}/{% endset %}
