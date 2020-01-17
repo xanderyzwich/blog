@@ -4,7 +4,7 @@
 	<subtitle>Daydreaming of better ways.</subtitle>
 	<link href="https://coreydmccarty.dev/feed/feed.xml" rel="self"/>
 	<link href="https://coreydmccarty.dev/"/>
-	<updated>2020-01-13T00:00:00-00:00</updated>
+	<updated>2020-01-17T00:00:00-00:00</updated>
 	<id>https://coreydmccarty.dev/</id>
 	<author>
 		<name>Corey McCarty</name>
@@ -174,6 +174,118 @@ Gradle is a wonderful tool. After our having gotten it working, I realized that 
 &lt;p&gt;which get&#39;s pasted in like this, and i can tab through the variables easily.&lt;/p&gt;
 &lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; title&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; description&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Ctrl+Shift+i+d&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; first&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; second&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; layouts/post.njk&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I&#39;d also love to hear thoughts and experiences that you may have with markdown or other languages for taking your notes.  Editor/plugin recommendations, tips, and tricks are all welcome as well.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Blogging Goals</title>
+		<tags>posts,discuss,watercooler,blog,writing</tags>
+		<description>Direction for blogging success</description>
+		<link href="https://coreydmccarty.dev/posts/2020_01_06_why_blog/"/>
+		<updated>2020-01-17T00:00:00-00:00</updated>
+		<id>https://coreydmccarty.dev/posts/2020_01_06_why_blog/</id>
+		<content type="html">&lt;h1 id=&quot;blogging-guidelines&quot;&gt;Blogging Guidelines &lt;a class=&quot;direct-link&quot; href=&quot;#blogging-guidelines&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;I was reading &lt;a href=&quot;https://dev.to/chillhumanoid/how-to-make-dev-better-in-2020-9oj&quot;&gt;How To Make Dev Better In 2020&lt;/a&gt; and thought that it would be really valuable to consider some guidelines for our blogging.&lt;/p&gt;
+&lt;p&gt;Excerpt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In some ways we have a reverse stack overflow here. No one&#39;s asking, everyone&#39;s offering.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;While this article talks against blog promotion and writer&#39;s block as topics, I believe that discussion of post content is a fundamental of our community here.&lt;/p&gt;
+&lt;h1 id=&quot;who%3F&quot;&gt;Who? &lt;a class=&quot;direct-link&quot; href=&quot;#who%3F&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;One of the greatest things about blogging is that there isn&#39;t a threshold of entry so everyone can write a blog.&lt;/p&gt;
+&lt;p&gt;One of the worst things about blogging is that there isn&#39;t a threshold of entry so everyone can write a blog.&lt;/p&gt;
+&lt;p&gt;When everyone has the power to blog then you wind up with a lot of noise. This means that we should consider value additions for a functional community both as blog writers and commentary in the threads, but everyone can contribute something in the community, and more importantly you will understand things more deeply when you are forced to put it into words for someone else&#39;s understandin.&lt;/p&gt;
+&lt;h1 id=&quot;what%3F&quot;&gt;What? &lt;a class=&quot;direct-link&quot; href=&quot;#what%3F&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;For the most part none of us is an authority on anything except our personal experiences and opinions. As such we should be careful about presenting things that assert themselves as law such as &amp;quot;don&#39;t ever do X&amp;quot; or &amp;quot;Y reasons why Q is a terrible thing.&amp;quot; Value in any community from discussion and openness to grow and learn together.&lt;/p&gt;
+&lt;h1 id=&quot;when%3F&quot;&gt;When? &lt;a class=&quot;direct-link&quot; href=&quot;#when%3F&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;I&#39;d say that motivation is a major factor in this. If your motivation is increase of readership then you had better keep a regular cadence. If your intention is sharing your experience with a particular issue then you write as things come up. I keep reading (and trying to enact in myself) recommendations of daily writing. The practice improves your writing as you edit previous writing before posting, and over time the editing required will reduce greatly.&lt;/p&gt;
+&lt;h1 id=&quot;where%3F&quot;&gt;Where? &lt;a class=&quot;direct-link&quot; href=&quot;#where%3F&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;There are many posts around &lt;a href=&quot;http://dev.to/&quot;&gt;dev.to&lt;/a&gt; focused on running your own blog, places for cross-posting (always remember to use canonical links), and the benefits of different communities. I personally appreciate the value in having your own hosting of all posts and I utilize 11ty&#39;s base blog forked on GitHub and served with GitHub Pages and my own custom domain (a fancy *.dev domain). &lt;a href=&quot;http://dev.to/&quot;&gt;Dev.to&lt;/a&gt; will &lt;a href=&quot;https://dev.to/p/publishing_from_rss_guide&quot;&gt;pick up the RSS and create posts for you automatically&lt;/a&gt;, and I really enjoy that both 11ty and &lt;a href=&quot;http://dev.to/&quot;&gt;dev.to&lt;/a&gt; posts can be written in markdown (my new favorite language).&lt;/p&gt;
+&lt;h1 id=&quot;why%3F&quot;&gt;Why? &lt;a class=&quot;direct-link&quot; href=&quot;#why%3F&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;This is, I think, the most important question in writing anything. What is its purpose? Who is it for? This will be different for each post, but if you don&#39;t consider it then you risk boring your audience. If the audience is beginners then you should make sure that you explain yourself thoroughly as to not confuse, but if the audience is more advanced then that level of detail will keep someone from reaching the end.&lt;/p&gt;
+&lt;h2 id=&quot;start-discussion&quot;&gt;Start Discussion &lt;a class=&quot;direct-link&quot; href=&quot;#start-discussion&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I see Ben and lots of people lately posting very short questions or statements and there is usually a good amount of engagement to answer the question or thoughts on the topic.&lt;/p&gt;
+&lt;h2 id=&quot;share-experience&quot;&gt;Share Experience &lt;a class=&quot;direct-link&quot; href=&quot;#share-experience&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;These have the opportunity to be some of the very best posts. Be sure to include the finer details of the problem that you are solving, the tools that you are using and how you utilized the tools to resolve your issue. Eventually someone else will have a similar issue and your post could be paramount in helping them. Even if others don&#39;t have the same issue, it could make them aware of an issue in order prevent their encountering such.&lt;/p&gt;
+&lt;h2 id=&quot;learn-or-mold-thoughts&quot;&gt;Learn or Mold Thoughts &lt;a class=&quot;direct-link&quot; href=&quot;#learn-or-mold-thoughts&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One of the better premises that I&#39;ve read for a post recently was &lt;a href=&quot;https://dev.to/deciduously/correct-a-beginner-about-buzzword-technologies-4bbe&quot;&gt;Correct a Beginner About Buzzword Technologies&lt;/a&gt; which led off with this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Learning in Public&lt;br&gt;
+As I keep learning, DEV knows things. Ask them stuff.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The writer then went on to state the bits that they understood about several things and invited others correction. I find that this is actually the way that I learn about many of my misunderstandings in this field. I either make a statement or ask a question like &amp;quot;isn&#39;t X the way that Y works?&amp;quot; and I get corrected. It&#39;s the most straight forward way that I know to get information out of others as people naturally love correcting you whether it is constructive or not. Over time I know more things and my statements get corrected about fewer things.&lt;/p&gt;
+&lt;p&gt;Personally I find that the mere act of writing something helps me to put my thoughts into focus and better understand my own situations and what the root of some issue may be.&lt;/p&gt;
+&lt;h2 id=&quot;teach-(something-specific)&quot;&gt;Teach (something specific) &lt;a class=&quot;direct-link&quot; href=&quot;#teach-(something-specific)&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;From &amp;quot;&lt;a href=&quot;https://dev.to/chillhumanoid/how-to-make-dev-better-in-2020-9oj&quot;&gt;How to Make Dev Better in 2020&lt;/a&gt;&amp;quot;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;no, we really don&#39;t need a &#39;python for beginners&#39; made by every single person ever.&lt;br&gt;
+Stop. It&#39;s not just python. But it&#39;s always the big languages, and it&#39;s never anything new. but it&#39;s also always different (and not in a good way). In some ways we have a reverse stack overflow here. No one&#39;s asking, everyone&#39;s offering.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://dev.to/chillhumanoid&quot;&gt;@chillhumanoid&lt;/a&gt; goes on to say:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;So what do I propose we post more of instead? Experiences. What was YOUR experience in implementing a feature in your application? Even if it&#39;s something that&#39;s common, maybe it was your first time implementing it. Talk about it. Chances are there ARE people looking for it.&lt;br&gt;
+But chances are that people on &lt;a href=&quot;http://dev.to/&quot;&gt;dev.to&lt;/a&gt; aren&#39;t looking for a python tutorial. Or how to get 60000 looking at their blog in 2020.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Overall, I think that the best way that we can figure out whether or not something will contribute positively in the community is participation. Read posts, comment where you can, and try writing things that aren&#39;t already done a million times.&lt;/p&gt;
+&lt;h1 id=&quot;how%3F&quot;&gt;How? &lt;a class=&quot;direct-link&quot; href=&quot;#how%3F&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Honestly I only included this question for completeness of the most basic questions. I&#39;ve written about &lt;a href=&quot;https://dev.to/xanderyzwich/customizing-11ty-blog-1hm8&quot;&gt;personal blog setup already&lt;/a&gt;. Beyond that, basic writing development focuses on practice. Practice writing, and reading lots of things. Make yourself answer what makes you like or dislike a post. I currently have six drafts open right now that I go back and forth between as things come to mind that might help develop one post or another. I&#39;m also finding that as I write one post that I get ideas for more. Open a new file and get the basis for the idea put in there immediately. As you work on other posts you might get more ideas about that stub that you opened.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>What Text Editors Do You Use?</title>
+		<tags>posts,watercooler,discuss,tools,editor</tags>
+		<description>However many it may be, what editors do you find helpful in your workflow?</description>
+		<link href="https://coreydmccarty.dev/posts/2020_01_08_text_editors/"/>
+		<updated>2020-01-17T00:00:00-00:00</updated>
+		<id>https://coreydmccarty.dev/posts/2020_01_08_text_editors/</id>
+		<content type="html">&lt;p&gt;When your work involves typing and manipulating data files with many different sources then you wind up with different tasks that can be accomplished in many ways.  What are your favorite text editors or ways of manipulating text for different tasks?&lt;/p&gt;
+&lt;h2 id=&quot;vscode&quot;&gt;VSCode &lt;a class=&quot;direct-link&quot; href=&quot;#vscode&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is the newest editor in my toolbox. It has really good support for markdown and you can use it to open a regular file folder and access all of the contents. Lots of plugins and themes available.&lt;/p&gt;
+&lt;h2 id=&quot;notepad%2B%2B&quot;&gt;Notepad++ &lt;a class=&quot;direct-link&quot; href=&quot;#notepad%2B%2B&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;ve used this for years and gotten a lot of enjoyment out of it. The code highlighting is entirely customizable in addition to the themes that are available online. There are plugins, but I&#39;ve personally had issues with using them on my work laptop due to user policies. One great feature is that when you close Notepad++ it will actually keep any unsaved work that you have without having to save the file anywhere explicitly. I used this for years to keep text files for completing tasks where the information wasn&#39;t relevant long term. VSCode is actually starting to replace this for me, especially with my decision to start using markdown to keep notes together that might include several different languages.&lt;/p&gt;
+&lt;h2 id=&quot;programmer&#39;s-notepad&quot;&gt;Programmer&#39;s Notepad &lt;a class=&quot;direct-link&quot; href=&quot;#programmer&#39;s-notepad&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;While being really similar to Notepad++, Programmer&#39;s Notepad has a find/replace functionality that can use mixed backslash characters (\n, \r, \t, etc.) and simple regular expressions. While the finding could be done with regular expression in another editor, Programmer&#39;s notepad will let you replace the new line characters easily, which I found to be usefule when dealing with reformatting of data extracts and programmatically formed queries.&lt;/p&gt;
+&lt;h2 id=&quot;jetbrains-idea-%26-pycharm&quot;&gt;JetBrains IDEA &amp;amp; PyCharm &lt;a class=&quot;direct-link&quot; href=&quot;#jetbrains-idea-%26-pycharm&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Anytime that I need to run Python code, or run Java projects (including Maven, Gradle, and Springboot tasks) then I greatly prefer the JetBrains editors.  Also, the tooling for interaction with version control systems is top shelf! The merge tool, diff, and local history are very helpful. I also find that the global find tools are better than the rest.  There are separate tools for finding a file name that contains your string or finding the string in a file. The global string replace tool has assisted me with package restructuring of java projects without effort.&lt;/p&gt;
+&lt;h2 id=&quot;oracle-sql-developer&quot;&gt;Oracle SQL Developer &lt;a class=&quot;direct-link&quot; href=&quot;#oracle-sql-developer&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Writing queries with code completion with your actual database information is great. It helps that you can execute queries and export result data in multiple file formats.&lt;/p&gt;
+&lt;h2 id=&quot;excel&quot;&gt;Excel &lt;a class=&quot;direct-link&quot; href=&quot;#excel&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;While it seems a bit out of place in a discussion of code editors, when you have comma separated data that needs to be reformatted adhoc then Excel can be a really good tool, especially when coupled with another pure text editor. We had a playbook that clients would fill out that I would have to translate into insert statements for the database (it actually controlled the functionality of our application), and I would use Excel to move the columns around, clear out unnecessary data, and then I could paste the first and last parts of the insert statement into the first and last columns of the spreadsheet.&lt;/p&gt;
+&lt;h2 id=&quot;microsoft-word&quot;&gt;Microsoft Word &lt;a class=&quot;direct-link&quot; href=&quot;#microsoft-word&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is the only tool that I&#39;ve found that will quickly and easily make everythin lowercase. That&#39;s really all that I use it for.  Well, that and having to occasionally write documentation that will be for someone who isn&#39;t a programmer.&lt;/p&gt;
+&lt;h2 id=&quot;grep%2Fsed%2Fawk&quot;&gt;grep/sed/awk &lt;a class=&quot;direct-link&quot; href=&quot;#grep%2Fsed%2Fawk&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Grep helps you to pull out the data that does/doesn&#39;t match a given pattern/string.&lt;/p&gt;
+&lt;p&gt;Sed helps you to replace a given pattern/string (even several at a time).&lt;/p&gt;
+&lt;p&gt;Awk is really helpful for pulling out certain pieces of column formatted data.&lt;/p&gt;
+&lt;p&gt;It&#39;s also important to note that with these tools that you really get the most power out of them when you start chaining them together with linux command line pipes (&amp;quot;|&amp;quot;) and output redirects (&amp;quot;&amp;gt;&amp;quot; or &amp;quot;&amp;gt;&amp;gt;&amp;quot;) to write files or &lt;code&gt;wc -l&lt;/code&gt; to count the lines.&lt;/p&gt;
+&lt;p&gt;Altogether these things can be used almost like sql from the linux command line.&lt;/p&gt;
+&lt;h2 id=&quot;python-scripts&quot;&gt;Python Scripts &lt;a class=&quot;direct-link&quot; href=&quot;#python-scripts&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Python is really quick and powerful for writing text manipulation scripts. Opening a file, iterating through it&#39;s lines, splitting the line into variables and checking for given values can be achieved in 5 lines of code.&lt;/p&gt;
+&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;file.csv&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;r&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; input_data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; line &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; input_data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;	    a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; c&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; d &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; line&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;split&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;,&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;		&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;fubar&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;		    do&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;thing&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Writing Pitfalls</title>
+		<tags>posts,blog,writing,discuss,watercooler</tags>
+		<description>As you write more, you realize that you need to improve some things.</description>
+		<link href="https://coreydmccarty.dev/posts/2020_01_08_writing_faults/"/>
+		<updated>2020-01-17T00:00:00-00:00</updated>
+		<id>https://coreydmccarty.dev/posts/2020_01_08_writing_faults/</id>
+		<content type="html">&lt;p&gt;I&#39;ve been working since New Year&#39;s trying to write something daily without completing it. As I write ideas come to mind and I&#39;ll open a new file to hold the new thought however short it may be. The continuing echo of &#39;write more&#39; has permeated &lt;a href=&quot;http://dev.to/&quot;&gt;dev.to&lt;/a&gt; recently, so I&#39;m surely not the only one.&lt;/p&gt;
+&lt;p&gt;I just want to discuss bad habits, and maybe we can help one another to be more aware of what we may be doing, similar to saying &#39;umm&#39; too much when you talk.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;I have found that I use the word &#39;to&#39; constantly; so much so, that I currently have VSCode set to highlight &#39; to &#39; and I&#39;m refactoring as many of them away as I can.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;My spacing after periods is terribly inconsistent.  I learned in school that there should be two, but in recent years I have succumbed to the one that my phone prefers. As a result, I find myself replacing everytime I used two space to be one, just for consistency.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I also find that I tend towards writing very long sentences. I make sure that they are grammatically correct and not just run-ons, but long clauses strung together can lend itself to be more difficult to follow.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 </content>
 	</entry>
 </feed>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Text Editors Do You Use?</title>
+    <meta name="Description" content="However many it may be, what editors do you find helpful in your workflow?">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Adventures in Coding">
+
+    <script src="https://kit.fontawesome.com/1b01ea6d0e.js" crossorigin="anonymous"></script>
+      
+  </head>
+  <body>
+  
+    <header>
+      <h1 class="home"><a href="/"><i class="fas fa-terminal"></i> Adventures in Coding</a></h1>
+      <ul class="nav"><li class="nav-item"><a href="/resume/">Resume</a></li><li class="nav-item"><a href="/">Blog</a></li><li class="nav-item"><a href="/about/">About Me</a></li></ul>
+      <span class='contact'>
+        <a href="https://www.linkedin.com/in/coreydmccarty"><i class="fab fa-linkedin"></i></a>
+        <a href="https://dev.to/xanderyzwich"><i class="fab fa-dev"></i></a>
+        <a href="https://www.github.com/xanderyzwich"><i class="fab fa-github"></i></a>
+        <a href="mailto:Corey.D.McCarty@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="tel:‪(901) 213-6747‬"><i class="fas fa-phone"></i>‬</a>
+      </span>
+    </header>
+
+    <main class="tmpl-post">
+      
+<div class="post top">
+  <h1><i class="fas fa-terminal"></i> What Text Editors Do You Use?</h1>
+  
+    <a href="/tags/watercooler/" class="tag">watercooler</a>
+    <a href="/tags/discuss/" class="tag">discuss</a>
+    <a href="/tags/tools/" class="tag">tools</a>
+    <a href="/tags/editor/" class="tag">editor</a>
+  
+    <p>However many it may be, what editors do you find helpful in your workflow?</p>
+  
+  <hr>
+</div>
+
+<div class="post main">
+  <p>When your work involves typing and manipulating data files with many different sources then you wind up with different tasks that can be accomplished in many ways.  What are your favorite text editors or ways of manipulating text for different tasks?</p>
+<h2 id="vscode">VSCode <a class="direct-link" href="#vscode">#</a></h2>
+<p>This is the newest editor in my toolbox. It has really good support for markdown and you can use it to open a regular file folder and access all of the contents. Lots of plugins and themes available.</p>
+<h2 id="notepad%2B%2B">Notepad++ <a class="direct-link" href="#notepad%2B%2B">#</a></h2>
+<p>I've used this for years and gotten a lot of enjoyment out of it. The code highlighting is entirely customizable in addition to the themes that are available online. There are plugins, but I've personally had issues with using them on my work laptop due to user policies. One great feature is that when you close Notepad++ it will actually keep any unsaved work that you have without having to save the file anywhere explicitly. I used this for years to keep text files for completing tasks where the information wasn't relevant long term. VSCode is actually starting to replace this for me, especially with my decision to start using markdown to keep notes together that might include several different languages.</p>
+<h2 id="programmer's-notepad">Programmer's Notepad <a class="direct-link" href="#programmer's-notepad">#</a></h2>
+<p>While being really similar to Notepad++, Programmer's Notepad has a find/replace functionality that can use mixed backslash characters (\n, \r, \t, etc.) and simple regular expressions. While the finding could be done with regular expression in another editor, Programmer's notepad will let you replace the new line characters easily, which I found to be usefule when dealing with reformatting of data extracts and programmatically formed queries.</p>
+<h2 id="jetbrains-idea-%26-pycharm">JetBrains IDEA &amp; PyCharm <a class="direct-link" href="#jetbrains-idea-%26-pycharm">#</a></h2>
+<p>Anytime that I need to run Python code, or run Java projects (including Maven, Gradle, and Springboot tasks) then I greatly prefer the JetBrains editors.  Also, the tooling for interaction with version control systems is top shelf! The merge tool, diff, and local history are very helpful. I also find that the global find tools are better than the rest.  There are separate tools for finding a file name that contains your string or finding the string in a file. The global string replace tool has assisted me with package restructuring of java projects without effort.</p>
+<h2 id="oracle-sql-developer">Oracle SQL Developer <a class="direct-link" href="#oracle-sql-developer">#</a></h2>
+<p>Writing queries with code completion with your actual database information is great. It helps that you can execute queries and export result data in multiple file formats.</p>
+<h2 id="excel">Excel <a class="direct-link" href="#excel">#</a></h2>
+<p>While it seems a bit out of place in a discussion of code editors, when you have comma separated data that needs to be reformatted adhoc then Excel can be a really good tool, especially when coupled with another pure text editor. We had a playbook that clients would fill out that I would have to translate into insert statements for the database (it actually controlled the functionality of our application), and I would use Excel to move the columns around, clear out unnecessary data, and then I could paste the first and last parts of the insert statement into the first and last columns of the spreadsheet.</p>
+<h2 id="microsoft-word">Microsoft Word <a class="direct-link" href="#microsoft-word">#</a></h2>
+<p>This is the only tool that I've found that will quickly and easily make everythin lowercase. That's really all that I use it for.  Well, that and having to occasionally write documentation that will be for someone who isn't a programmer.</p>
+<h2 id="grep%2Fsed%2Fawk">grep/sed/awk <a class="direct-link" href="#grep%2Fsed%2Fawk">#</a></h2>
+<p>Grep helps you to pull out the data that does/doesn't match a given pattern/string.</p>
+<p>Sed helps you to replace a given pattern/string (even several at a time).</p>
+<p>Awk is really helpful for pulling out certain pieces of column formatted data.</p>
+<p>It's also important to note that with these tools that you really get the most power out of them when you start chaining them together with linux command line pipes (&quot;|&quot;) and output redirects (&quot;&gt;&quot; or &quot;&gt;&gt;&quot;) to write files or <code>wc -l</code> to count the lines.</p>
+<p>Altogether these things can be used almost like sql from the linux command line.</p>
+<h2 id="python-scripts">Python Scripts <a class="direct-link" href="#python-scripts">#</a></h2>
+<p>Python is really quick and powerful for writing text manipulation scripts. Opening a file, iterating through it's lines, splitting the line into variables and checking for given values can be achieved in 5 lines of code.</p>
+<pre class="language-python"><code class="language-python"><span class="highlight-line"><span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">'file.csv'</span><span class="token punctuation">,</span> <span class="token string">'r'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> input_data<span class="token punctuation">:</span></span><br><span class="highlight-line">    <span class="token keyword">for</span> line <span class="token keyword">in</span> input_data<span class="token punctuation">:</span></span><br><span class="highlight-line">	    a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c<span class="token punctuation">,</span> d <span class="token operator">=</span> line<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">','</span><span class="token punctuation">)</span></span><br><span class="highlight-line">		<span class="token keyword">if</span> b <span class="token operator">=</span> <span class="token string">'fubar'</span><span class="token punctuation">:</span></span><br><span class="highlight-line">		    do<span class="token punctuation">(</span>thing<span class="token punctuation">)</span></span></code></pre>
+
+</div>
+
+<div class="post bottom">
+  <hr>
+  <p>Related topics:
+  
+      <a href="/tags/watercooler/" class="tag">watercooler</a>
+      <a href="/tags/discuss/" class="tag">discuss</a>
+      <a href="/tags/tools/" class="tag">tools</a>
+      <a href="/tags/editor/" class="tag">editor</a>
+  </p>
+  <p><a href="/">← Home</a></p>
+</div>
+
+    </main>
+
+    <footer>
+      &copy; Corey McCarty 
+      <br>
+      Thanks for reading! Built using <a href="https://11ty.io">11ty </a><a href="https://github.com/11ty/eleventy-base-blog">base blog</a>.
+    </footer>
+
+    <!-- Current page: /posts/2020_01_08_text_editors/ -->
+  </body>
+</html>
