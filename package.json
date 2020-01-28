@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A blog web site using the Eleventy static site generator adapted from the 11ty starter blog.",
   "scripts": {
-    "dev": "npx eleventy --serve",
+    "dev": "npx eleventy --serve ",
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
     "debug": "DEBUG=* npx eleventy"

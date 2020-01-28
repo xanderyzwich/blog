@@ -228,7 +228,7 @@ footer :link:not(:hover){
 
 
 /* Tags */
-.tag {
+a.tag {
   display: inline-block;
   vertical-align: text-top;
   text-transform: uppercase;
