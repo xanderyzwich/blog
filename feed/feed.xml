@@ -13,8 +13,8 @@
 	
 	<entry>
 		<title>Getting Started with Stack Overflow</title>
-		<tags>posts,stack overflow,motivation,career,beginners</tags>
-		<description>I finally decided to join the community</description>
+		<categories>posts,stack overflow,motivation,career,beginners</categories>
+		<summary>I finally decided to join the community</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_05_31_using_stackoverflow/"/>
 		<updated>2019-05-31T00:00:00-00:00</updated>
 		<id>https://coreydmccarty.dev/posts/2019_05_31_using_stackoverflow/</id>
@@ -28,8 +28,8 @@
 	
 	<entry>
 		<title>Customizing 11ty Blog</title>
-		<tags>posts,11ty,tutorial,travisci,beginners</tags>
-		<description>Cleaning up after forking</description>
+		<categories>posts,11ty,tutorial,travisci,beginners</categories>
+		<summary>Cleaning up after forking</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_08_13_starting_11ty/"/>
 		<updated>2019-08-13T00:00:00-00:00</updated>
 		<id>https://coreydmccarty.dev/posts/2019_08_13_starting_11ty/</id>
@@ -66,8 +66,8 @@
 	
 	<entry>
 		<title>Discovering My Impostor Syndrome</title>
-		<tags>posts,impostorsyndrome,mentalhealth,career,beginners</tags>
-		<description>Coming to better understanding of my skill level</description>
+		<categories>posts,impostorsyndrome,mentalhealth,career,beginners</categories>
+		<summary>Coming to better understanding of my skill level</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_09_13_discovering_my_imposter_syndrome/"/>
 		<updated>2019-09-13T00:00:00-00:00</updated>
 		<id>https://coreydmccarty.dev/posts/2019_09_13_discovering_my_imposter_syndrome/</id>
@@ -90,8 +90,8 @@
 	
 	<entry>
 		<title>Dependency Hell</title>
-		<tags>posts,java,gradle,technicaldebt,codequality</tags>
-		<description>Best practices must evolve</description>
+		<categories>posts,java,gradle,technicaldebt,codequality</categories>
+		<summary>Best practices must evolve</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_09_20_dependency_hell/"/>
 		<updated>2019-09-20T00:00:00-00:00</updated>
 		<id>https://coreydmccarty.dev/posts/2019_09_20_dependency_hell/</id>
@@ -114,8 +114,8 @@ Gradle is a wonderful tool. After our having gotten it working, I realized that 
 	
 	<entry>
 		<title>Markdown Style</title>
-		<tags>posts,markdown,css,vscode</tags>
-		<description>This is what I use for markdown in VSCode</description>
+		<categories>posts,markdown,css,vscode</categories>
+		<summary>This is what I use for markdown in VSCode</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_02_markdown_css/"/>
 		<updated>2020-01-13T00:00:00-00:00</updated>
 		<id>https://coreydmccarty.dev/posts/2020_01_02_markdown_css/</id>
@@ -126,8 +126,8 @@ Gradle is a wonderful tool. After our having gotten it working, I realized that 
 	
 	<entry>
 		<title>Using Markdown for Notes</title>
-		<tags>posts,productivity,markdown,vscode,css</tags>
-		<description>Increasing Productivity with Markup Language</description>
+		<categories>posts,productivity,markdown,vscode,css</categories>
+		<summary>Increasing Productivity with Markup Language</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_02_markdown_for_notes/"/>
 		<updated>2020-01-13T00:00:00-00:00</updated>
 		<id>https://coreydmccarty.dev/posts/2020_01_02_markdown_for_notes/</id>
@@ -179,8 +179,8 @@ Gradle is a wonderful tool. After our having gotten it working, I realized that 
 	
 	<entry>
 		<title>Blogging Goals</title>
-		<tags>posts,discuss,watercooler,blog,writing</tags>
-		<description>Direction for blogging success</description>
+		<categories>posts,discuss,watercooler,blog,writing</categories>
+		<summary>Direction for blogging success</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_06_why_blog/"/>
 		<updated>2020-01-17T00:00:00-00:00</updated>
 		<id>https://coreydmccarty.dev/posts/2020_01_06_why_blog/</id>
@@ -234,8 +234,8 @@ But chances are that people on &lt;a href=&quot;http://dev.to/&quot;&gt;dev.to&l
 	
 	<entry>
 		<title>What Text Editors Do You Use?</title>
-		<tags>posts,watercooler,discuss,tools,editor</tags>
-		<description>However many it may be, what editors do you find helpful in your workflow?</description>
+		<categories>posts,watercooler,discuss,tools,editor</categories>
+		<summary>However many it may be, what editors do you find helpful in your workflow?</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_08_text_editors/"/>
 		<updated>2020-01-17T00:00:00-00:00</updated>
 		<id>https://coreydmccarty.dev/posts/2020_01_08_text_editors/</id>
@@ -268,8 +268,8 @@ But chances are that people on &lt;a href=&quot;http://dev.to/&quot;&gt;dev.to&l
 	
 	<entry>
 		<title>Writing Pitfalls</title>
-		<tags>posts,blog,writing,discuss,watercooler</tags>
-		<description>As you write more, you realize that you need to improve some things.</description>
+		<categories>posts,blog,writing,discuss,watercooler</categories>
+		<summary>As you write more, you realize that you need to improve some things.</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_08_writing_faults/"/>
 		<updated>2020-01-17T00:00:00-00:00</updated>
 		<id>https://coreydmccarty.dev/posts/2020_01_08_writing_faults/</id>
