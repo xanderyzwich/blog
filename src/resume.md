@@ -26,7 +26,7 @@ Pivotal Cloud Foundry, RedHat, Tomcat, Springboot, Oracle DB, Datastax/Cassandra
 Git, SVN, Ant, Gradle, Jenkins, TravisCI, Nexus
 
 ### Frameworks
-Spring, Slf4j, Log4j, LogBack, Django, ReactJS
+Spring, Slf4j, Log4j, LogBack, Django, 11ty SSG, ReactJS
 
 ### Development/Testing Tools
 JetBrains, Eclipse, Oracle SQL Developer, HPE Agile Manager, SoapUI
@@ -69,6 +69,13 @@ C++
 #### B.S. in Computer Engineering - December 2013
 
 Hands on Study of software and hardware system design of analog and digital circuits, microprocessors, MIPS and Motorola 68HC11 assembly, Arduino, C, Java, Python, and MATLAB. Mathematics secondary included probability, statics, calculus, and differential equations.
+
+### Additional Training
++ React JS
++ Cloud Dojo (PCF, Jenkins, & Gitlab)
++ Spring Framework
++ Springboot
++ Datastax/Cassandra 
 
 ## Work Experience
 ### Software Development
