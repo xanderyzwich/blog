@@ -4,15 +4,8 @@ title: My Resume
 tags:
   - nav
   - me
-navtitle: Resume
+navtitle: Career
 templateClass: tmpl-resume
-
-name: Corey McCarty
-phone: (901)832-7967
-email: Corey.D.McCarty@gmail.com
-linkedin: linkedin.com/in/coreydmccarty
-github: github.com/xanderyzwich
-
 ---
 
 ## Skills
