@@ -28,3 +28,6 @@ out/
 
 # File-based project format
 *.iws
+
+# Project Specifics
+src/posts/ideas.md
