@@ -43,27 +43,27 @@
 
 <div class="post main">
   <p>When your work involves typing and manipulating data files with many different sources then you wind up with different tasks that can be accomplished in many ways. What are your favorite text editors or ways of manipulating text for different tasks?</p>
-<h2 id="vscode">VSCode <a class="direct-link" href="#vscode">#</a></h2>
+<h2>VSCode</h2>
 <p>This is the newest editor in my toolbox. It has really good support for markdown and you can use it to open a regular file folder and access all of the contents. Lots of plugins and themes available.</p>
-<h2 id="notepad%2B%2B">Notepad++ <a class="direct-link" href="#notepad%2B%2B">#</a></h2>
+<h2>Notepad++</h2>
 <p>I've used this for years and gotten a lot of enjoyment out of it. The code highlighting is entirely customizable in addition to the themes that are available online. There are plugins, but I've personally had issues with using them on my work laptop with user policies. One great feature is that when you close Notepad++ it will actually keep any unsaved work that you have without your explicitly saving the file anywhere. I used this for years ;keeping text files for ongoing tasks where the information wasn't relevant long term. VSCode is actually starting to replace this for me, especially with my adoption of markdown for notes that might include several different languages.</p>
-<h2 id="programmer's-notepad">Programmer's Notepad <a class="direct-link" href="#programmer's-notepad">#</a></h2>
+<h2>Programmer's Notepad</h2>
 <p>While very similar to Notepad++, Programmer's Notepad has a find/replace functionality that can use mixed backslash characters (\n, \r, \t, etc.) and simple regular expressions. While the finding could be done with regular expression in another editor, Programmer's notepad will let you replace the new line characters easily, which I found to be usefule when dealing with reformatting of data extracts and programmatically formed queries.</p>
-<h2 id="jetbrains-idea-%26-pycharm">JetBrains IDEA &amp; PyCharm <a class="direct-link" href="#jetbrains-idea-%26-pycharm">#</a></h2>
+<h2>JetBrains IDEA &amp; PyCharm</h2>
 <p>Anytime that I need to run Python code, or run Java projects (including Maven, Gradle, and Springboot tasks) then I greatly prefer the JetBrains editors. Also, the tooling for interaction with version control systems is top shelf! The merge tool, diff, and local history are very helpful. I also find that the global find tools are better than the rest. There are separate tools for finding a file name that contains your string or finding the string in a file. The global string replace tool has assisted me with package restructuring of java projects without effort.</p>
-<h2 id="oracle-sql-developer">Oracle SQL Developer <a class="direct-link" href="#oracle-sql-developer">#</a></h2>
+<h2>Oracle SQL Developer</h2>
 <p>Writing queries with code completion with your actual database information is great. It helps that you can execute queries and export result data in multiple file formats.</p>
-<h2 id="excel">Excel <a class="direct-link" href="#excel">#</a></h2>
+<h2>Excel</h2>
 <p>While it seems a bit out of place in a discussion of code editors, when you have comma separated data that needs to be reformatted adhoc then Excel can be a really good tool, especially when coupled with another pure text editor. We had a playbook that clients would fill out that I would translate into sql for the database insertion (it actually controlled the functionality of our application), and I would use Excel for moving the columns around, clear out unnecessary data, auto incrementing some values, and then I could paste the first and last parts of the insert statement into the first and last columns of the spreadsheet.</p>
-<h2 id="microsoft-word">Microsoft Word <a class="direct-link" href="#microsoft-word">#</a></h2>
+<h2>Microsoft Word</h2>
 <p>This is the only tool that I've found that will quickly and easily make everything lowercase. That's really all that I use it for. Well, that and writing documentation that will be for someone who isn't a programmer.</p>
-<h2 id="grep%2Fsed%2Fawk">grep/sed/awk <a class="direct-link" href="#grep%2Fsed%2Fawk">#</a></h2>
+<h2>grep/sed/awk</h2>
 <p>Grep helps pull out the data that does/doesn't match a given pattern/string.</p>
 <p>Sed helps replace a given pattern/string (even several at a time).</p>
 <p>Awk is really helpful for pulling out certain pieces of column formatted data.</p>
 <p>It's also of important note that with these tools that you really get the most power out of them when you start chaining them together with linux command line pipes (&quot;|&quot;) and output redirects (&quot;&gt;&quot; or &quot;&gt;&gt;&quot;) to write files or <code>wc -l</code> to count the lines.</p>
 <p>Altogether these things can be used almost like sql from the linux command line.</p>
-<h2 id="python-scripts">Python Scripts <a class="direct-link" href="#python-scripts">#</a></h2>
+<h2>Python Scripts</h2>
 <p>Python is really quick and powerful for writing text manipulation scripts. Opening a file, iterating through it's lines, splitting the line into variables and checking for given values can be achieved in 5 lines of code.</p>
 <pre class="language-python"><code class="language-python"><span class="highlight-line"><span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">'file.csv'</span><span class="token punctuation">,</span> <span class="token string">'r'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> input_data<span class="token punctuation">:</span></span><br><span class="highlight-line">    <span class="token keyword">for</span> line <span class="token keyword">in</span> input_data<span class="token punctuation">:</span></span><br><span class="highlight-line">	    a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c<span class="token punctuation">,</span> d <span class="token operator">=</span> line<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">','</span><span class="token punctuation">)</span></span><br><span class="highlight-line">		<span class="token keyword">if</span> b <span class="token operator">=</span> <span class="token string">'fubar'</span><span class="token punctuation">:</span></span><br><span class="highlight-line">		    do<span class="token punctuation">(</span>thing<span class="token punctuation">)</span></span></code></pre>
 

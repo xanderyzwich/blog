@@ -47,12 +47,12 @@
 <blockquote>
 <p>Markdown is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML.[9] Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.</p>
 </blockquote>
-<p>You are likely familiar with Markdown already as it is used on Github (<a href="http://README.md">README.md</a>), Reddit comments, Discord, Slack and others. It has functionality to include code blocks with language specific highlighting, links, bullet lists, numbered lists, six levels of headers, not to mention <strong>different</strong> <em>text</em> <s>decorations</s>.</p>
-<h1 id="example">Example <a class="direct-link" href="#example">#</a></h1>
+<p>You are likely familiar with Markdown already as it is used on Github (README.md), Reddit comments, Discord, Slack and others. It has functionality to include code blocks with language specific highlighting, links, bullet lists, numbered lists, six levels of headers, not to mention <strong>different</strong> <em>text</em> <s>decorations</s>.</p>
+<h1>Example</h1>
 <p>This code</p>
 <pre class="language-markdown"><code class="language-markdown"><span class="highlight-line"><span class="token title important"><span class="token punctuation">#</span> Heading 1</span></span><br><span class="highlight-line">information</span><br><span class="highlight-line"><span class="token list punctuation">+</span> <span class="token bold"><span class="token punctuation">**</span><span class="token content">bold</span><span class="token punctuation">**</span></span></span><br><span class="highlight-line"><span class="token list punctuation">+</span> <span class="token italic"><span class="token punctuation">*</span><span class="token content">italic</span><span class="token punctuation">*</span></span></span><br><span class="highlight-line"><span class="token list punctuation">+</span> <span class="token bold"><span class="token punctuation">**</span><span class="token content"><span class="token italic"><span class="token punctuation">*</span><span class="token content">bold/italic</span><span class="token punctuation">*</span></span></span><span class="token punctuation">**</span></span></span><br><span class="highlight-line">  <span class="token list punctuation">+</span> nested</span><br><span class="highlight-line"><span class="token title important"><span class="token punctuation">##</span> Heading 2</span></span><br><span class="highlight-line">stuff and things</span><br><span class="highlight-line"><span class="token list punctuation">1.</span> [ ] Unchecked box</span><br><span class="highlight-line"><span class="token list punctuation">2.</span> [x] Checked box</span></code></pre>
 <p>Looks like this:</p>
-<h1 id="heading-1">Heading 1 <a class="direct-link" href="#heading-1">#</a></h1>
+<h1>Heading 1</h1>
 <p>information</p>
 <ul>
 <li><strong>bold</strong></li>
@@ -63,7 +63,7 @@
 </ul>
 </li>
 </ul>
-<h2 id="heading-2">Heading 2 <a class="direct-link" href="#heading-2">#</a></h2>
+<h2>Heading 2</h2>
 <p>stuff and things</p>
 <ol>
 <li>[ ] Unchecked box</li>
@@ -72,14 +72,14 @@
 <hr>
 <p>My primary goal when I set out on this journey was to have support to fold sections that I'm not currently looking at, but what I got with Markdown is so much more. I usually keep notes open in Notepad++, but for some reason I decided to use VSCode. I'm pretty glad that I did, in hindsight because what I currently have configured works significantly better than anything I've ever gotten in Notepad++.</p>
 <p>Through the last week I've wound up with a few customizations that make life a bit better for me. I got a few plugins and wrote some custom CSS, and now I'm really happy with the whole thing.</p>
-<h2 id="markdown-all-in-one-plugin">Markdown All in One plugin <a class="direct-link" href="#markdown-all-in-one-plugin">#</a></h2>
-<p>Helps alot, with live preview, formatting lists, toggling styles, generating linked table of contents, print to html, format tables, and pretty math symbols.<br>
+<h2>Markdown All in One plugin</h2>
+<p>Helps alot, with live preview, formatting lists, toggling styles, generating linked table of contents, print to html, format tables, and pretty math symbols.
 <a href="https://github.com/yzhang-gh/vscode-markdown">The repository can be found here</a></p>
-<h2 id="custom-css">Custom CSS <a class="direct-link" href="#custom-css">#</a></h2>
+<h2>Custom CSS</h2>
 <p>This relates directly to the live preview which by default does not differentiate the headers from the primary text (although it does color the code blocks).  markdown.styles setting allows you to define a css file to apply to the preview.  I then used the markdown.extension.print.onFileSave setting to figure out how to select the bits that I wanted to cutomize. The parts that I thought to be important were having different colors for the different header levels, code block backgrounds that are visibly distinct from the other text,</p>
-<h2 id="insert-date-string">Insert Date String <a class="direct-link" href="#insert-date-string">#</a></h2>
+<h2>Insert Date String</h2>
 <p>To quickly insert date or dateTime into my notes this plugin is helpful.  I added a keybind to <code>Ctrl+Shift+i+d</code> to insert date without time. The formatting is configurable to your needs. <a href="https://github.com/jsynowiec/vscode-insertdatestring">The repository can be found here</a></p>
-<h2 id="snippets">Snippets <a class="direct-link" href="#snippets">#</a></h2>
+<h2>Snippets</h2>
 <p>For my personal usage I also wanted to include information for frontmatter/header.  This one is specifically for my 11ty blog entries which is also written in markdown.</p>
 <pre class="language-json"><code class="language-json"><span class="highlight-line">	<span class="token property">"frontmatter"</span><span class="token operator">:</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">		<span class="token property">"scope"</span><span class="token operator">:</span> <span class="token string">"markdown"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">		<span class="token property">"prefix"</span><span class="token operator">:</span> <span class="token string">"frontmatter"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">		<span class="token property">"body"</span><span class="token operator">:</span> <span class="token punctuation">[</span></span><br><span class="highlight-line">			<span class="token string">"---  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"title: ${1:title}  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"description: ${2:description}  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"date: ${3:Ctrl+Shift+i+d}  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"tags:  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"	- ${4:first}  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"	- ${5:second}  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"layout: layouts/post.njk  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"---  "</span></span><br><span class="highlight-line">			<span class="token punctuation">]</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">"front-matter for 11ty blog post"</span></span><br><span class="highlight-line">	<span class="token punctuation">}</span></span></code></pre>
 <p>which get's pasted in like this, and i can tab through the variables easily.</p>

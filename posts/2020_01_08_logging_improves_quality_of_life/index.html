@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logging Improves Quality of Life</title>
+    <meta name="Description" content="If you care then you will work to improve the logging in everything you write.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Adventures in Coding">
+
+    <script src="https://kit.fontawesome.com/1b01ea6d0e.js" crossorigin="anonymous"></script>
+      
+  </head>
+  <body>
+  
+    <header>
+      <h1 class="home"><a href="/"><i class="fas fa-terminal"></i> Adventures in Coding</a></h1>
+      <ul class="nav"><li class="nav-item"><a href="/resume/">Career</a></li><li class="nav-item"><a href="/posts/">Blog</a></li><li class="nav-item"><a href="/about/">About Me</a></li></ul>
+      <span class='contact'>
+        <a href="https://linkedin.mccarty.dev"><i class="fab fa-linkedin"></i></a>
+        <a href="https://devto.mccarty.dev"><i class="fab fa-dev"></i></a>
+        <a href="https://github.mccarty.dev"><i class="fab fa-github"></i></a>
+        <a href="mailto:Corey@McCarty.dev"><i class="fas fa-envelope"></i></a>
+        <a href="tel:‪(901) 213-6747‬"><i class="fas fa-phone"></i>‬</a>
+      </span>
+    </header>
+
+    <main class="tmpl-post">
+      
+<div class="post top">
+  <h1><i class="fas fa-terminal"></i> Logging Improves Quality of Life</h1>
+  
+    <a href="/tags/logging/" class="tag">logging</a>
+    <a href="/tags/development/" class="tag">development</a>
+    <a href="/tags/programming/" class="tag">programming</a>
+    <a href="/tags/beginner/" class="tag">beginner</a>
+  
+    <p>If you care then you will work to improve the logging in everything you write.</p>
+  
+  <hr>
+</div>
+
+<div class="post main">
+  <p><a href="https://dev.to/theodormanolescu/comment/1b5o">Here</a> I found a pretty good explanation of logging.</p>
+<p>The questions posed were:</p>
+<ol>
+<li>When should I be logging information?</li>
+<li>What information should a log message always contain and what is optional?</li>
+<li>How do you decide what level this log should be set to there's many info, trace, debug, error, warn and even &quot;verbose&quot;.</li>
+</ol>
+<p>The answer given:</p>
+<blockquote>
+<p>Consider your application a human.<br>
+Depends how much info do you want to get from it.<br>
+Example:</p>
+</blockquote>
+<ul>
+<li><strong>6 months baby</strong> -&gt; App with no logs and no error handling either works or doesn't, baby is ok or crying.</li>
+<li><strong>1.5 years</strong> -&gt; app with small error handling and 1-5 word logged like error save or error buy, baby has a vocabulary of 50 words</li>
+<li><strong>2.5 years</strong> - app has some error handling and logs that express an action like could not save order, baby can make simple sentences like i fell down</li>
+<li><strong>5 years</strong> - app logs that express intention with some context and can provide info about what's wrong with it, for baby while eating some candy i got sick and my stomach hurts</li>
+<li><strong>18 years</strong> - app handles errors correctly and logs with full relevant context and can provide info for most of the problems, human drank allot of beer now is drunk and he knows he needs to sleep it off or eat something</li>
+</ul>
+<hr>
+<p>Knowing that there was some terrible event is a good start, but knowing what happened is far better, and even better still is knowing the cause.  Moving even further still,  you will figure out that it is really good to know if anything good has happened, or when was the last time that X thing didn't fail.</p>
+<p>I spent some years performing support activities for an application before having the opportunity to upgrade the logging framework (we went from log4j to log4j2) and while I was in there making changes in every single class that performed logging, I increased the logging functionality. Log4j2 has a thread context hashmap that can hold whatever you like, and those variables can be referenced in the configured logging pattern. I was really excited. For the most part I didn't create any entries in the logs that didn't previously exist, but I did make several enhancements.</p>
+<p>So many times when you are debugging something you find yourself looking for a little more context. Logging should give you an idea of where you should look for when something is going wrong. Debug logging should capture notable data. If your sql is being generated in a completely different place than the original flow of the logic then you should really log the sql. If you don't log enough information then you will find yourself struggling to debug issues, but if you have the right information being logged then you should find that debugging sessions are less intensive.</p>
+<hr>
+<h2>Basic Improvements</h2>
+<ol>
+<li>
+<p>Generate a transaction id for every request, return it in the response header, and add it to the logging context. This allows for a transaction to be traced as long as the client can provide the transaction id.</p>
+</li>
+<li>
+<p>Log the class where the message was generated</p>
+</li>
+<li>
+<p>and the method/function</p>
+</li>
+<li>
+<p>Debug level logs AND Error logs should both contain the request and response.</p>
+</li>
+<li>
+<p>Database queries should be logged in debug (even if not needed elsewhere).</p>
+</li>
+<li>
+<p>Log as much as possible of the following</p>
+<ul>
+<li>timestamp</li>
+<li>requesting system identification</li>
+<li>database table/schema/ being accessed</li>
+<li>entry point</li>
+<li>response time</li>
+</ul>
+</li>
+</ol>
+<p>Overall you want to know as much as possible about who or what system is making the call to the applicaiton, what that transaction looks like, what generated calls look like, and what particular exceptions are occurring (even if being captured). You will learn over time what things are helpful for debugging your applications and you can add or remove from this list for your own usage. Make sure that each logging level has a purpose and that the messages generated for that level apply to that purpose.</p>
+<h2>My Personal Beliefs</h2>
+<ul>
+<li><strong>ERROR</strong> is when something goes wrong
+<ul>
+<li>i.e. &quot;This thing went wrong&quot;</li>
+</ul>
+</li>
+<li><strong>WARN</strong> should illuminate any potentially harmful situations
+<ul>
+<li>i.e. &quot;This odd thing happened and could be relevant if something is going wrong&quot;</li>
+</ul>
+</li>
+<li><strong>INFO</strong> should show how the application is progressing from a little higher of a level; Incomming calls, outgoing calls, anything substantial on an external unit of work level.
+<ul>
+<li>i.e. &quot;Received request of type X, called Y database,&quot;</li>
+</ul>
+</li>
+<li><strong>DEBUG</strong> should help me track the exact process that is going on when I am researching issues and help me to find the source of a problem fairly quickly.
+<ul>
+<li>i.e. &quot;Entering/exiting X method call with input/output data that looks like Y&quot;</li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+<div class="post bottom">
+  <hr>
+  <p>Related topics:
+  
+      <a href="/tags/logging/" class="tag">logging</a>
+      <a href="/tags/development/" class="tag">development</a>
+      <a href="/tags/programming/" class="tag">programming</a>
+      <a href="/tags/beginner/" class="tag">beginner</a>
+  </p>
+  <p><a href="/">← Home</a></p>
+</div>
+
+    </main>
+
+    <footer>
+      &copy; Corey McCarty 
+      <br>
+      Thanks for reading! Built using <a href="https://11ty.io">11ty </a><a href="https://github.com/11ty/eleventy-base-blog">base blog</a>.
+    </footer>
+
+    <!-- Current page: /posts/2020_01_08_logging_improves_quality_of_life/ -->
+  </body>
+</html>
