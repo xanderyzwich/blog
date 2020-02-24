@@ -36,7 +36,6 @@ module.exports = function(eleventyConfig) {
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
-  let markdownItAnchor = require("markdown-it-anchor");
   let options = {
     html: true,
     breaks: true,
@@ -47,10 +46,6 @@ module.exports = function(eleventyConfig) {
     permalinkClass: "direct-link",
     permalinkSymbol: "#"
   };
-
-  eleventyConfig.setLibrary("md", markdownIt(options)
-    .use(markdownItAnchor, opts)
-  );
 
   eleventyConfig.setBrowserSyncConfig({
     ui: false,
