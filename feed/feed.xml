@@ -4,7 +4,7 @@
 	<subtitle>Daydreaming of better ways.</subtitle>
 	<link href="https://coreydmccarty.dev/feed/feed.xml" rel="self"/>
 	<link href="https://coreydmccarty.dev/"/>
-	<updated>2020-02-24T00:00:00-00:00</updated>
+	<updated>2020-03-06T00:00:00-00:00</updated>
 	<id>https://coreydmccarty.dev/</id>
 	<author>
 		<name>Corey McCarty</name>
@@ -13,7 +13,7 @@
 	
 	<entry>
 		<title>Getting Started with Stack Overflow</title>
-		<categories>posts,stack overflow,motivation,career,beginners</categories>
+		<category>posts,stack overflow,motivation,career,beginners</category>
 		<summary>I finally decided to join the community</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_05_31_using_stackoverflow/"/>
 		<updated>2019-05-31T00:00:00-00:00</updated>
@@ -28,7 +28,7 @@
 	
 	<entry>
 		<title>Customizing 11ty Blog</title>
-		<categories>posts,11ty,tutorial,travisci,beginners</categories>
+		<category>posts,11ty,tutorial,travisci,beginners</category>
 		<summary>Cleaning up after forking</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_08_13_starting_11ty/"/>
 		<updated>2019-08-13T00:00:00-00:00</updated>
@@ -66,7 +66,7 @@
 	
 	<entry>
 		<title>Discovering My Impostor Syndrome</title>
-		<categories>posts,impostorsyndrome,mentalhealth,career,beginners</categories>
+		<category>posts,impostorsyndrome,mentalhealth,career,beginners</category>
 		<summary>Coming to better understanding of my skill level</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_09_13_discovering_my_imposter_syndrome/"/>
 		<updated>2019-09-13T00:00:00-00:00</updated>
@@ -90,7 +90,7 @@
 	
 	<entry>
 		<title>Dependency Hell</title>
-		<categories>posts,java,gradle,technicaldebt,codequality</categories>
+		<category>posts,java,gradle,technicaldebt,codequality</category>
 		<summary>Best practices must evolve</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_09_20_dependency_hell/"/>
 		<updated>2019-09-20T00:00:00-00:00</updated>
@@ -114,7 +114,7 @@ Gradle is a wonderful tool. After our having gotten it working, I realized that 
 	
 	<entry>
 		<title>Markdown Style</title>
-		<categories>posts,markdown,css,vscode</categories>
+		<category>posts,markdown,css,vscode</category>
 		<summary>This is what I use for markdown in VSCode</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_02_markdown_css/"/>
 		<updated>2020-01-13T00:00:00-00:00</updated>
@@ -126,7 +126,7 @@ Gradle is a wonderful tool. After our having gotten it working, I realized that 
 	
 	<entry>
 		<title>Using Markdown for Notes</title>
-		<categories>posts,productivity,markdown,vscode,css</categories>
+		<category>posts,productivity,markdown,vscode,css</category>
 		<summary>Increasing Productivity with Markup Language</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_02_markdown_for_notes/"/>
 		<updated>2020-01-13T00:00:00-00:00</updated>
@@ -179,7 +179,7 @@ Gradle is a wonderful tool. After our having gotten it working, I realized that 
 	
 	<entry>
 		<title>Blogging Goals</title>
-		<categories>posts,discuss,watercooler,blog,writing</categories>
+		<category>posts,discuss,watercooler,blog,writing</category>
 		<summary>Direction for blogging success</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_06_why_blog/"/>
 		<updated>2020-01-17T00:00:00-00:00</updated>
@@ -234,7 +234,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>What Text Editors Do You Use?</title>
-		<categories>posts,watercooler,discuss,tools,editor</categories>
+		<category>posts,watercooler,discuss,tools,editor</category>
 		<summary>However many it may be, what editors do you find helpful in your workflow?</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_08_text_editors/"/>
 		<updated>2020-01-17T00:00:00-00:00</updated>
@@ -268,7 +268,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Writing Pitfalls</title>
-		<categories>posts,blog,writing,discuss,watercooler</categories>
+		<category>posts,blog,writing,discuss,watercooler</category>
 		<summary>As you write more, you realize that you need to improve some things.</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_08_writing_faults/"/>
 		<updated>2020-01-17T00:00:00-00:00</updated>
@@ -291,7 +291,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>My Introduction to Jenkins</title>
-		<categories>posts,jenkins,devops,productivity,learning</categories>
+		<category>posts,jenkins,devops,productivity,learning</category>
 		<summary>What I&#39;ve learned about Jenkins CI/CD in the last six months.</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_02_13_jenkins/"/>
 		<updated>2020-02-13T00:00:00-00:00</updated>
@@ -344,7 +344,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Wholeness of Life</title>
-		<categories>posts,career,learning,discuss,mentalhealth,life</categories>
+		<category>posts,career,learning,discuss,mentalhealth,life</category>
 		<summary>Overall strategy for growth.</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_12_31_wholeness_of_life/"/>
 		<updated>2020-02-22T00:00:00-00:00</updated>
@@ -356,13 +356,13 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 &lt;p&gt;This pinpoints something that I&#39;ve been struggling to put into words as I&#39;ve developed this post. At 16 I started my first real job the day after my birthday because I had always wanted to work and have my own money. I proceeded to work more than I should as a general rule, even as my only actual bills were a cell phone and my car insurance.  I found myself voluntarily working more shifts and later than a minor should. The idea of having my own money, and thus freedom, was too attractive. It&#39;s only recently that I have noticed that I spend little time living in that freedom.  I was dedicated to work, romance, and social gatherings.&lt;/p&gt;
 &lt;p&gt;I found myself in interviews at the age of thirty struggling to answer &#39;what do you like to do with your free time?&#39; which is absurd. I was unclear of my own likes. I started into gaming before my son was born (and long periods of free time disappeared). I focused on vape culture in researching, maintaining my devices, and even mixing my own liquids. More recently I&#39;ve dipped my toes into traditional wetshaving, mechanical keyboards, and fountain pens. It was after I picked up fountain pens and started doing writing with them for pleasure that I finally realized how much of my life was spent previously without any real hobbies. While this seems like a minor detail, life becomes really stressful when you don&#39;t allow yourself something to enjoy.&lt;/p&gt;
 &lt;p&gt;I had actually acquired some hobbies that I hadn&#39;t even really registered as such until I pressed into writing this post. Not long after I began my first programming job I made the decision to stop smoking and start vaping. At the time there was a very large community for vaping in my area and I would go on to learn how to use and maintain my vaping equipment even to the extent of building my own coils and mixing my own liquid. My wife and I had also made an effort to get back into gaming after Fable was re-released to 360. I played through all three games in reverse order and a few other big world games for hundreds of hours over a few years. One of the friends that I made in the vaping community actually made me aware of traditional wetshaving and I wound up doing a good bit of research into that and wound up really enjoying it. More recently My local tech community got me into both mechanical keyboards and fountain pens and I have really come to enjoy using them everyday at work.&lt;/p&gt;
-&lt;p&gt;After this epiphany I reflected on my career as well; how I had taken a very passive approach to advancement. It thrills me to see younger and younger people finding programming as a hobby and teaching themselves to ther point of hirability without a degree. At the same time, I reflect on the difficulty that I&#39;ve experienced finding work even with a BS in computer engineering. In this light, I&#39;ll be approaching how you can more actively approach enrichment of your career. This is intended as a guide for myself and I hope that somebody else finds it helpful as well.&lt;/p&gt;
+&lt;p&gt;After this epiphany I reflected on my career as well; how I had taken a very passive approach to advancement. It thrills me to see younger and younger people finding programming as a hobby and teaching themselves to ther point of hireability without a degree. At the same time, I reflect on the difficulty that I&#39;ve experienced finding work even with a BS in computer engineering. I want to discuss how you can more actively approach enrichment of your career. This is intended as a guide for myself and I hope that somebody else finds it helpful as well.&lt;/p&gt;
 &lt;h2&gt;Code&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;How we treat our code is much like how we think of our world.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Is the glass half full or half empty? Our general feeling about this probably relates closely with how we feel about our code base. If you love your code then that&#39;s great, but I don&#39;t know many people who do. Most developers seem to feel that there is much improvement that can be done on their code, but few feel they have time to correct it.&lt;/p&gt;
-&lt;p&gt;Much of what developers like to talk about is shiny and new, but most of us are working with legacy cruft. While I agree that playing with new things is great, I think that you can find lots of interesting things in your own stack to play with. Green fields are nice, but they always wind up filled with cruft eventually, and getting hands on with that cruft can be the best way to minimize its creation. A legacy system tends to have lists ofknown issue that provide more direction than a blank page. Issues cause us headaches, but if you make yourself to take the time and improve/standardize/automate your process then you will find pride in the improvement everytime that you use the process. Ultimately we find ourselves slowly touching every last bit of code in a system over time and if you make the effort for ongoing improvement it then the resulting ownership and pride make the work of legacy code maintenance more fulfilling than moving a green field project into production.&lt;/p&gt;
+&lt;p&gt;Much of what developers like to talk about is shiny and new, but most of us are working with legacy cruft. While I agree that playing with new things is great, I think that you can find lots of interesting things in your own stack to play with. Green fields are nice, but they always wind up filled with cruft eventually, and getting hands on with that cruft can be the best way to minimize its creation. A legacy system tends to have lists of known issues that provide more direction than a blank page. Issues cause us headaches, but if you make yourself take the time and improve/standardize/automate your process then you will find pride in the improvement everytime that you use the process. Ultimately we find ourselves slowly touching every last bit of code in a system over time and if you make the effort for ongoing improvement it then the resulting ownership and pride make the work of legacy code maintenance more fulfilling than moving a green field project into production.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;This post is part of a series about life, community, and learning.&lt;/p&gt;
 </content>
@@ -370,7 +370,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Community</title>
-		<categories>posts,career,learning,discuss,mentalhealth,life</categories>
+		<category>posts,career,learning,discuss,mentalhealth,life</category>
 		<summary>How we perform as a part of a team stems directly from how we interact with any group or community</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_12_31_community/"/>
 		<updated>2020-02-23T00:00:00-00:00</updated>
@@ -412,7 +412,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Always Be Learning</title>
-		<categories>posts,career,learning,discuss,mentalhealth,life</categories>
+		<category>posts,career,learning,discuss,mentalhealth,life</category>
 		<summary>If you aren&#39;t geting better then  you are getting worse.</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_12_31_always_be_learning/"/>
 		<updated>2020-02-24T00:00:00-00:00</updated>
@@ -434,8 +434,8 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 &lt;p&gt;Active pursuit of betterment is required in our ever changing field; in other words &amp;quot;if you aren&#39;t moving forward then you&#39;re moving backward.&amp;quot; But it is really difficult to judge ability without a comparison and context. My first 5 years in the industry were largely spent performing what most people would consider support activities.  I elicited change requirements from clients, made changes to implement these changes that, and deployed changes in test levels and production.  A good deal of debugging occurred with client issues, but my explanations of these activities typically fail to persuade someone to hire me as a developer. All of those first years were spent in a group of very skilled developers and while I learned a great deal during that time, I remained the most junior member. It wasn&#39;t until I joined a new team and was able to gain the context to compare my skill set to others that were different from my own that I gained the ability to explain these things. Looking at our own advancement through the lens of life is my overall goal with this series.&lt;/p&gt;
 &lt;p&gt;In the last year or so I decided to learn Javascript, and wound up making myself a resume that would populate from data file. This all stemmed from my acquisition of a &lt;code&gt;.dev&lt;/code&gt; domain. I wound up needing to learn about dns configuration, github pages, node js, and alot of frontend design things that I hadn&#39;t touched in years. I would come to learn about JamStack and eventually wind up with a blog site using 11ty static site generator and replicating that into the Dev.to community. These things all kind of snowballed from the idea of owning a domain and figuring out what to do with it.&lt;/p&gt;
 &lt;h2&gt;What to learn?&lt;/h2&gt;
-&lt;p&gt;I read SO many different posts about what people are learning or people asking what they should learn. This isn&#39;t a one size fits all thing. Everyone has different interests and every area has different needs. I have been developing some tricks (read as getting pointers from others and figuring out which ones work for me) and I&#39;ll share these with you (tl;dr the answer is lists). I keep a spread in my bullet journal for &#39;Proffessional Goals&#39; and my current lists are below.&lt;/p&gt;
-&lt;p&gt;But how do you figure out what should go on the list?  I add things to the list (with top priority) that my current projects use and I don&#39;t already know/understand. The next group of things comes from the communities that I&#39;m in and the things that they speak well about. The last group of things that I add to the list are things that are on job listings that I find interesting. When you are doing this last part you should make sure to look at listings in your desired physical areas and fields of work. Different areas and industries can have drastically different technology stacks and standards, and it&#39;s important to keep your skills relavent to your current and potential work.&lt;/p&gt;
+&lt;p&gt;I read SO many different posts about what people are learning or people asking what they should learn. This isn&#39;t a one size fits all thing. Everyone has different interests and every area has different needs. I have been developing some tricks (read as getting pointers from others and figuring out which ones work for me) and I&#39;ll share these with you (tl;dr the answer is lists). I keep a spread in my bullet journal for &#39;Professional Goals&#39; and my current lists are below.&lt;/p&gt;
+&lt;p&gt;But how do you figure out what should go on the list?  I add things to the list (with top priority) that my current projects use and I don&#39;t already know/understand. The next group of things comes from the communities that I&#39;m in and the things that they speak well about. The last group of things that I add to the list are things that are on job listings that I find interesting. When you are doing this last part you should make sure to look at listings in your desired physical areas and fields of work. Different areas and industries can have drastically different technology stacks and standards, and it&#39;s important to keep your skills relevant to your current and potential work.&lt;/p&gt;
 &lt;h3&gt;Side One&lt;/h3&gt;
 &lt;h4&gt;Resources&lt;/h4&gt;
 &lt;p&gt;Places to learn that I don&#39;t remember off the top of my head&lt;/p&gt;
@@ -498,7 +498,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Logging Improves Quality of Life</title>
-		<categories>posts,logging,development,programming,beginner</categories>
+		<category>posts,logging,development,programming,beginner</category>
 		<summary>If you care then you will work to improve the logging in everything you write.</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_08_logging_improves_quality_of_life/"/>
 		<updated>2020-02-24T00:00:00-00:00</updated>
@@ -580,6 +580,22 @@ Example:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I&#39;m Corey McCarty, and I support women devs.</title>
+		<category>posts,shecodedally,women,tech,inclusion</category>
+		<summary>Women&#39;s day is important</summary>
+		<link href="https://coreydmccarty.dev/posts/2020_03_06_womens_day/"/>
+		<updated>2020-03-06T00:00:00-00:00</updated>
+		<id>https://coreydmccarty.dev/posts/2020_03_06_womens_day/</id>
+		<content type="html">&lt;p&gt;I find it hard to understand that sexism still exists in 2020. I have multiple women in development lead and management roles all around me, and I honestly don&#39;t know any women in software development that aren&#39;t good at what they do whereas I can easily think of several men who get by without being strong developers. It seems quite foreign that there remain people that are not accepting of women in the workforce or that women consistently face income inequality.&lt;/p&gt;
+&lt;p&gt;Equality in tech must involve women being valued and empowered in the the tech community as well as the industry. This should include equality in respect, pay, and position.&lt;/p&gt;
+&lt;p&gt;This tweet is crazy to me. As a hetero white man, I&#39;ve never felt this, but it is enough of an issue that many people have also felt the need to utilize this tactic.&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Women: Have you ever had a man deliver a message or a point you thought was important because you knew the room was more likely to listen?&lt;/p&gt;&amp;mdash; Ashley Willis (McNamara) (@ashleymcnamara) &lt;a href=&quot;https://twitter.com/ashleymcnamara/status/1235684675609178112?ref_src=twsrc%5Etfw&quot;&gt;March 5, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt; 
+&lt;p&gt;I will advocate for equality by offering any assistance that I can to the women around me. These may be small things, but I&#39;ll make sure that I endorse them on LinkedIn and write personal recommendations so that they can more easily be found as the strong developers that they are. My coworker was looking for a new job. She and I spent time working together to make ourselves more employable. This included training courses on various sites, sharing books back and forth for learning, and tell one another about jobs that we had found. I made it a focus of mine to think of her anytime that I was researching things about interviewing or bettering my hirability.&lt;/p&gt;
+&lt;p&gt;My advice for fellow allies to support women and any minority group member in your life is to first acknowledge that their career is set at a steep incline. Know that there are factors at play that you will not have used against you. You can help to insure that everyone around you gets their due recognition. Simply allowing light to shine on the good things being done by women (or any minority group member). The women around you are likely to be some of the best workers due to the difficulties that they face. Make sure that any recognition programs that you have or any mentions that occur in review rituals include the women. If we aren&#39;t intentional about equality then it is easy to even accidentally list someone last that may have been the hardest worker. Also, make sure that at no point are you alienating women in conversation. This really goes for anyone that is a part of a given group. The moment that you begin talking about something that isn&#39;t the focus or interest of the entire group then you begin to alienate people, and inadvertently you are building stronger bonds between the people in that conversation while the others are left out made to feel less than whole members of the group. This isn&#39;t to say that you can&#39;t have friends in your work group and that you can&#39;t talk to them about the things that you enjoy, but while you are with the whole group then you should work to include everyone together so that all of the group members are bonded stronger.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
