@@ -6,7 +6,7 @@ tags:
   - agile  
   - productivity
   - career
-  - scrum  
+  - development  
 layout: layouts/post.njk  
 ---  
 
