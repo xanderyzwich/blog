@@ -4,7 +4,7 @@
 	<subtitle>Daydreaming of better ways.</subtitle>
 	<link href="https://coreydmccarty.dev/feed/feed.xml" rel="self"/>
 	<link href="https://coreydmccarty.dev/"/>
-	<updated>2020-03-06T00:00:00-00:00</updated>
+	<updated>2020-03-17T00:00:00-00:00</updated>
 	<id>https://coreydmccarty.dev/</id>
 	<author>
 		<name>Corey McCarty</name>
@@ -13,7 +13,7 @@
 	
 	<entry>
 		<title>Getting Started with Stack Overflow</title>
-		<category>posts,stack overflow,motivation,career,beginners</category>
+		<category term= post.data.tags  >
 		<summary>I finally decided to join the community</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_05_31_using_stackoverflow/"/>
 		<updated>2019-05-31T00:00:00-00:00</updated>
@@ -28,7 +28,7 @@
 	
 	<entry>
 		<title>Customizing 11ty Blog</title>
-		<category>posts,11ty,tutorial,travisci,beginners</category>
+		<category term= post.data.tags  >
 		<summary>Cleaning up after forking</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_08_13_starting_11ty/"/>
 		<updated>2019-08-13T00:00:00-00:00</updated>
@@ -66,7 +66,7 @@
 	
 	<entry>
 		<title>Discovering My Impostor Syndrome</title>
-		<category>posts,impostorsyndrome,mentalhealth,career,beginners</category>
+		<category term= post.data.tags  >
 		<summary>Coming to better understanding of my skill level</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_09_13_discovering_my_imposter_syndrome/"/>
 		<updated>2019-09-13T00:00:00-00:00</updated>
@@ -90,7 +90,7 @@
 	
 	<entry>
 		<title>Dependency Hell</title>
-		<category>posts,java,gradle,technicaldebt,codequality</category>
+		<category term= post.data.tags  >
 		<summary>Best practices must evolve</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_09_20_dependency_hell/"/>
 		<updated>2019-09-20T00:00:00-00:00</updated>
@@ -114,7 +114,7 @@ Gradle is a wonderful tool. After our having gotten it working, I realized that 
 	
 	<entry>
 		<title>Markdown Style</title>
-		<category>posts,markdown,css,vscode</category>
+		<category term= post.data.tags  >
 		<summary>This is what I use for markdown in VSCode</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_02_markdown_css/"/>
 		<updated>2020-01-13T00:00:00-00:00</updated>
@@ -126,7 +126,7 @@ Gradle is a wonderful tool. After our having gotten it working, I realized that 
 	
 	<entry>
 		<title>Using Markdown for Notes</title>
-		<category>posts,productivity,markdown,vscode,css</category>
+		<category term= post.data.tags  >
 		<summary>Increasing Productivity with Markup Language</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_02_markdown_for_notes/"/>
 		<updated>2020-01-13T00:00:00-00:00</updated>
@@ -179,7 +179,7 @@ Gradle is a wonderful tool. After our having gotten it working, I realized that 
 	
 	<entry>
 		<title>Blogging Goals</title>
-		<category>posts,discuss,watercooler,blog,writing</category>
+		<category term= post.data.tags  >
 		<summary>Direction for blogging success</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_06_why_blog/"/>
 		<updated>2020-01-17T00:00:00-00:00</updated>
@@ -234,7 +234,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>What Text Editors Do You Use?</title>
-		<category>posts,watercooler,discuss,tools,editor</category>
+		<category term= post.data.tags  >
 		<summary>However many it may be, what editors do you find helpful in your workflow?</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_08_text_editors/"/>
 		<updated>2020-01-17T00:00:00-00:00</updated>
@@ -268,7 +268,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Writing Pitfalls</title>
-		<category>posts,blog,writing,discuss,watercooler</category>
+		<category term= post.data.tags  >
 		<summary>As you write more, you realize that you need to improve some things.</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_08_writing_faults/"/>
 		<updated>2020-01-17T00:00:00-00:00</updated>
@@ -291,7 +291,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>My Introduction to Jenkins</title>
-		<category>posts,jenkins,devops,productivity,learning</category>
+		<category term= post.data.tags  >
 		<summary>What I&#39;ve learned about Jenkins CI/CD in the last six months.</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_02_13_jenkins/"/>
 		<updated>2020-02-13T00:00:00-00:00</updated>
@@ -344,7 +344,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Wholeness of Life</title>
-		<category>posts,career,learning,discuss,mentalhealth,life</category>
+		<category term= post.data.tags  >
 		<summary>Overall strategy for growth.</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_12_31_wholeness_of_life/"/>
 		<updated>2020-02-22T00:00:00-00:00</updated>
@@ -370,7 +370,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Community</title>
-		<category>posts,career,learning,discuss,mentalhealth,life</category>
+		<category term= post.data.tags  >
 		<summary>How we perform as a part of a team stems directly from how we interact with any group or community</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_12_31_community/"/>
 		<updated>2020-02-23T00:00:00-00:00</updated>
@@ -412,7 +412,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Always Be Learning</title>
-		<category>posts,career,learning,discuss,mentalhealth,life</category>
+		<category term= post.data.tags  >
 		<summary>If you aren&#39;t geting better then  you are getting worse.</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_12_31_always_be_learning/"/>
 		<updated>2020-02-24T00:00:00-00:00</updated>
@@ -498,7 +498,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Logging Improves Quality of Life</title>
-		<category>posts,logging,development,programming,beginner</category>
+		<category term= post.data.tags  >
 		<summary>If you care then you will work to improve the logging in everything you write.</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_08_logging_improves_quality_of_life/"/>
 		<updated>2020-02-24T00:00:00-00:00</updated>
@@ -585,7 +585,7 @@ Example:&lt;/p&gt;
 	
 	<entry>
 		<title>I&#39;m Corey McCarty, and I support women devs.</title>
-		<category>posts,shecodedally,women,tech,inclusion</category>
+		<category term= post.data.tags  >
 		<summary>Women&#39;s day is important</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_03_06_womens_day/"/>
 		<updated>2020-03-06T00:00:00-00:00</updated>
@@ -596,6 +596,46 @@ Example:&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Women: Have you ever had a man deliver a message or a point you thought was important because you knew the room was more likely to listen?&lt;/p&gt;&amp;mdash; Ashley Willis (McNamara) (@ashleymcnamara) &lt;a href=&quot;https://twitter.com/ashleymcnamara/status/1235684675609178112?ref_src=twsrc%5Etfw&quot;&gt;March 5, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt; 
 &lt;p&gt;I will advocate for equality by offering any assistance that I can to the women around me. These may be small things, but I&#39;ll make sure that I endorse them on LinkedIn and write personal recommendations so that they can more easily be found as the strong developers that they are. My coworker was looking for a new job. She and I spent time working together to make ourselves more employable. This included training courses on various sites, sharing books back and forth for learning, and tell one another about jobs that we had found. I made it a focus of mine to think of her anytime that I was researching things about interviewing or bettering my hirability.&lt;/p&gt;
 &lt;p&gt;My advice for fellow allies to support women and any minority group member in your life is to first acknowledge that their career is set at a steep incline. Know that there are factors at play that you will not have used against you. You can help to insure that everyone around you gets their due recognition. Simply allowing light to shine on the good things being done by women (or any minority group member). The women around you are likely to be some of the best workers due to the difficulties that they face. Make sure that any recognition programs that you have or any mentions that occur in review rituals include the women. If we aren&#39;t intentional about equality then it is easy to even accidentally list someone last that may have been the hardest worker. Also, make sure that at no point are you alienating women in conversation. This really goes for anyone that is a part of a given group. The moment that you begin talking about something that isn&#39;t the focus or interest of the entire group then you begin to alienate people, and inadvertently you are building stronger bonds between the people in that conversation while the others are left out made to feel less than whole members of the group. This isn&#39;t to say that you can&#39;t have friends in your work group and that you can&#39;t talk to them about the things that you enjoy, but while you are with the whole group then you should work to include everyone together so that all of the group members are bonded stronger.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Agility and Improvement</title>
+		<category term= post.data.tags  >
+		<summary>Agile methodologies are really easy to let become strict process instead of dynamic workflow</summary>
+		<link href="https://coreydmccarty.dev/posts/2020_03_17_agility_and_improvement/"/>
+		<updated>2020-03-17T00:00:00-00:00</updated>
+		<id>https://coreydmccarty.dev/posts/2020_03_17_agility_and_improvement/</id>
+		<content type="html">&lt;p&gt;Agile (Capital A) is something that many/most software development teams are adopting, whether that is pure Agile, Safe, Scrum, Kanban, or some other thing that I don&#39;t know. The majority of the issues that I hear about surrounding Agile are having to do with forgetting the manifesto OR forgetting to be agile (lowercase a). So let&#39;s take a look at what can be done about these.&lt;/p&gt;
+&lt;h2&gt;Agile Manifesto:&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;We are uncovering better ways of developing software by doing it and helping others do it.
+
+Through this work we have come to value:
+
+Individuals and interactions 
+	over processes and tools
+
+Working software 
+	over comprehensive documentation
+
+Customer collaboration 
+	over contract negotiation
+
+Responding to change 
+	over following a plan
+
+That is, while there is value in the items on the right, we value the items on the left more
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Processes and tools are largely the way that management ensures that a team is on track. I regularly hear complaints about stories not being updated in the agile management software, or processes not being followed. I find that this largely means that we aren&#39;t interacting effectively. While individual empowerment is largely a pillar of agile, being a part of a team where you aren&#39;t the only one interacting with or planning the activies for a given product/application means that you must communicate effectively. In order to reduce your focus on processes and tools you have to get to a point where your team communicates well without the rigidness of those things.&lt;/p&gt;
+&lt;p&gt;Comprehensive documentation would be really nice in an ideal world. I personally work with fifteen applications which have been managed by a team that has completely turned over at least twice. There have been large blindspots in regard to the applciations&#39; functionalities which is an ongoing process of remedying. But, even for the things that we have sufficient documentation there is an issue of being able to find it. Further as the team has turned over through the last decade, the code styles are a world away from consistent. The betterment of the team and the code has not come through writing large documents that explain everything, but instead through taking the time to gather and share knowledge as necessary. It has been my experience that if your organizational skills are lacking then the documentation will likely not be a fix for it. Making sure that we have testing suites that find issues and profiling systems to evaluate issues with runtime have been paramount in our moving forward.&lt;/p&gt;
+&lt;p&gt;Contract negotiations can be really helpful but will ultimately have details that are left out. This comes down to one of the fundamental issues with waterfall as a whole. You would take the contract that was poured over for weeks, and then you would take it with a bit of interpretation and make what you believed to be desired. Customer collaboration allows for us to ask the questions as we have them and not make assumptions that go unchecked until final delivery. Customer collaboration also means that iterative deliveries can be checked agaisnt assumptions that customers may have had without ever having specified them. You still wind up with an effective contract, but by letting that negotiation be ongoing collaboration rather than a pre-development meetings that produce a clean cut document you minimize the amount of work done on something that is not wanted.&lt;/p&gt;
+&lt;p&gt;Following a plan goes hand in hand with contract negotiation. Responding to change means that you are allowing for feedback that prevents excessive time waste in direction corrections.&lt;/p&gt;
+&lt;h2&gt;Lowercase a agile&lt;/h2&gt;
+&lt;p&gt;Going back to the bit about processes and tools, I believe that the problem comes down largely to things that are mostly minor details. Do you estimate story points by days of work or complexity of work? Do you assign multiple people to the same story or make a copy of the story for each person involved? You can go either way with these and several other decisions and have them be helpful to your team, but ultimately you should remember that if any part of the process or the tool are getting in the way of doing actual work then you need to evaluate how to remedy that.&lt;/p&gt;
+&lt;p&gt;My team lost its scrum master recently after his having been with the team for more than a year. Initially we believed that it would be disasterous as we have had difficulties with several parts of our process in the past (merging of two whole scrum teams, changing managers a couple of times, completely differing approaches to standup) and he was a large part of helping us to reign in those issues. But it&#39;s a really crazy thing. When we learned that we would not be getting a replacement of our scrum master we were forced to divy out his work. This brought about executions of different steps with different understandings and personal tendencies. And in this change we have become stronger. The people that were interested in the different processes were able to consider how they could better their part of the process instead of one person trying to figure out all of the things.&lt;/p&gt;
+&lt;p&gt;Our manager takes over a certain number of administration activities like scheduling meetings, setting iteneraries for them, and helping with outside dependencies. She does these things with the knowledge and weight of being a manager which seems to get us farther.  Our daily standups are run by one of our newest members which led to his being engaged during the discussion of things he wasn&#39;t involved in and he became more knowledgable. One of our lead developers took over for backlog grooming and sprint planning and we suddenly have fixed our issues with defining done. I&#39;ve picked up retrospectives and without thought I began by asking each person for their input on &#39;done well&#39;, &#39;need to improve&#39;, and &#39;action items&#39; and we are getting more feedback from more people than ever before. We collectively took on our Program Increment planning activities which occur for every five sprints, and when we showed up without the pre-planning things done we were actually able to plan more effectively because everyone was more aware of our objectives and epics/features in addition to our business team having better understanding of why we are doing what we are and being able to communicate back to their people about the benefits that these things will bring to the company and our clients. We actually got to the point where we are regularly performing these rituals regularly in addition to some other sync activities and the meetings are more focused in their attendance so that we aren&#39;t wasting the time of people who have no input to offer for administrative discussions.&lt;/p&gt;
+&lt;p&gt;Aside from just the changes that came with the loss of our scrum master, we figured out that the way we had been tracking support issues and Keep The Lights On (KTLO) activites was not providing adequate visibility, bandwidth, and pushback. We have since stopped tracking support activities as stories and instead opened a request queue for such things. We have reduced our velocity to better accommodate those activities, and we have separated out our bandwidth by onsite development, offshore development, and testing in order that we may better distribute/track our work in accordance with the people that will actually be performing it.&lt;/p&gt;
+&lt;p&gt;I don&#39;t offer the things that my team has done to give our example as perfection (far from it), but as growth. We have tramendously changed the way that we carry out agile practices and are becoming stronger for it. I, being transferred to the team more recently than most, have been finding several issues with our process and questioning everyone as to why we do things the way that we do. In the process I am able to learn the good and bad reasons that we operate as we do, and I&#39;ve been able to offer thoughts as to how we might better our processes. Just opening this discussion (because I&#39;m quite open with my thoughts) has led to further discussion of streamlining our activities. There were initially a handful of meetings where we devolved into verbal sparring matches and the majority of people were quite upset. After we got everything off of our collective chest then we were able to begin seeing things from the other perspectives, function as a more cohesive team, and find value in our tramendous diversity of skills and experience.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
