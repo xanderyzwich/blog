@@ -1,7 +1,7 @@
 ---  
 title: Logging Improves Quality of Life  
 description: If you care then you will work to improve the logging in everything you write.  
-date: 2020-02-24  
+date: 2020-02-25  
 tags:  
   - logging  
   - development 
