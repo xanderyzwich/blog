@@ -18,7 +18,9 @@ eleventyExcludeFromCollections: true
 	{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
 	<entry>
 		<title>{{ post.data.title }}</title>
-		<category term="{{ post.data.tags | join(",") | replace('posts,', '') }}" />
+		{%- if post.data.tags %}{%- for tag in post.data.tags %}{%- if tag != "posts" %}
+		<category>{{ tag }}"</category>
+		{%- endif %}{%- endfor %}{%- endif %}
 		<summary>{{ post.data.description }}</summary>
 		<link href="{{ absolutePostUrl }}"/>
 		<updated>{{ post.date | rssDate }}</updated>
