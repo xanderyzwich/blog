@@ -75,13 +75,14 @@ Hands on Study of software and hardware system design of analog and digital circ
 #### Atos|Syntel - Software Engineer
 September 2014 - Present
 
-+ Analyze team activities from code base and data extracts with Bash and Python allowing owners visibility into their data.
-
-+ Modernize legacy java applications to cloud native using Gradle, SpringBoot, Splunk, and App Dynamics resulting in applications that can be developed, built, and tested locally.
 + Lead DevOps drive with GitLab and Jenkins pipeline tools to maintain 16 applications CI/CD process causing the developers to build and deploy applications without configuration management team.
-+ Manage 30TB of databases' design to reduce storage footprint and query times while maximizing uptime in order to stop timeout issues and contention blockages that previously halted flow of business activities.
-+ Standardize code style and patterns to increase understanding and expedite work by onsite and offshore development teams reducing codebase size by 5% and prevent the impediment of relearning how a task is completed in every different class.
 + Drive efficiency and standards evolution in both code and process for betterment of product, team, and self with daily meeting time reduction by half.
++ Standardize code style and patterns to increase understanding and expedite work by onsite and offshore development teams reducing codebase size by 5% and prevent the impediment of relearning how a task is completed in every different class.
++ Identify opportunities to expedite team processes through automation of repeated efforts.
++ Design and implement solutions for pain points in the development and testing processes.
++ Modernize legacy java applications to cloud native using Gradle, SpringBoot, Splunk, and App Dynamics resulting in applications that can be developed, built, and tested locally.
++ Analyze team activities from code base and data extracts with Bash and Python allowing owners visibility into their data.
++ Manage 30TB of databases' design to reduce storage footprint and query times while maximizing uptime in order to stop timeout issues and contention blockages that previously halted flow of business activities.
 
 #### Code Support - Volunteer
 December 2017 - Present
