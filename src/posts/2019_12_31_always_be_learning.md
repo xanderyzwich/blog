@@ -52,7 +52,7 @@ But how do you figure out what should go on the list?  I add things to the list 
 Places to learn that I don't remember off the top of my head
   + Hacker Rank
   + Leet Code
-  + Codpen.io
+  + Codepen.io
   + Repl.it  
   
 I also frequently use Java API documentation, W3Schools, learnxinyminutes.com, and stack overflow
