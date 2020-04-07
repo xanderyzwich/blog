@@ -10,7 +10,7 @@ templateClass: tmpl-resume
 
 ## Skills
 ### Languages
-Java, Python, SQL, JavaScript, Bash
+Java, Groovy, Python, SQL, JavaScript, Bash
 
 ### Deployments
 Pivotal Cloud Foundry, RedHat, Tomcat, Springboot, Oracle DB, Datastax/Cassandra NoSQL, JamStack, Android, Arduino
