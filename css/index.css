@@ -244,6 +244,9 @@ a[href].tag,
 a[href].tag:visited {
   color: #fff;
 }
+.contact a{
+  padding-right: 21px; 
+}
 
 /* Warning */
 .warning {
