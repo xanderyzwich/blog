@@ -12,7 +12,7 @@
   --true-blue:		#3569A7;
   /* GRAYS */
   --university-gray:	#898D8D;
-  --patterson-gray:	#717C7D;
+  --patterson-gray:	#717C7D; /* do not use on white bg */
   --highland-gray:	#BFCDCB;
   
   --bluff-beige:		#F5E9BD;
@@ -40,22 +40,25 @@ max-width: 100%;
 }
 /* Color by Tag */
 #resume h1{
-  color: var(--university-blue);
+  color: var(--university-gray);
 }
 #resume h2{
- 	color: var(--university-gray);
+  color: var(--black);
 }
 #resume h3{
- 	color: var(--rhythm-blue);
+  color: var(--university-blue);
 }
 #resume h4{
- 	color: var(--patterson-gray);
+  color: var(--university-gray);
 }
 #resume h5{
- 	color: var(--spirit-blue);
+  color: var(--spirit-blue);
 }
 #resume h6{
- 	color: var(--highland-gray);
+  color: var(--university-gray);
+}
+#resume p{
+  color: var(--rhythm-blue);
 }
 
  /* Margins by tag */
