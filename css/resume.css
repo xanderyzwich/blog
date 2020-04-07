@@ -11,13 +11,14 @@
 	--river-blue:		#D0E6E8;
   --true-blue:		#3569A7;
   /* GRAYS */
-  --university-gray:	#898D8D;
+  --made-up-gray:	#898D8D;
   --patterson-gray:	#717C7D; /* do not use on white bg */
   --highland-gray:	#BFCDCB;
   
   --bluff-beige:		#F5E9BD;
   --font-bitter:		'Bitter'; /*serif*/
 
+  --made-up-gray: #555;
   /* font-size: 75%; */
   color: black;
 }
@@ -40,7 +41,7 @@ max-width: 100%;
 }
 /* Color by Tag */
 #resume h1{
-  color: var(--university-gray);
+  color: var(--made-up-gray);
 }
 #resume h2{
   color: var(--black);
@@ -49,13 +50,13 @@ max-width: 100%;
   color: var(--university-blue);
 }
 #resume h4{
-  color: var(--university-gray);
+  color: var(--made-up-gray);
 }
 #resume h5{
   color: var(--spirit-blue);
 }
 #resume h6{
-  color: var(--university-gray);
+  color: var(--made-up-gray);
 }
 #resume p{
   color: var(--rhythm-blue);
