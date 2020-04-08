@@ -4,7 +4,7 @@
 	<subtitle>Daydreaming of better ways.</subtitle>
 	<link href="https://coreydmccarty.dev/feed/feed.xml" rel="self"/>
 	<link href="https://coreydmccarty.dev/"/>
-	<updated>2020-03-18T00:00:00-00:00</updated>
+	<updated>2020-04-09T00:00:00-00:00</updated>
 	<id>https://coreydmccarty.dev/</id>
 	<author>
 		<name>Corey McCarty</name>
@@ -683,7 +683,7 @@ That is, while there is value in the items on the right, we value the items on t
 &lt;h2&gt;Lowercase a agile&lt;/h2&gt;
 &lt;p&gt;Going back to the bit about processes and tools, I believe that the problem comes down largely to things that are mostly minor details. Do you estimate story points by days of work or complexity of work? Do you assign multiple people to the same story or make a copy of the story for each person involved? You can go either way with these and several other decisions and have them be helpful to your team, but ultimately you should remember that if any part of the process or the tool are getting in the way of doing actual work then you need to evaluate how to remedy that.&lt;/p&gt;
 &lt;p&gt;My team lost its scrum master recently after his having been with the team for more than a year. Initially we believed that it would be disasterous as we have had difficulties with several parts of our process in the past (merging of two whole scrum teams, changing managers a couple of times, completely differing approaches to standup) and he was a large part of helping us to reign in those issues. But it&#39;s a really crazy thing. When we learned that we would not be getting a replacement of our scrum master we were forced to divy out his work. This brought about executions of different steps with different understandings and personal tendencies. And in this change we have become stronger. The people that were interested in the different processes were able to consider how they could better their part of the process instead of one person trying to figure out all of the things.&lt;/p&gt;
-&lt;p&gt;Our manager takes over a certain number of administration activities like scheduling meetings, setting iteneraries for them, and helping with outside dependencies. She does these things with the knowledge and weight of being a manager which seems to get us farther.  Our daily standups are run by one of our newest members which led to his being engaged during the discussion of things he wasn&#39;t involved in and he became more knowledgable. One of our lead developers took over for backlog grooming and sprint planning and we suddenly have fixed our issues with defining done. I&#39;ve picked up retrospectives and without thought I began by asking each person for their input on &#39;done well&#39;, &#39;need to improve&#39;, and &#39;action items&#39; and we are getting more feedback from more people than ever before. We collectively took on our Program Increment planning activities which occur for every five sprints, and when we showed up without the pre-planning things done we were actually able to plan more effectively because everyone was more aware of our objectives and epics/features in addition to our business team having better understanding of why we are doing what we are and being able to communicate back to their people about the benefits that these things will bring to the company and our clients. We actually got to the point where we are regularly performing these rituals regularly in addition to some other sync activities and the meetings are more focused in their attendance so that we aren&#39;t wasting the time of people who have no input to offer for administrative discussions.&lt;/p&gt;
+&lt;p&gt;Scrum master activities hve been split up. Our manager takes over administration activities like scheduling meetings and mitigating external dependencies. Her vision as a manager gets us farther.  A new junior dev runs our daily standups. He is now more engaged and knowledgable. A dev lead took over for backlog grooming and sprint planning. Suddenly defining done is a non-issue. I&#39;ve picked up retrospectives. I began by asking each person for their input on &#39;done well&#39;, &#39;need to improve&#39;, and &#39;action items&#39; which brings more feedback from more people. We collectively took on our Program Increment planning activities. Showing up without pre-planning enabled us to plan more effectively due to increased awareness. Our business team is more aware of our activities as we brought them into planning. Overall we are becoming increasingly efficient with our meeting time due to these changes.&lt;/p&gt;
 &lt;p&gt;Aside from just the changes that came with the loss of our scrum master, we figured out that the way we had been tracking support issues and Keep The Lights On (KTLO) activites was not providing adequate visibility, bandwidth, and pushback. We have since stopped tracking support activities as stories and instead opened a request queue for such things. We have reduced our velocity to better accommodate those activities, and we have separated out our bandwidth by onsite development, offshore development, and testing in order that we may better distribute/track our work in accordance with the people that will actually be performing it.&lt;/p&gt;
 &lt;p&gt;I don&#39;t offer the things that my team has done to give our example as perfection (far from it), but as growth. We have tramendously changed the way that we carry out agile practices and are becoming stronger for it. I, being transferred to the team more recently than most, have been finding several issues with our process and questioning everyone as to why we do things the way that we do. In the process I am able to learn the good and bad reasons that we operate as we do, and I&#39;ve been able to offer thoughts as to how we might better our processes. Just opening this discussion (because I&#39;m quite open with my thoughts) has led to further discussion of streamlining our activities. There were initially a handful of meetings where we devolved into verbal sparring matches and the majority of people were quite upset. After we got everything off of our collective chest then we were able to begin seeing things from the other perspectives, function as a more cohesive team, and find value in our tramendous diversity of skills and experience.&lt;/p&gt;
 </content>
@@ -823,6 +823,64 @@ These are ways of setting things apart from the rest and include specific symbol
 &lt;p&gt;Pregnancy information can be easy to forget with all that is going on. While my wife was pregnant we would come up with questions for the doctor and unless we had the written down we would surely forget when we were in front of him. I would record these questions, and track any things that the doctor said for us to do in this collection.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Know Your Brand</title>
+		<category>career"</category>
+		<category>promotion"</category>
+		<category>advancement"</category>
+		<category>development"</category>
+		<summary>The first step in brand management is to have a good understanding of what it is.</summary>
+		<link href="https://coreydmccarty.dev/posts/2020_04_01_know_your_brand/"/>
+		<updated>2020-04-08T00:00:00-00:00</updated>
+		<id>https://coreydmccarty.dev/posts/2020_04_01_know_your_brand/</id>
+		<content type="html">&lt;p&gt;While working on my resume, I&#39;ve had a TON of good advice from a the Slack server of &lt;a href=&quot;https://codeconnector.io/&quot;&gt;CodeConnector&lt;/a&gt; and they have actually been the source material for some of my other posts. But, one of the best bits of advice that I got was to actually ask my closest coworkers what they would tell someone about me. Specific questions listed below with answers given in line. I expected answers about being a hard worker or some other generic crap, but the answers that I got were much more substantial, and I&#39;ve been working on ways to embrace these answers and play to my strengths. This includes an ongoing effort to incorporate these qualities into my personal brand.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What are his strengths? What would you say make him a good/unique developer/coworker?
+&lt;ul&gt;
+&lt;li&gt;Desire to do the right thing, code most efficiently, works well within team and outside of a team, well organized&lt;/li&gt;
+&lt;li&gt;Ability to challenge any idea/motive if there seems to be a better alternative, no matter to who, not being afraid to speak up to anyone&lt;/li&gt;
+&lt;li&gt;Willingness to take up a new, and unfamiliar idea and learn all he can about it in order to better apply his skills and knowledge to the solution&lt;/li&gt;
+&lt;li&gt;Speaking his mind, calling BS when he sees it, and always looking for improvements&lt;/li&gt;
+&lt;li&gt;Desire to do the right thing, code&lt;/li&gt;
+&lt;li&gt;Asking questions, solid coding skills, good at explaining complicated topics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What would you tell me that I don&#39;t already know? How would you sell me to someone else?
+&lt;ul&gt;
+&lt;li&gt;Corey is organized and timely. He works well with his team members and folks outside of his team. He asks thorough questions. He is dependable and easy to work with.&lt;/li&gt;
+&lt;li&gt;I can&#39;t think of anything you don&#39;t already know, but I&#39;d sell Corey as a determinded go-getter who will figure things out, knock down walls, and pester whoever needs pestering to get the job done.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This is all pretty specific, and not things that I have ever considered when asked in interviews how others would describe me. I can now present a better answer to that recurring interview question. I am also working to tweak my resume statements, and to include these qualities in the bio portions of my website.&lt;/p&gt;
+&lt;p&gt;As another point, whether it&#39;s personal development or brand development, you need to know your weaknesses or the negative side of your strengths. In these examples my strengths were listed, but each of these could be weaknesses. Desire to do the right thing can be irritability at what is seen as incorrect, challenging processes can be distraction from the work at hand, unafraid to speak up can be constant talking. Knowing these things is the first step to mitigating these issues in how you work.&lt;/p&gt;
+&lt;p&gt;You can&#39;t make your brand better if you don&#39;t really know what it is.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Writing Better Code</title>
+		<category>development"</category>
+		<category>codequality"</category>
+		<category>cleancode"</category>
+		<category>craftsmanship"</category>
+		<summary>Even bad code runs, how do we make our code better?</summary>
+		<link href="https://coreydmccarty.dev/posts/2020_04_08_writing_better_code/"/>
+		<updated>2020-04-09T00:00:00-00:00</updated>
+		<id>https://coreydmccarty.dev/posts/2020_04_08_writing_better_code/</id>
+		<content type="html">&lt;p&gt;What are ways that we can write better code? As clean code is something that I really strive for, I read alot of thoughts on the subject. There are so many debates out there surrounding every miniscule decision that can be made. It is a bit crazy when you think about it. It always seems that the discussions come back to some of the same points, which I&#39;ll do my best to explain here&lt;/p&gt;
+&lt;h2&gt;Consistent formatting and layout&lt;/h2&gt;
+&lt;p&gt;I&#39;m not going to engage in what format and layout decisions are right and what ones are wrong here. For the most part, whatever decisions you make, you will become accustomed to them and you will become better at reading code that follows your style guide. Linters are celebrated as being one of the greatest things for readability, and rightfully so. If you aren&#39;t a large company or don&#39;t have lots of different teams and code repositories to manage, then custom configuration of a linter can be quite cumbersome work that isn&#39;t really necessary. Whatever style decisions that your linter of choice is preconfigured with is likely fine, or at least a good start.&lt;/p&gt;
+&lt;h2&gt;Meaningful names are really important&lt;/h2&gt;
+&lt;p&gt;Variables, classes, and function names can be quite helpful if handled well. Just consider &lt;code&gt;carOne.startEngine()&lt;/code&gt; vs &lt;code&gt;c1.go()&lt;/code&gt; where one reads like a spoken sentence, and the other could be anything (especially in a dynamic typed language). This extends to tests as well. &lt;code&gt;scenario27()&lt;/code&gt; is much more difficult to understand than &lt;code&gt;addingTwoPositiveIntegers()&lt;/code&gt;. It can be a bit of a pain, but overall it is the central tenet of the mythical &#39;self documenting code&#39;.&lt;/p&gt;
+&lt;h2&gt;Single thought per line.&lt;/h2&gt;
+&lt;p&gt;I heard Python core dev, Raymond Hettinger, say this during a keynote and it has become a guiding principle for me. It is the determining factor in the prolific &#39;Are ternary statements evil?&#39; debate. Tools have their place. Sometimes clever tricks are the only way that you can do make something work. When you find yourself writing clever code, I suggest you consider whether the clever code is really making anything shorter when you need a bunch of comments to explain what&#39;s happening. Again, ff there are more than two thoughts on a line then you should probably break it up.&lt;/p&gt;
+&lt;h2&gt;Read other peoples&#39; code.&lt;/h2&gt;
+&lt;p&gt;Code reviews are a wonderful thing. Unfortunately, they aren&#39;t always a priority or possibility due to various factors. I personally have a split onsite and offshore development team where we are forced to handoff work between the two, and we can&#39;t have all of the developers on hand-off meetings morning and night. Without official code reviews, a few of us still ask one another for a quick look over our code if we are doing something complex and quick. Pair programming is another great way to be reading other peoples&#39; code, and you get the added benefit of following along in their writing process.&lt;/p&gt;
+&lt;p&gt;Added bonus for pair/group programming is that it gives you the opportunity to share productivity tricks, and ways to better use your toolset to get work done more quickly, easily, and consistently&lt;/p&gt;
 </content>
 	</entry>
 </feed>

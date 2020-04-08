@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing Better Code</title>
+    <meta name="Description" content="Even bad code runs, how do we make our code better?">
+    <link rel="stylesheet" href="/css/index.css">
+    
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Adventures in Coding">
+
+    <script src="https://kit.fontawesome.com/1b01ea6d0e.js" crossorigin="anonymous"></script>
+      
+  </head>
+  <body>
+  
+    <header>
+      <h1 class="home"><a href="/"><i class="fas fa-terminal"></i> Adventures in Coding</a></h1>
+      <ul class="nav"><li class="nav-item"><a href="/resume/">Career</a></li><li class="nav-item"><a href="/posts/">Blog</a></li><li class="nav-item"><a href="/about/">About Me</a></li></ul>
+      <span class='contact'>
+        <a aria-label="linkedin" href="https://linkedin.mccarty.dev"><i class="fab fa-linkedin"></i></a>
+        <a aria-label="dev dot to" href="https://devto.mccarty.dev"><i class="fab fa-dev"></i></a>
+        <a aria-label="github" href="https://github.mccarty.dev"><i class="fab fa-github"></i></a>
+        <a aria-label="email" href="mailto:Corey@McCarty.dev"><i class="fas fa-envelope"></i></a>
+        <a aria-label="phone number" href="tel:‪(901) 213-6747‬"><i class="fas fa-phone"></i>‬</a>
+      </span>
+    </header>
+
+    <main class="tmpl-post">
+      
+<div class="post top">
+  <h1><i class="fas fa-terminal"></i> Writing Better Code</h1>
+  
+    <a href="/tags/development/" class="tag">development</a>
+    <a href="/tags/codequality/" class="tag">codequality</a>
+    <a href="/tags/cleancode/" class="tag">cleancode</a>
+    <a href="/tags/craftsmanship/" class="tag">craftsmanship</a>
+  
+    <p>Even bad code runs, how do we make our code better?</p>
+  
+  <hr>
+</div>
+
+<div class="post main">
+  <p>What are ways that we can write better code? As clean code is something that I really strive for, I read alot of thoughts on the subject. There are so many debates out there surrounding every miniscule decision that can be made. It is a bit crazy when you think about it. It always seems that the discussions come back to some of the same points, which I'll do my best to explain here</p>
+<h2>Consistent formatting and layout</h2>
+<p>I'm not going to engage in what format and layout decisions are right and what ones are wrong here. For the most part, whatever decisions you make, you will become accustomed to them and you will become better at reading code that follows your style guide. Linters are celebrated as being one of the greatest things for readability, and rightfully so. If you aren't a large company or don't have lots of different teams and code repositories to manage, then custom configuration of a linter can be quite cumbersome work that isn't really necessary. Whatever style decisions that your linter of choice is preconfigured with is likely fine, or at least a good start.</p>
+<h2>Meaningful names are really important</h2>
+<p>Variables, classes, and function names can be quite helpful if handled well. Just consider <code>carOne.startEngine()</code> vs <code>c1.go()</code> where one reads like a spoken sentence, and the other could be anything (especially in a dynamic typed language). This extends to tests as well. <code>scenario27()</code> is much more difficult to understand than <code>addingTwoPositiveIntegers()</code>. It can be a bit of a pain, but overall it is the central tenet of the mythical 'self documenting code'.</p>
+<h2>Single thought per line.</h2>
+<p>I heard Python core dev, Raymond Hettinger, say this during a keynote and it has become a guiding principle for me. It is the determining factor in the prolific 'Are ternary statements evil?' debate. Tools have their place. Sometimes clever tricks are the only way that you can do make something work. When you find yourself writing clever code, I suggest you consider whether the clever code is really making anything shorter when you need a bunch of comments to explain what's happening. Again, ff there are more than two thoughts on a line then you should probably break it up.</p>
+<h2>Read other peoples' code.</h2>
+<p>Code reviews are a wonderful thing. Unfortunately, they aren't always a priority or possibility due to various factors. I personally have a split onsite and offshore development team where we are forced to handoff work between the two, and we can't have all of the developers on hand-off meetings morning and night. Without official code reviews, a few of us still ask one another for a quick look over our code if we are doing something complex and quick. Pair programming is another great way to be reading other peoples' code, and you get the added benefit of following along in their writing process.</p>
+<p>Added bonus for pair/group programming is that it gives you the opportunity to share productivity tricks, and ways to better use your toolset to get work done more quickly, easily, and consistently</p>
+
+</div>
+
+<div class="post bottom">
+  <hr>
+  <p>Related topics:
+  
+      <a href="/tags/development/" class="tag">development</a>
+      <a href="/tags/codequality/" class="tag">codequality</a>
+      <a href="/tags/cleancode/" class="tag">cleancode</a>
+      <a href="/tags/craftsmanship/" class="tag">craftsmanship</a>
+  </p>
+  <p><a href="/">← Home</a></p>
+</div>
+
+    </main>
+
+    <footer>
+      &copy; Corey McCarty 
+      <br>
+      Thanks for reading! Built using <a href="https://11ty.io">11ty </a><a href="https://github.com/11ty/eleventy-base-blog">base blog</a>.
+    </footer>
+
+    <!-- Current page: /posts/2020_04_08_writing_better_code/ -->
+  </body>
+</html>
