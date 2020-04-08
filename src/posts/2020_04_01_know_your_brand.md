@@ -1,7 +1,7 @@
 ---  
 title: Know Your Brand  
 description: The first step in brand management is to have a good understanding of what it is.  
-date: 2020-04-01  
+date: 2020-04-08  
 tags:  
   - career  
   - promotion
