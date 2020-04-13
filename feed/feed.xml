@@ -13,10 +13,10 @@
 	
 	<entry>
 		<title>Getting Started with Stack Overflow</title>
-		<category term="tag">stack overflow</category>
-		<category term="tag">motivation</category>
-		<category term="tag">career</category>
-		<category term="tag">beginners</category>
+		<category term="stack overflow" />
+		<category term="motivation" />
+		<category term="career" />
+		<category term="beginners" />
 		<summary>I finally decided to join the community</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_05_31_using_stackoverflow/"/>
 		<updated>2019-05-31T00:00:00-00:00</updated>
@@ -31,10 +31,10 @@
 	
 	<entry>
 		<title>Customizing 11ty Blog</title>
-		<category term="tag">11ty</category>
-		<category term="tag">tutorial</category>
-		<category term="tag">travisci</category>
-		<category term="tag">beginners</category>
+		<category term="11ty" />
+		<category term="tutorial" />
+		<category term="travisci" />
+		<category term="beginners" />
 		<summary>Cleaning up after forking</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_08_13_starting_11ty/"/>
 		<updated>2019-08-13T00:00:00-00:00</updated>
@@ -72,10 +72,10 @@
 	
 	<entry>
 		<title>Discovering My Impostor Syndrome</title>
-		<category term="tag">impostorsyndrome</category>
-		<category term="tag">mentalhealth</category>
-		<category term="tag">career</category>
-		<category term="tag">beginners</category>
+		<category term="impostorsyndrome" />
+		<category term="mentalhealth" />
+		<category term="career" />
+		<category term="beginners" />
 		<summary>Coming to better understanding of my skill level</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_09_13_discovering_my_imposter_syndrome/"/>
 		<updated>2019-09-13T00:00:00-00:00</updated>
@@ -99,10 +99,10 @@
 	
 	<entry>
 		<title>Dependency Hell</title>
-		<category term="tag">java</category>
-		<category term="tag">gradle</category>
-		<category term="tag">technicaldebt</category>
-		<category term="tag">codequality</category>
+		<category term="java" />
+		<category term="gradle" />
+		<category term="technicaldebt" />
+		<category term="codequality" />
 		<summary>Best practices must evolve</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_09_20_dependency_hell/"/>
 		<updated>2019-09-20T00:00:00-00:00</updated>
@@ -126,10 +126,10 @@ Gradle is a wonderful tool. After our having gotten it working, I realized that 
 	
 	<entry>
 		<title>Using Markdown for Notes</title>
-		<category term="tag">productivity</category>
-		<category term="tag">markdown</category>
-		<category term="tag">vscode</category>
-		<category term="tag">css</category>
+		<category term="productivity" />
+		<category term="markdown" />
+		<category term="vscode" />
+		<category term="css" />
 		<summary>Increasing Productivity with Markup Language</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_02_markdown_for_notes/"/>
 		<updated>2020-01-13T00:00:00-00:00</updated>
@@ -182,9 +182,9 @@ Gradle is a wonderful tool. After our having gotten it working, I realized that 
 	
 	<entry>
 		<title>Markdown Style</title>
-		<category term="tag">markdown</category>
-		<category term="tag">css</category>
-		<category term="tag">vscode</category>
+		<category term="markdown" />
+		<category term="css" />
+		<category term="vscode" />
 		<summary>This is what I use for markdown in VSCode</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_02_markdown_css/"/>
 		<updated>2020-01-14T00:00:00-00:00</updated>
@@ -196,10 +196,10 @@ Gradle is a wonderful tool. After our having gotten it working, I realized that 
 	
 	<entry>
 		<title>Blogging Goals</title>
-		<category term="tag">discuss</category>
-		<category term="tag">watercooler</category>
-		<category term="tag">blog</category>
-		<category term="tag">writing</category>
+		<category term="discuss" />
+		<category term="watercooler" />
+		<category term="blog" />
+		<category term="writing" />
 		<summary>Direction for blogging success</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_06_why_blog/"/>
 		<updated>2020-01-17T00:00:00-00:00</updated>
@@ -254,10 +254,10 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>What Text Editors Do You Use?</title>
-		<category term="tag">watercooler</category>
-		<category term="tag">discuss</category>
-		<category term="tag">tools</category>
-		<category term="tag">editor</category>
+		<category term="watercooler" />
+		<category term="discuss" />
+		<category term="tools" />
+		<category term="editor" />
 		<summary>However many it may be, what editors do you find helpful in your workflow?</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_08_text_editors/"/>
 		<updated>2020-01-17T00:00:00-00:00</updated>
@@ -291,10 +291,10 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Writing Pitfalls</title>
-		<category term="tag">blog</category>
-		<category term="tag">writing</category>
-		<category term="tag">discuss</category>
-		<category term="tag">watercooler</category>
+		<category term="blog" />
+		<category term="writing" />
+		<category term="discuss" />
+		<category term="watercooler" />
 		<summary>As you write more, you realize that you need to improve some things.</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_08_writing_faults/"/>
 		<updated>2020-01-17T00:00:00-00:00</updated>
@@ -317,10 +317,10 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>My Introduction to Jenkins</title>
-		<category term="tag">jenkins</category>
-		<category term="tag">devops</category>
-		<category term="tag">productivity</category>
-		<category term="tag">learning</category>
+		<category term="jenkins" />
+		<category term="devops" />
+		<category term="productivity" />
+		<category term="learning" />
 		<summary>What I&#39;ve learned about Jenkins CI/CD in the last six months.</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_02_13_jenkins/"/>
 		<updated>2020-02-13T00:00:00-00:00</updated>
@@ -373,11 +373,11 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Wholeness of Life</title>
-		<category term="tag">career</category>
-		<category term="tag">learning</category>
-		<category term="tag">discuss</category>
-		<category term="tag">mentalhealth</category>
-		<category term="tag">life</category>
+		<category term="career" />
+		<category term="learning" />
+		<category term="discuss" />
+		<category term="mentalhealth" />
+		<category term="life" />
 		<summary>Overall strategy for growth.</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_12_31_wholeness_of_life/"/>
 		<updated>2020-02-22T00:00:00-00:00</updated>
@@ -403,11 +403,11 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Community</title>
-		<category term="tag">career</category>
-		<category term="tag">learning</category>
-		<category term="tag">discuss</category>
-		<category term="tag">mentalhealth</category>
-		<category term="tag">life</category>
+		<category term="career" />
+		<category term="learning" />
+		<category term="discuss" />
+		<category term="mentalhealth" />
+		<category term="life" />
 		<summary>How we perform as a part of a team stems directly from how we interact with any group or community</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_12_31_community/"/>
 		<updated>2020-02-23T00:00:00-00:00</updated>
@@ -449,11 +449,11 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Always Be Learning</title>
-		<category term="tag">career</category>
-		<category term="tag">learning</category>
-		<category term="tag">discuss</category>
-		<category term="tag">mentalhealth</category>
-		<category term="tag">life</category>
+		<category term="career" />
+		<category term="learning" />
+		<category term="discuss" />
+		<category term="mentalhealth" />
+		<category term="life" />
 		<summary>If you aren&#39;t geting better then  you are getting worse.</summary>
 		<link href="https://coreydmccarty.dev/posts/2019_12_31_always_be_learning/"/>
 		<updated>2020-02-24T00:00:00-00:00</updated>
@@ -539,10 +539,10 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Logging Improves Quality of Life</title>
-		<category term="tag">logging</category>
-		<category term="tag">development</category>
-		<category term="tag">programming</category>
-		<category term="tag">beginner</category>
+		<category term="logging" />
+		<category term="development" />
+		<category term="programming" />
+		<category term="beginner" />
 		<summary>If you care then you will work to improve the logging in everything you write.</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_08_logging_improves_quality_of_life/"/>
 		<updated>2020-02-25T00:00:00-00:00</updated>
@@ -629,10 +629,10 @@ Example:&lt;/p&gt;
 	
 	<entry>
 		<title>I&#39;m Corey McCarty, and I support women devs.</title>
-		<category term="tag">shecodedally</category>
-		<category term="tag">women</category>
-		<category term="tag">tech</category>
-		<category term="tag">inclusion</category>
+		<category term="shecodedally" />
+		<category term="women" />
+		<category term="tech" />
+		<category term="inclusion" />
 		<summary>Women&#39;s day is important</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_03_06_womens_day/"/>
 		<updated>2020-03-06T00:00:00-00:00</updated>
@@ -648,10 +648,10 @@ Example:&lt;/p&gt;
 	
 	<entry>
 		<title>Agility and Improvement</title>
-		<category term="tag">agile</category>
-		<category term="tag">productivity</category>
-		<category term="tag">career</category>
-		<category term="tag">development</category>
+		<category term="agile" />
+		<category term="productivity" />
+		<category term="career" />
+		<category term="development" />
 		<summary>Agile methodologies are really easy to let become strict process instead of dynamic workflow</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_03_17_agility_and_improvement/"/>
 		<updated>2020-03-17T00:00:00-00:00</updated>
@@ -691,10 +691,10 @@ That is, while there is value in the items on the right, we value the items on t
 	
 	<entry>
 		<title>Bullet Journaling Basics</title>
-		<category term="tag">productivity</category>
-		<category term="tag">bulletjournal</category>
-		<category term="tag">tools</category>
-		<category term="tag">journal</category>
+		<category term="productivity" />
+		<category term="bulletjournal" />
+		<category term="tools" />
+		<category term="journal" />
 		<summary>Where do you start with bullet journaling?</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_03_18_bullet_journal_basics/"/>
 		<updated>2020-03-18T00:00:00-00:00</updated>
@@ -828,10 +828,10 @@ These are ways of setting things apart from the rest and include specific symbol
 	
 	<entry>
 		<title>Know Your Brand</title>
-		<category term="tag">career</category>
-		<category term="tag">promotion</category>
-		<category term="tag">advancement</category>
-		<category term="tag">development</category>
+		<category term="career" />
+		<category term="promotion" />
+		<category term="advancement" />
+		<category term="development" />
 		<summary>The first step in brand management is to have a good understanding of what it is.</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_04_01_know_your_brand/"/>
 		<updated>2020-04-08T00:00:00-00:00</updated>
@@ -863,10 +863,10 @@ These are ways of setting things apart from the rest and include specific symbol
 	
 	<entry>
 		<title>Writing Better Code</title>
-		<category term="tag">development</category>
-		<category term="tag">codequality</category>
-		<category term="tag">cleancode</category>
-		<category term="tag">craftsmanship</category>
+		<category term="development" />
+		<category term="codequality" />
+		<category term="cleancode" />
+		<category term="craftsmanship" />
 		<summary>Even bad code runs, how do we make our code better?</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_04_08_writing_better_code/"/>
 		<updated>2020-04-09T00:00:00-00:00</updated>
