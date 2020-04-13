@@ -19,7 +19,7 @@ eleventyExcludeFromCollections: true
 	<entry>
 		<title>{{ post.data.title }}</title>
 		{%- if post.data.tags %}{%- for tag in post.data.tags %}{%- if tag != "posts" %}
-		<category term="tag">{{ tag }}</category>
+		<category term="{{ tag }}" />
 		{%- endif %}{%- endfor %}{%- endif %}
 		<summary>{{ post.data.description }}</summary>
 		<link href="{{ absolutePostUrl }}"/>
