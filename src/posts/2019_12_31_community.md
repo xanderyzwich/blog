@@ -1,5 +1,5 @@
 ---  
-title: Community  
+title: The Importance of Community  
 description: How we perform as a part of a team stems directly from how we interact with any group or community  
 date: 2020-02-23  
 tags:  

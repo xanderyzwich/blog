@@ -54,13 +54,13 @@ Through the last week I've wound up with a few customizations that make life a b
 
 ## Markdown All in One plugin
 Helps alot, with live preview, formatting lists, toggling styles, generating linked table of contents, print to html, format tables, and pretty math symbols.
-[The repository can be found here](https://github.com/yzhang-gh/vscode-markdown)
+[The Markdown All in One plugin repository can be found here](https://github.com/yzhang-gh/vscode-markdown)
 
 ## Custom CSS
 This relates directly to the live preview which by default does not differentiate the headers from the primary text (although it does color the code blocks).  markdown.styles setting allows you to define a css file to apply to the preview.  I then used the markdown.extension.print.onFileSave setting to figure out how to select the bits that I wanted to cutomize. The parts that I thought to be important were having different colors for the different header levels, code block backgrounds that are visibly distinct from the other text,
 
 ## Insert Date String
-To quickly insert date or dateTime into my notes this plugin is helpful.  I added a keybind to `Ctrl+Shift+i+d` to insert date without time. The formatting is configurable to your needs. [The repository can be found here](https://github.com/jsynowiec/vscode-insertdatestring)
+To quickly insert date or dateTime into my notes this plugin is helpful.  I added a keybind to `Ctrl+Shift+i+d` to insert date without time. The formatting is configurable to your needs. [The Insert Date String repository can be found here](https://github.com/jsynowiec/vscode-insertdatestring)
 
 ## Snippets
 For my personal usage I also wanted to include information for frontmatter/header.  This one is specifically for my 11ty blog entries which is also written in markdown.

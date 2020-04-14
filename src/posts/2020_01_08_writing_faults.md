@@ -3,7 +3,7 @@ title: Writing Pitfalls
 description: As you write more, you realize that you need to improve some things. 
 date: 2020-01-17  
 tags:  
-  - blog  
+  - blogging  
   - writing
   - discuss
   - watercooler  

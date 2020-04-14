@@ -4,7 +4,7 @@ title: My Resume
 tags:
   - nav
   - me
-navtitle: Career
+navtitle: Resume
 templateClass: tmpl-resume
 ---
 

@@ -27,6 +27,9 @@
 }
 * {
   box-sizing: border-box;
+  /* border-style: solid; */
+  /* border-color: red; */
+
 }
 html,
 body {
@@ -49,14 +52,13 @@ p,
   line-height: 1.45;
 }
 blockquote p{
-  background-color: var(--highland-gray);
-  color: var(--true-blue);
+  /* background-color: var(--highland-gray); */
+  background-color: var(--rhythm-blue);
+  padding: 1em;
+  color: white;
 }
 a[href] {
   color: var(--university-blue);
-}
-a[href]:visited {
-  color: var(--black);
 }
 main {
   padding: 1rem;
@@ -148,11 +150,7 @@ header .contact{
 }
 header a[href], 
 footer a[href] {
-  color: var(--highland-gray);
-}
-header a[href]:visited,
-footer a[href]:visited {
-  color: var(--patterson-gray);
+  color: white;
 }
 .home {
   float: left;
@@ -195,6 +193,7 @@ footer :link:not(:hover){
 .postlist {
   list-style: none;
   padding: 0;
+  margin: 0.2em
 }
 .postlist-item {
   counter-increment: start-from -1;
@@ -216,7 +215,8 @@ footer :link:not(:hover){
 }
 .postlist-link {
   display: inline-block;
-  padding: 0.25em 0.1875em; /* 4px 3px /16 */
+  /* padding: 0.25em 0.1875em; 4px 3px /16 */
+  margin: 0.5em !important;
 }
 .postlist-item-active .postlist-link {
   font-weight: bold;
@@ -225,9 +225,16 @@ footer :link:not(:hover){
   font-size: 1.1875em; /* 19px /16 */
   font-weight: 700;
 }
+p.description{
+  margin: 1em 0 0.5em 2em;
+  margin-block-start: 0;
+}
 
 
 /* Tags */
+h1{
+  color: black;
+}
 a.tag {
   display: inline-block;
   vertical-align: text-top;
@@ -313,7 +320,3 @@ footer{
   flex-shrink: 0;
 }
 
-p.description{
-  margin: 0 0 0.5em 2em;
-  margin-block-start: 0;
-}
