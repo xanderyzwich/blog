@@ -6,6 +6,6 @@ templateClass: tmpl-resume
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bitter&display=swap">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat&display=swap">
 <div id="resume">
-  <h1>{{ name }}</h1>        
+  <h1>{{ metadata.author.name }}</h1>        
   {{ content | safe }}
 </div>
