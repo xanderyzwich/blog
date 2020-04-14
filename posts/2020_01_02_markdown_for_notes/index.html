@@ -16,7 +16,7 @@
   
     <header>
       <h1 class="home"><a href="/"><i class="fas fa-terminal"></i> Adventures in Coding</a></h1>
-      <ul class="nav"><li class="nav-item"><a href="/resume/">Career</a></li><li class="nav-item"><a href="/posts/">Blog</a></li><li class="nav-item"><a href="/about/">About Me</a></li></ul>
+      <ul class="nav"><li class="nav-item"><a href="/resume/">Resume</a></li><li class="nav-item"><a href="/posts/">Blog</a></li><li class="nav-item"><a href="/about/">Bio</a></li></ul>
       <span class='contact'>
         <a aria-label="linkedin" href="https://linkedin.mccarty.dev"><i class="fab fa-linkedin"></i></a>
         <a aria-label="dev dot to" href="https://devto.mccarty.dev"><i class="fab fa-dev"></i></a>
@@ -74,11 +74,11 @@
 <p>Through the last week I've wound up with a few customizations that make life a bit better for me. I got a few plugins and wrote some custom CSS, and now I'm really happy with the whole thing.</p>
 <h2>Markdown All in One plugin</h2>
 <p>Helps alot, with live preview, formatting lists, toggling styles, generating linked table of contents, print to html, format tables, and pretty math symbols.
-<a href="https://github.com/yzhang-gh/vscode-markdown">The repository can be found here</a></p>
+<a href="https://github.com/yzhang-gh/vscode-markdown">The Markdown All in One plugin repository can be found here</a></p>
 <h2>Custom CSS</h2>
 <p>This relates directly to the live preview which by default does not differentiate the headers from the primary text (although it does color the code blocks).  markdown.styles setting allows you to define a css file to apply to the preview.  I then used the markdown.extension.print.onFileSave setting to figure out how to select the bits that I wanted to cutomize. The parts that I thought to be important were having different colors for the different header levels, code block backgrounds that are visibly distinct from the other text,</p>
 <h2>Insert Date String</h2>
-<p>To quickly insert date or dateTime into my notes this plugin is helpful.  I added a keybind to <code>Ctrl+Shift+i+d</code> to insert date without time. The formatting is configurable to your needs. <a href="https://github.com/jsynowiec/vscode-insertdatestring">The repository can be found here</a></p>
+<p>To quickly insert date or dateTime into my notes this plugin is helpful.  I added a keybind to <code>Ctrl+Shift+i+d</code> to insert date without time. The formatting is configurable to your needs. <a href="https://github.com/jsynowiec/vscode-insertdatestring">The Insert Date String repository can be found here</a></p>
 <h2>Snippets</h2>
 <p>For my personal usage I also wanted to include information for frontmatter/header.  This one is specifically for my 11ty blog entries which is also written in markdown.</p>
 <pre class="language-json"><code class="language-json"><span class="highlight-line">	<span class="token property">"frontmatter"</span><span class="token operator">:</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">		<span class="token property">"scope"</span><span class="token operator">:</span> <span class="token string">"markdown"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">		<span class="token property">"prefix"</span><span class="token operator">:</span> <span class="token string">"frontmatter"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">		<span class="token property">"body"</span><span class="token operator">:</span> <span class="token punctuation">[</span></span><br><span class="highlight-line">			<span class="token string">"---  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"title: ${1:title}  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"description: ${2:description}  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"date: ${3:Ctrl+Shift+i+d}  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"tags:  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"	- ${4:first}  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"	- ${5:second}  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"layout: layouts/post.njk  "</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token string">"---  "</span></span><br><span class="highlight-line">			<span class="token punctuation">]</span><span class="token punctuation">,</span></span><br><span class="highlight-line">			<span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">"front-matter for 11ty blog post"</span></span><br><span class="highlight-line">	<span class="token punctuation">}</span></span></code></pre>
@@ -105,7 +105,7 @@
     <footer>
       &copy; Corey McCarty 
       <br>
-      Thanks for reading! Built using <a href="https://11ty.io">11ty </a><a href="https://github.com/11ty/eleventy-base-blog">base blog</a>.
+      Thanks for reading! <a href="https://11ty.io">Built using 11ty </a><a href="https://github.com/11ty/eleventy-base-blog">base blog</a>.
     </footer>
 
     <!-- Current page: /posts/2020_01_02_markdown_for_notes/ -->

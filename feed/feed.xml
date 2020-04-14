@@ -166,11 +166,11 @@ Gradle is a wonderful tool. After our having gotten it working, I realized that 
 &lt;p&gt;Through the last week I&#39;ve wound up with a few customizations that make life a bit better for me. I got a few plugins and wrote some custom CSS, and now I&#39;m really happy with the whole thing.&lt;/p&gt;
 &lt;h2&gt;Markdown All in One plugin&lt;/h2&gt;
 &lt;p&gt;Helps alot, with live preview, formatting lists, toggling styles, generating linked table of contents, print to html, format tables, and pretty math symbols.
-&lt;a href=&quot;https://github.com/yzhang-gh/vscode-markdown&quot;&gt;The repository can be found here&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://github.com/yzhang-gh/vscode-markdown&quot;&gt;The Markdown All in One plugin repository can be found here&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Custom CSS&lt;/h2&gt;
 &lt;p&gt;This relates directly to the live preview which by default does not differentiate the headers from the primary text (although it does color the code blocks).  markdown.styles setting allows you to define a css file to apply to the preview.  I then used the markdown.extension.print.onFileSave setting to figure out how to select the bits that I wanted to cutomize. The parts that I thought to be important were having different colors for the different header levels, code block backgrounds that are visibly distinct from the other text,&lt;/p&gt;
 &lt;h2&gt;Insert Date String&lt;/h2&gt;
-&lt;p&gt;To quickly insert date or dateTime into my notes this plugin is helpful.  I added a keybind to &lt;code&gt;Ctrl+Shift+i+d&lt;/code&gt; to insert date without time. The formatting is configurable to your needs. &lt;a href=&quot;https://github.com/jsynowiec/vscode-insertdatestring&quot;&gt;The repository can be found here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To quickly insert date or dateTime into my notes this plugin is helpful.  I added a keybind to &lt;code&gt;Ctrl+Shift+i+d&lt;/code&gt; to insert date without time. The formatting is configurable to your needs. &lt;a href=&quot;https://github.com/jsynowiec/vscode-insertdatestring&quot;&gt;The Insert Date String repository can be found here&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Snippets&lt;/h2&gt;
 &lt;p&gt;For my personal usage I also wanted to include information for frontmatter/header.  This one is specifically for my 11ty blog entries which is also written in markdown.&lt;/p&gt;
 &lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;	&lt;span class=&quot;token property&quot;&gt;&quot;frontmatter&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;		&lt;span class=&quot;token property&quot;&gt;&quot;scope&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;markdown&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;		&lt;span class=&quot;token property&quot;&gt;&quot;prefix&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;frontmatter&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;		&lt;span class=&quot;token property&quot;&gt;&quot;body&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;			&lt;span class=&quot;token string&quot;&gt;&quot;---  &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;			&lt;span class=&quot;token string&quot;&gt;&quot;title: ${1:title}  &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;			&lt;span class=&quot;token string&quot;&gt;&quot;description: ${2:description}  &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;			&lt;span class=&quot;token string&quot;&gt;&quot;date: ${3:Ctrl+Shift+i+d}  &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;			&lt;span class=&quot;token string&quot;&gt;&quot;tags:  &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;			&lt;span class=&quot;token string&quot;&gt;&quot;	- ${4:first}  &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;			&lt;span class=&quot;token string&quot;&gt;&quot;	- ${5:second}  &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;			&lt;span class=&quot;token string&quot;&gt;&quot;layout: layouts/post.njk  &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;			&lt;span class=&quot;token string&quot;&gt;&quot;---  &quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;			&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;			&lt;span class=&quot;token property&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;front-matter for 11ty blog post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;	&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -198,7 +198,7 @@ Gradle is a wonderful tool. After our having gotten it working, I realized that 
 		<title>Blogging Goals</title>
 		<category term="discuss" />
 		<category term="watercooler" />
-		<category term="blog" />
+		<category term="blogging" />
 		<category term="writing" />
 		<summary>Direction for blogging success</summary>
 		<link href="https://coreydmccarty.dev/posts/2020_01_06_why_blog/"/>
@@ -291,7 +291,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	
 	<entry>
 		<title>Writing Pitfalls</title>
-		<category term="blog" />
+		<category term="blogging" />
 		<category term="writing" />
 		<category term="discuss" />
 		<category term="watercooler" />
@@ -402,7 +402,7 @@ But chances are that people on dev.to aren&#39;t looking for a python tutorial. 
 	</entry>
 	
 	<entry>
-		<title>Community</title>
+		<title>The Importance of Community</title>
 		<category term="career" />
 		<category term="learning" />
 		<category term="discuss" />
