@@ -1,0 +1,21 @@
+---  
+title: I Am Privilieged  
+description: Privilege and diversity are quite complex and often times difficult to understand until we can obtain context outside of our own.  
+date: 2020-04-30  
+tags:  
+  - diversity  
+  - inclusion
+  - community
+  - discuss  
+layout: layouts/post.njk  
+---  
+
+I grew up in a white middle-class home with both of my parents. I may have stressed about getting money for things sometimes, but I never worried about whether or not I'd eat or where I would sleep. I had the opportunity to attend college while living in my parents' house and being covered by their insurance. I worked for my own money, but looking back on it I realize that I didn't need as much as I made. The only bills that I had were for my cell phone and car insurance. Any expenditures beyond that were my own decision. I had a car, and even though my first car was a piece of crap, I didn't have to pay for it. When I drove it I didn't have to worry about getting pulled over due to the color of my skin and I didn't have to worry about the police in my suburban area doing me any harm.
+
+Nobody ever handed me a million dollars, but food was plentiful. Many non-minority people hear the word privilege and think of someone like Donald Trump whose family had immense piles of money, cars, helicopters, jets, and real estate. The thought is that "I worked hard for what I have" and that's true. Others have worked every bit as hard, but due to where they started they do not have everything that you have. Privilege doesn't mean that everything is really easy for you or that you live a comfortable life of luxury. Privilege means that you don't have to worry about the prejudices of other people in the room before opening your mouth. Privilege means that you didn't have to work to pay for rent before you finished high school. 
+
+When I was first placed into my current position, I felt disadvantaged because I believed I was the only American working for my company, and among the Americans that I work with I was the only vendor. I wasn't entirely a part of either group. Non-vendor employees had meetings and events that I couldn't be a part of, and the vendors around me all shared knowledge of other languages which I didn't know. All of those things are true, but the conclusion that I came to was very wrong. While I wasn't entirely in either group I also wasn't entirely separate from either group. The things that I saw as the source of my isolation could also be the source of my inclusion in these groups. The vendors aren't given monitors, keyboards, and mice when they start the way that the full time employees are so I started gathering up monitors with decent resolution as well as usb keyboards and mice. Over the next couple of years I was able to get all of the vendors in my area setup with two HD monitors over twenty inches. They are now able to be more productive, and they feel more comfortable and less set apart from the others. It doesn't take much effort to treat people that are different with the same compassion and respect that are given to others.
+
+It takes people with a bit of privilege to use their position and open up discussions in order that the people without privilege can be heard more loudly. There are lots of people screaming for equality, but most people don't realize that as a part of the majority that they are complicit in systematic alienation of minorities. As long as people sit in comfort surrounded by people that look like them there will be people who are different that are being held outside of that community. Inclusion requires that we learn about the experiences of other people beyond our echo chamber. If we don't make an effort to intentionally include minority groups in our lives and communities then we are just prolonging the sameness that makes diversity not happen. If you want to make your group more diverse then perhaps the people that know best how to make it more welcoming to minorities are people with experience being from such a group. Therefore, efforts are needed to see things from the outside in order to help us to see the way that we are making others feel unwelcome.
+
+Please comment influencers, blogs, or podcasts in the programming community that openly discuss diversity. It's even better if they are here on dev.to 
