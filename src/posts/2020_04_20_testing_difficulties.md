@@ -1,0 +1,29 @@
+---  
+title: Testing Difficulties
+description: Testing effectively can be quite challenging.  
+date: 2020-04-30  
+tags:  
+  - TDD  
+  - testing
+  - cicd
+  - automation  
+layout: layouts/post.njk  
+---  
+
+My team owns 16 applications that act as a single system managing a large hierarchical data set. We have well established dev and test teams, but we find ourselves facing challenges with a several things such that our testing takes a LOT of time.
+
+Our system has inputs that include the master system for client data, an external authority's monthly data file, and one off manual data manipulations by the people who own the data we manage. Our data is expected to be locked in with the external data which means that we shouldn't just created dummy data that could block other system's data from flowing into our databases. We currently have Junit tests which run at build time. We have regression tests which are executed by our testing team. We have a volume testing tool that they own as well. Regression tests include several suites of tests through different GUI testing tools (we don't have GUIs), SoapUI request/responses, and db checks. There have been a great deal of efforts occuring to automate our tests, which I think is a wonderful thing (in theory). 
+
+## Where's the issue?
+
+Little problems applied to 16 separate applciations become big problems. We became aware in recent months that everytime our automated regression tests were run, that somebody had to manually read through a great many reports to check for failures. Once the dev team became aware of this, we were able to build a scraper for those reports to present the necessary summary in a week's time. But, this process had been completely overlooked because goals to 'automate' were set forth without a great deal of planning put into their design. If we are going to programmatically execute hundreds of tests then we shouldn't require a person to spend days interpreting those test results. It was simply an oversight in the design of the automations which was easily resolved once it was realized. In order to remediate issues such as this it is important that your entire team talk openly about the issues that they are facing so that problems can be understood and solutions might easily be produced. This case was a quickly resolved and had substantial impact.
+
+There is also a strong database dependency in our Junit testing where tests are prevented from running concurrently for data integrity's sake. The data is wonderfully integrated with the test cases with text files so that the data can be put in place before the test runs, but the time spent talking to the data base stretches our Junit execution for some applications out to seven hours. While an in memory data base would resolve the latency issues, we have some tests that execute Oracle specific functionality for hierarchical queries. This means that in memory adoption will not be simple. We have drawn up plans for a hybrid approach to move everything to in-memory, and move ONLY the breaking tests back to the proper Oracle database, but that WILL be time consuming.
+
+Another issue faced is that we have tests that utilize one of the systems downstream from us to make tests against a GUI that we don't own. This means that those tests cannot be run if that team's application is down for some reason, OR possibly that our GUI based tests might begin to fail due to a redesign of their front-end. While the answer seems quite simple to rewrite the tests to make calls against our systems (that those GUI's call), it is not a simple task once you realize that there are hundreds if not thousands of tests that will have to be translated, and that the transaltion of these tests provides little value to our business people that care little about how we technically achieve our tasks. This brings in a terrible reality of scale. We have many applications with many tests that would benefit from overhauling. Meanwhile, there are still business adds that are coming down and existing tech modernization efforts that have the entire team already allocated. 
+
+This is actually the biggest issue that I've come across in my five years of software development. The code bases that are managed by the team are so large many necessary efforts could take a year or more to complete. Notably our decade old Spring based applications with Weblogic containers are being moved into Springboot with a cloud based config server so that they can be deployed into a Cloud Foundry environment. We are now seven months into this process. We began with the most difficult application so that we could see what difficulties would be faced while we spent time with an advisory board. In the months since, we have done the base translation to nearly half of our applications, BUT we are still yet to deploy any of them into our production environment. We are still learning new things that need to be done in order to get our applications across the finish line. Along the way, we continue to find more and more things that we would like to see corrected in a perfect world. The time doesn't exist for perfection though.
+
+## Solutions
+
+As you can tell, most of our problems will continue to be long term issues that we work slowly to correct over time. I offer these difficulties in response/contrast to the common narrative of "just adopt TDD and everything will be better." Difficulties still arise. Intelligent design should be a focus, both for your applications and your tests. And sometimes the best that you can do for improvement is to iron out anything that you are currently touching so that you might reduce the difficulty of your current efforts and to make a note of something that can be done in the future if you get time. 
