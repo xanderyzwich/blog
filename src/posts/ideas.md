@@ -1,4 +1,7 @@
+- [ ] Python
+  - [ ] Why Python
   - [ ] Python Dunders presentation  
+
   - [ ] Agile practices
   - [ ] Overcoming Imposter Syndrome  
   - [ ] tools are neutral
