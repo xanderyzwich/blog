@@ -4,7 +4,7 @@
 	<subtitle>Daydreaming of better ways.</subtitle>
 	<link href="https://coreydmccarty.dev/feed/feed.xml" rel="self"/>
 	<link href="https://coreydmccarty.dev/"/>
-	<updated>2020-06-03T00:00:00-00:00</updated>
+	<updated>2020-07-13T00:00:00-00:00</updated>
 	<id>https://coreydmccarty.dev/</id>
 	<author>
 		<name>Corey McCarty</name>
@@ -1010,6 +1010,27 @@ Hob&#39;by - n.
 &lt;blockquote&gt;
 &lt;p&gt;tl;dr: anyone can be a great developer if they really want to be.&lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>New Job New Tools</title>
+		<category term="career" />
+		<category term="watercooler" />
+		<category term="productivity" />
+		<category term="discuss" />
+		<summary>It&#39;s amazing the differences that a tool set can make.</summary>
+		<link href="https://coreydmccarty.dev/posts/2020_07_13_new_job/"/>
+		<updated>2020-07-13T00:00:00-00:00</updated>
+		<id>https://coreydmccarty.dev/posts/2020_07_13_new_job/</id>
+		<content type="html">&lt;p&gt;I recently started a new job, and it&#39;s only the second that I&#39;ve had in my dev career. With a fresh look into how different it can be between companies, I thought that I&#39;d share a few thoughts. I&#39;d also love to hear yours in the comments.&lt;/p&gt;
+&lt;h2&gt;Old Busted&lt;/h2&gt;
+&lt;p&gt;I started off as a full time employee of a vendor company providing onsite/offshore model software development and support for a large logistics company. As such I never had much say in the tools that were being used. The company decided against allowing anyone to have admin rights on their local machine, and their &#39;official&#39; take on IDE availability was that &amp;quot;Eclipse is the corporate standard and we will not consider making any alternatives available.&amp;quot; Which was fun. This was even more fun when the vendors lost their desktop licenses for Microsoft Office when we moved to 365. It was also especially cumbersome to work from home when the vendors could not access the code repository or the test servers via VPN. Instead, you had to connect to vpn, then log in to a virtual server (after many failed attempts), and use whatever software was installed there to do your work. Overall, it seems like there was more concern with being secure than being productive.&lt;/p&gt;
+&lt;h2&gt;New Hottness&lt;/h2&gt;
+&lt;p&gt;I can&#39;t adequately communicate the glee that I experienced in my first week of work. I was given the option to have full license of IntelliJ IDEA or Eclipse. I got GitKraken, desktop applications for Office, local admin on my machine, the full Atlassian tool stack [Jira, BitBucket, Confluence, Bamboo] that auto-magically works together, and an account with Pluralsight matched with a standing calendar block to study every week.&lt;/p&gt;
+&lt;p&gt;While it has been a bit weird transitioning jobs during the pandemic, I have had the greatest experience with getting help with things. Everyone that I&#39;ve asked for help is willing to stop and assist as needed. The work tasks are well defined, small units of effort with recommendations for solution. All that was necessary was to apply the change as recommended and then test. As I&#39;ve needed access to an system I&#39;ve been able to quickly request it and have it granted within 24 hours.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;It&#39;s amazing how much different life can be in a new position/place. If you are in a tough spot, keep at it. Build your experience as you look for work, and eventually you will find a place that works well for you. Currently I can&#39;t imagine a reason that I&#39;d leave my current role.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
