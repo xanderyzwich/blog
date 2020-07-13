@@ -20,6 +20,10 @@
  	--patterson-gray:	#717C7D;
  	--highland-gray:	#BFCDCB;
 
+  --highlighter-blue: #0dd5fc;
+  --highlighter-yellow: #fdff32;
+  --highlighter-green: #8cff32;
+
   --black: #000;
  	--bluff-beige:		#F5E9BD;
  	--font-bitter:		'Bitter'; /*serif*/
@@ -38,6 +42,9 @@ body {
   font-family: sans-serif;
   color: var(--university-blue);
   background-color: var(--white);
+}
+::selection {
+  background-color: var(--highlighter-yellow);
 }
 p:last-child {
   margin-bottom: 0;
