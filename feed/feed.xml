@@ -4,7 +4,7 @@
 	<subtitle>Daydreaming of better ways.</subtitle>
 	<link href="https://coreydmccarty.dev/feed/feed.xml" rel="self"/>
 	<link href="https://coreydmccarty.dev/"/>
-	<updated>2020-07-13T00:00:00-00:00</updated>
+	<updated>2020-07-30T00:00:00-00:00</updated>
 	<id>https://coreydmccarty.dev/</id>
 	<author>
 		<name>Corey McCarty</name>
@@ -1031,6 +1031,44 @@ Hob&#39;by - n.
 &lt;p&gt;While it has been a bit weird transitioning jobs during the pandemic, I have had the greatest experience with getting help with things. Everyone that I&#39;ve asked for help is willing to stop and assist as needed. The work tasks are well defined, small units of effort with recommendations for solution. All that was necessary was to apply the change as recommended and then test. As I&#39;ve needed access to an system I&#39;ve been able to quickly request it and have it granted within 24 hours.&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;It&#39;s amazing how much different life can be in a new position/place. If you are in a tough spot, keep at it. Build your experience as you look for work, and eventually you will find a place that works well for you. Currently I can&#39;t imagine a reason that I&#39;d leave my current role.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>New Tools</title>
+		<category term="productivity" />
+		<category term="tools" />
+		<category term="discuss" />
+		<category term="watercooler" />
+		<summary>New tools can drastically improve your quality of life.</summary>
+		<link href="https://coreydmccarty.dev/posts/2020_07_30_new_tools/"/>
+		<updated>2020-07-30T00:00:00-00:00</updated>
+		<id>https://coreydmccarty.dev/posts/2020_07_30_new_tools/</id>
+		<content type="html">&lt;p&gt;Over the last couple of weeks I&#39;ve had various people that I respect suggesting different tools to me and I&#39;ve been really happy with the results. I&#39;ll share them with you below, but I&#39;d also love to hear about whatever tools you have that might help others in their daily life.&lt;/p&gt;
+&lt;h1&gt;ZSH&lt;/h1&gt;
+&lt;p&gt;There are several option in shells for Linux command line and if you are anything like me then you may have just learned Bash as it was already there and gotten used to it. After years of seeing Zsh recommended, I decided to give it a try along with &lt;a href=&quot;https://ohmyz.sh/&quot;&gt;Oh-My-Zsh&lt;/a&gt; that is usually recommended for additional functionality. The command line experience is just given more power and polish with Zsh over Bash. This recommendation came to me along with the &lt;a href=&quot;https://commandlinepoweruser.com/&quot;&gt;Command Line Power User&lt;/a&gt; course.&lt;/p&gt;
+&lt;p&gt;Features (as &lt;a href=&quot;https://en.wikipedia.org/wiki/Z_shell#Features&quot;&gt;listed on Wikipedia&lt;/a&gt;):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Programmable command-line completion that can help the user type both options and arguments for most used commands, with out-of-the-box support for several hundred commands&lt;/li&gt;
+&lt;li&gt;Sharing of command history among all running shells&lt;/li&gt;
+&lt;li&gt;Extended file globbing allows file specification without needing to run an external program such as find&lt;/li&gt;
+&lt;li&gt;Improved variable/array handling&lt;/li&gt;
+&lt;li&gt;Editing of multi-line commands in a single buffer&lt;/li&gt;
+&lt;li&gt;Spelling correction and autofill of command names (and optionally arguments, assumed to be file names)&lt;/li&gt;
+&lt;li&gt;Various compatibility modes, e.g. Zsh can pretend to be a Bourne shell when run as /bin/sh&lt;/li&gt;
+&lt;li&gt;Themeable prompts, including the ability to put prompt information on the right side of the screen and have it auto-hide when typing a long command&lt;/li&gt;
+&lt;li&gt;Loadable modules, providing among other things: full TCP and Unix domain socket controls, an FTP client, and extended math functions.&lt;/li&gt;
+&lt;li&gt;The built-in where command. Works like the which command but shows all locations of the target command in the directories specified in $PATH rather than only the one that will be used.&lt;/li&gt;
+&lt;li&gt;Named directories. This allows the user to set up shortcuts such as ~mydir, which then behave the way ~ and ~user do.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Oh-My-Zsh&lt;/h2&gt;
+&lt;p&gt;This is a framework for managing your Zsh configuration with helpers, plugins, and themes. It adds to the already wonderful Zsh experience and have found several included plugins that are very nice. My current configuration makes use of &lt;code&gt;colored-man-pages&lt;/code&gt;, &lt;code&gt;extract&lt;/code&gt;, &lt;code&gt;alias-finder&lt;/code&gt;, &lt;code&gt;common-aliases&lt;/code&gt;, &lt;code&gt;zsh-interactive-cd&lt;/code&gt;, &lt;code&gt;z&lt;/code&gt;, and &lt;code&gt;fzf&lt;/code&gt;. I&#39;m really enjoying them.&lt;/p&gt;
+&lt;h1&gt;MobaXterm with WSL2&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://mobaxterm.mobatek.net/&quot;&gt;MobaXterm&lt;/a&gt; is a terminal emulator for windows. It can be used with different bash emulators. If you have the &lt;a href=&quot;https://docs.microsoft.com/en-us/windows/wsl/about&quot;&gt;Windows Subsystem for Linux&lt;/a&gt; installed on Windows 10 then it will work together without any additional configuration. MobaXterm also worked flawlessly with my &#39;agnoster&#39; theme for Zsh when the standard WSL2 Ubuntu terminal required additional fonts. If you aren&#39;t familiar with MobaXterm, it is a tabbed terminal emulator with split screen and MultiExec modes which can be a huge help when you are working remotely on different servers. I have used this to kickoff scripts on different servers at the same time or to jump through a gateway server into a build box to execute several scripts at the same time. I can ssh and enter passwords on several terminals at the same time to cut down on the setup time.&lt;/p&gt;
+&lt;h1&gt;Notable&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/notable/notable&quot;&gt;Notable&lt;/a&gt; is a note keeping tool for markdown files. This is a free product with a single developer maintaining it. It has a &lt;a href=&quot;https://www.reddit.com/r/Notable/&quot;&gt;subreddit&lt;/a&gt; for support and the developer is very active there. I currently use this tool primarily for reading my notes as there are some things that I&#39;d like to see added before I use it as my primary markdown editor. All of those changes have been acknowledged by the developer as being in planning. The biggest benefits that I see in Notable is the interface that allows you to add tags to your markdown files, collect them in notebooks, and quickly go between different groups. When a document is opened the default view is the &#39;preview&#39; or &#39;rendered&#39; html that results from the markdown, but there is an edit view that is easily entered in the same frame. Once the new editing features are added then this will be my primary markdown environment, until then I keep VSCode on deck with the Markdown-All-In-One plugin for composing markdown files quickly during meetings.&lt;/p&gt;
+&lt;h1&gt;Cascadia Code Font&lt;/h1&gt;
+&lt;p&gt;Really it&#39;s just having ligatures in general. I picked up &lt;a href=&quot;https://github.com/microsoft/cascadia-code&quot;&gt;Cascadia Code&lt;/a&gt; initially, but after adopting it for use in VSCode, I found that &lt;code&gt;JetBrains Mono&lt;/code&gt; actually supports ligatures as well. It&#39;s a really small touch that I feel makes the development experience feel nicer.&lt;/p&gt;
 </content>
 	</entry>
 </feed>

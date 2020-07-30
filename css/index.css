@@ -66,6 +66,7 @@ blockquote p{
 }
 a[href] {
   color: var(--university-blue);
+  font-weight: bold;
 }
 main {
   padding: 1rem;
