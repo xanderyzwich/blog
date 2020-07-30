@@ -16,15 +16,20 @@ Java, Groovy, Python, SQL, JavaScript, Bash
 Pivotal Cloud Foundry, RedHat, Tomcat, Springboot, Oracle DB, Datastax/Cassandra NoSQL, JamStack, Android, Arduino
 
 ### DevOps
-Git, SVN, Ant, Gradle, Jenkins, TravisCI, Nexus
+Git, SVN, Ant, Gradle, Jenkins, Bamboo, TravisCI, Nexus
 
 ### Frameworks
 Spring, Slf4j, Log4j, LogBack, Django, 11ty SSG, ReactJS
 
 ### Development/Testing Tools
-JetBrains, Eclipse, Oracle SQL Developer, HPE Agile Manager, SoapUI
+JetBrains, VSCode, Eclipse, Oracle SQL Developer, Jira & Atlassian Suite, HPE Agile Manager, SoapUI
 
 ## Projects
+
+### Extract, Translate, and Load Tool
+#### Application Development Lifecycle
+Java, Hibernate, Bash, Microft SQL Server DB, BitBucket, Bamboo, Jira
+
 ### Customer Hierarchy Management
 #### Application Modernization
 Java, Springboot, Pivotal Cloud Foundry, Jenkins, GitLab, Oracle DB, JMS, Soap
@@ -72,8 +77,14 @@ Hands on Study of software and hardware system design of analog and digital circ
 
 ## Work Experience
 ### Software Development
+
+#### Juice Plus - Programmer Analyst
+June 2020 - Present
+
++ Support and development of data syncronization tool between Pick multivalue database and Microsoft SQL Server
+
 #### Atos|Syntel - Software Engineer
-September 2014 - Present
+September 2014 - May 2020
 
 + Lead DevOps drive with GitLab and Jenkins pipeline tools to maintain 16 applications CI/CD process causing the developers to build and deploy applications without configuration management team.
 + Drive efficiency and standards evolution in both code and process for betterment of product, team, and self with daily meeting time reduction by half.
