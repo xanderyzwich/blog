@@ -4,7 +4,7 @@
 	<subtitle>Daydreaming of better ways.</subtitle>
 	<link href="https://coreydmccarty.dev/feed/feed.xml" rel="self"/>
 	<link href="https://coreydmccarty.dev/"/>
-	<updated>2020-07-30T00:00:00-00:00</updated>
+	<updated>2020-08-05T00:00:00-00:00</updated>
 	<id>https://coreydmccarty.dev/</id>
 	<author>
 		<name>Corey McCarty</name>
@@ -1069,6 +1069,44 @@ Hob&#39;by - n.
 &lt;p&gt;&lt;a href=&quot;https://github.com/notable/notable&quot;&gt;Notable&lt;/a&gt; is a note keeping tool for markdown files. This is a free product with a single developer maintaining it. It has a &lt;a href=&quot;https://www.reddit.com/r/Notable/&quot;&gt;subreddit&lt;/a&gt; for support and the developer is very active there. I currently use this tool primarily for reading my notes as there are some things that I&#39;d like to see added before I use it as my primary markdown editor. All of those changes have been acknowledged by the developer as being in planning. The biggest benefits that I see in Notable is the interface that allows you to add tags to your markdown files, collect them in notebooks, and quickly go between different groups. When a document is opened the default view is the &#39;preview&#39; or &#39;rendered&#39; html that results from the markdown, but there is an edit view that is easily entered in the same frame. Once the new editing features are added then this will be my primary markdown environment, until then I keep VSCode on deck with the Markdown-All-In-One plugin for composing markdown files quickly during meetings.&lt;/p&gt;
 &lt;h1&gt;Cascadia Code Font&lt;/h1&gt;
 &lt;p&gt;Really it&#39;s just having ligatures in general. I picked up &lt;a href=&quot;https://github.com/microsoft/cascadia-code&quot;&gt;Cascadia Code&lt;/a&gt; initially, but after adopting it for use in VSCode, I found that &lt;code&gt;JetBrains Mono&lt;/code&gt; actually supports ligatures as well. It&#39;s a really small touch that I feel makes the development experience feel nicer.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Use the Tools To Your Advantage</title>
+		<category term="meta" />
+		<category term="watercooler" />
+		<category term="blog" />
+		<category term="tools" />
+		<summary>Don&#39;t work harder than you have to.</summary>
+		<link href="https://coreydmccarty.dev/posts/2020_08_05_use_the_platform/"/>
+		<updated>2020-08-05T00:00:00-00:00</updated>
+		<id>https://coreydmccarty.dev/posts/2020_08_05_use_the_platform/</id>
+		<content type="html">&lt;p&gt;I see several content creators doing things in their posts that are easily done with the tools built into the DEV/Forem tooling. I&#39;ve commented to several people about how they can make use of these tools to streamline their content publication without loss of functionality (and maybe even improve their brand quality/SEO in the process). Overall,&lt;/p&gt;
+&lt;h1&gt;Links to Blogs&lt;/h1&gt;
+&lt;p&gt;I 100% support people owning their content and publishing first on their own site. I do this as well. There are tools to utilize RSS and to link back to the original article on your site that are included in the DEV platform. In the &lt;code&gt;settings&lt;/code&gt; menu there is a &lt;code&gt;Publishing from RSS&lt;/code&gt; section wher you can add your Atom feed url. There are also option to &lt;code&gt;Replace self-referenctial links with DEV-specific links&lt;/code&gt; which will bridge your dev articles on the same platform in a similar way to how you might link your blog posts together on your personal site. The other option on this page is &lt;code&gt;Mark the RSS source as canonical URL by default&lt;/code&gt; which will provide a link to the blog post on your site in a special way that search engines will acknowledge your site as the origin of the material. This helps with SEO as search engines will remove listings of duplicate data and without a cononical reference it will prioritize the one with higher SEO/reputation and likely remove your original link.&lt;/p&gt;
+&lt;h1&gt;Social links&lt;/h1&gt;
+&lt;p&gt;I often see people providing a short bio and social links at the end of their post which is something that is common enough that the platform actually does this automatically using a card of your primary profile information. Firstly, you should make sure that you have filled out your profile information so that your profile doesn&#39;t give a &#39;404 profile not found&#39;, but you can also add whatever links that you would like along with a short summary for display. The links will be listed on your profile card with their appropriate logo.&lt;/p&gt;
+&lt;p&gt;Links supported via Settings&amp;gt;Profile&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Website&lt;/li&gt;
+&lt;li&gt;Facebook&lt;/li&gt;
+&lt;li&gt;YouTube&lt;/li&gt;
+&lt;li&gt;Stack Overflow&lt;/li&gt;
+&lt;li&gt;LinkedIn&lt;/li&gt;
+&lt;li&gt;Behance&lt;/li&gt;
+&lt;li&gt;Dribble&lt;/li&gt;
+&lt;li&gt;Medium&lt;/li&gt;
+&lt;li&gt;GitLab&lt;/li&gt;
+&lt;li&gt;Instagram&lt;/li&gt;
+&lt;li&gt;Mastadon&lt;/li&gt;
+&lt;li&gt;Twitch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is also a Github integration where you can login to DEV using your Github account and pin certain repositories to your DEV profile page.&lt;/p&gt;
+&lt;h1&gt;Lists of posts&lt;/h1&gt;
+&lt;p&gt;There are a couple of versions of this that have different solutions. First is a list of all posts that you have. This can be easily omitted by asking people to check out your other posts from your profile (which has a link at the bottom of the article). The other type is for sets of articles to link to the other entries. The DEV platform has builtin functionality for this as well. Among the &lt;code&gt;Front Matter&lt;/code&gt; information available in the &lt;a href=&quot;https://dev.to/p/editor_guide&quot;&gt;editor guide&lt;/a&gt; is the &lt;code&gt;series&lt;/code&gt; entry. This actually has some really awesome functionality. It will automatically generate a list of the all posts published in this series in order of publication. It will be updated once there is a new part published so that you don&#39;t have to go back and edit previous posts.&lt;/p&gt;
+&lt;h1&gt;Summary&lt;/h1&gt;
+&lt;p&gt;It pays to learn your tools in order to make better use of them. I highly recommend taking a look through the settings pages and the editor guide that is available via the &lt;code&gt;i&lt;/code&gt; logo on comment and post editors. The DEV team has included a LOT of cool functionality that you can harness in order to spend less time on the tools and more time on the actual content. Honestly the only thing that I worry with in between posting on my site and posting on dev is finding a &lt;code&gt;cover_image&lt;/code&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>
