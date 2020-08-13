@@ -2,10 +2,23 @@
   - [ ] Why Python
   - [ ] Python Dunders presentation  
 
-  - [ ] Agile practices
-  - [ ] Overcoming Imposter Syndrome  
-  - [ ] tools are neutral
-    - good or bad stem from your ability to make appropriate use of the tool in order to achieve the desired outcome.
+- [ ] Long term employee support
+  + hire juniors
+  + make training available
+  + make mentoring a priority
+
+- [ ] Programmatic color mixing
+
+- [ ] Make your bed every morning
+
+- [ ] Legacy (people v memories)
+
+- [ ] Agile practices
+  - [ ] FedEx v JuicePlus
+
+- [ ] Overcoming Imposter Syndrome  
+- [ ] tools are neutral
+  - good or bad stem from your ability to make appropriate use of the tool in order to achieve the desired outcome.
 
 - [ ] Read more! 
   - how you get better
