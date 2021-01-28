@@ -95,8 +95,15 @@ September 2014 - May 2020
 + Analyze team activities from code base and data extracts with Bash and Python allowing owners visibility into their data.
 + Manage 30TB of databases' design to reduce storage footprint and query times while maximizing uptime in order to stop timeout issues and contention blockages that previously halted flow of business activities.
 
+#### Code Connector - Volunteer
+April 2019 - Present
++ Support developers entering the field many from non-traditional backgrounds.
++ Mentor through ongoing engagement related to both coding and professional advancement.
++ Expose new languages, skills, and tools to people of all experience levels.
++ Direct open source efforts for betterment of organization and members.
+
 #### Code Support - Volunteer
-December 2017 - Present
+December 2017 - April 2019
 
 + Contribute to the open source tools through development, guidance, and review of pull requests.
 + Guide development of 5,000 person community as member of direction board.
