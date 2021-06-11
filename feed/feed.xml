@@ -4,7 +4,7 @@
 	<subtitle>Daydreaming of better ways.</subtitle>
 	<link href="https://coreydmccarty.dev/feed/feed.xml" rel="self"/>
 	<link href="https://coreydmccarty.dev/"/>
-	<updated>2020-08-18T00:00:00Z</updated>
+	<updated>2021-06-11T20:08:41Z</updated>
 	<id>https://coreydmccarty.dev/</id>
 	<author>
 		<name>Corey McCarty</name>
@@ -1294,5 +1294,14 @@ but closed to modification&lt;/p&gt;
 &lt;h3&gt;Reality of Programming&lt;/h3&gt;
 &lt;p&gt;We don&#39;t prove anything. Dijkstra&#39;s vision failed. We do lean on and risk our lives everyday on something else that cannot be proven. That thing is science. Science is made up of things that cannot be proven correct, but can be proven incorrect. We can surround something with enough tests that it&#39;s assumed correct. We can do similarly and demonstrate the non-failing qualities of software with tests. We may not be able to prove our software correct, but we can provide that it isn&#39;t incorrect by surrounding it with sufficient tests.&lt;/p&gt;
 </content>
+	</entry>
+	
+	<entry>
+		<title></title>
+		<summary></summary>
+		<link href="https://coreydmccarty.dev/posts/2021_6_10_career_advancement/"/>
+		<updated>2021-06-11T20:08:41Z</updated>
+		<id>https://coreydmccarty.dev/posts/2021_6_10_career_advancement/</id>
+		<content type="html"></content>
 	</entry>
 </feed>
