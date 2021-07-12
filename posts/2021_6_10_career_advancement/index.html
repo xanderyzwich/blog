@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Advancement</title>
+    <meta name="Description" content="How do you move forward?">
+    
+    
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Adventures in Coding">
+
+    <script defer src="https://kit.fontawesome.com/1b01ea6d0e.js" crossorigin="anonymous"></script>
+      
+  </head>
+  <body>
+    <!-- capture the CSS content as a Nunjucks variable -->
+    
+    <!-- feed it through our cssmin filter to minify -->
+    <style>
+      :root{--red:#C5004A;--darkred:#7F0036;--lightgray:#e0e0e0;--gray:#C0C0C0;--darkgray:#333;--navy:#17050F;--blue:#082840;--white:#fff;--university-blue:#003087;--rhythm-blue:#1F3A60;--spirit-blue:#00ADE6;--river-blue:#D0E6E8;--true-blue:#3569A7;--university-gray:#898D8D;--patterson-gray:#717C7D;--highland-gray:#BFCDCB;--highlighter-blue:#0dd5fc;--highlighter-yellow:#fdff32;--highlighter-green:#8cff32;--black:#000;--bluff-beige:#F5E9BD;--font-bitter:'Bitter';font-family:Montserrat}*{box-sizing:border-box}body,html{padding:0;margin:0;font-family:sans-serif;color:var(--university-blue);background-color:var(--white)}::selection{background-color:var(--highlighter-yellow)}p:last-child{margin-bottom:0}.tmpl-post li,img,p{max-width:37.5em}.tmpl-post li,p{line-height:1.45}blockquote p{background-color:var(--rhythm-blue);padding:1em;color:#fff}a[href]{color:var(--university-blue);font-weight:700}main{padding:1rem}main :first-child{margin-top:0}header{border-bottom:1px dashed var(--university-blue)}header:after{content:"";display:table;clear:both}table{margin:1em 0}table td,table th{padding-right:1em}code,pre{font-family:Consolas,Menlo,Monaco,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L","Courier New",Courier,monospace;line-height:1.5}pre{font-size:14px;line-height:1.375;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;-moz-tab-size:2;-o-tab-size:2;tab-size:2;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;padding:1em;margin:.5em 0;background-color:#f6f6f6}.highlight-line{display:block;padding:.125em 1em;text-decoration:none;color:inherit}.highlight-line:empty:before{content:" "}.highlight-line+br{display:none}.highlight-line-isdir{color:#b0b0b0;background-color:#222}.highlight-line-active{background-color:#444;background-color:hsla(0,0%,27%,.8)}.highlight-line-add{background-color:#45844b}.highlight-line-remove{background-color:#902f2f}footer,header{background-color:var(--university-blue);color:var(--white)}header .contact{float:right;padding:0 1rem;margin:1rem 1rem;font-size:1.5rem}footer a[href],header a[href]{color:#fff}.home{float:left;padding:0 1rem;margin:1rem 1rem;font-size:1em}footer{width:100%;text-align:center}foot *{text-align:center}.home :link:not(:hover),footer :link:not(:hover){text-decoration:none}.nav{padding:0;list-style:none;float:left;margin-left:1em}.nav-item{display:inline-block;margin-right:1em}.nav-item a[href]:not(:hover){text-decoration:none}.nav-item-active{font-weight:700;text-decoration:underline}.postlist{list-style:none;padding:0;margin:.2em}.postlist-item{counter-increment:start-from -1}.postlist-item:before{display:inline-block;pointer-events:none;content:"" counter(start-from,decimal-leading-zero) ". ";line-height:100%;text-align:right}.postlist-date,.postlist-item:before{font-size:.8125em;color:var(--darkgray)}.postlist-date{word-spacing:-.5px}.postlist-link{display:inline-block}.postlist-item-active .postlist-link{font-weight:700}.postlist-date,.postlist-link,a.tag{padding:5px 5px;margin:14px 7px}.tmpl-home .postlist-link{font-size:1.1875em;font-weight:700}p.description{margin:1em 0 .5em 2em;margin-block-start:0}#tag-cloud{font-size:20px}h1{color:#000}a.tag{display:inline-block;vertical-align:middle;text-transform:uppercase;font-size:.625em;background-color:var(--university-blue);color:var(--university-gray);border-radius:.25em;text-decoration:none}a[href].tag,a[href].tag:visited{color:#fff}.contact a{padding-right:21px}.warning{background-color:#ffc;padding:1em .625em}.warning ol:only-child{margin:0}.direct-link{font-family:sans-serif;text-decoration:none;font-style:normal;margin-left:.1em}a[href].direct-link,a[href].direct-link:visited{color:transparent}:hover>a[href].direct-link,:hover>a[href].direct-link:visited,a[href].direct-link:focus,a[href].direct-link:focus:visited{color:#aaa}@media only screen and(max-width:600px){main{margin:0 10px}}@media only screen and (min-width:601px){main{margin:0 5%}}@media only screen and (min-width:992px){main{margin:0 10%}}@media only screen and (min-width:1200px){main{margin:0 15%}}body,html{height:100%}body{display:flex;flex-direction:column}main{flex:1 0 auto}footer{flex-shrink:0}
+    </style>
+  
+    <header>
+      <h1 class="home"><a href="/"><i class="fas fa-terminal" aria-hidden="true"></i> Adventures in Coding</a></h1>
+      <ul class="nav"><li class="nav-item"><a href="/resume/">Resume</a></li><li class="nav-item"><a href="/posts/">Blog</a></li><li class="nav-item"><a href="/about/">Bio</a></li></ul>
+      <span class='contact'>
+        <a aria-label="linkedin" href="https://linkedin.mccarty.dev"><i class="fab fa-linkedin"></i></a>
+        <a aria-label="dev dot to" href="https://devto.mccarty.dev"><i class="fab fa-dev"></i></a>
+        <a aria-label="github" href="https://github.mccarty.dev"><i class="fab fa-github"></i></a>
+        <a aria-label="email" href="mailto:Corey@McCarty.dev"><i class="fas fa-envelope"></i></a>
+        <a aria-label="phone number" href="tel:‪(901) 213-6747‬"><i class="fas fa-phone"></i>‬</a>
+      </span>
+    </header>
+
+    <main class="tmpl-post">
+      
+<div class="post top">
+  <h1><i class="fas fa-terminal" aria-hidden="true"></i> Career Advancement</h1>
+  
+    <a href="/tags/career/" class="tag">career</a>
+    <a href="/tags/coding/" class="tag">coding</a>
+    <a href="/tags/learning/" class="tag">learning</a>
+    <a href="/tags/leadership/" class="tag">leadership</a>
+  
+    <p>How do you move forward?</p>
+  
+  <hr>
+</div>
+
+<div class="post main">
+  <p>Once you have figured out a way into your first software development role, it is only logical that you would consider how you can move forward in your career. But it's not always clear what the next steps are beyond completing the tasks that you are given.</p>
+<h2>Learning</h2>
+<p>Firstly, I'd like to say that setting your focus on climbing the ladder quickly is not exactly the best use of your time. No doubt that you've figured out that learning is a pretty important part of our career field, and that doesn't change after getting hired. Having a job does provide a significant amount of direction for your learning. It's a good first step to get comfortable with the language, frameworks, and tools that your team uses; focus first on what's relevant to your current project. Learning things that seem small may be greatly helpful when making decisions later.</p>
+<p>When you are learning your first language the biggest thing that you are really learning is what computer programming really is. You learn how a programming language can be used to complete tasks. When you learn your second programming language, then the most important thing that you are learning is how you learn best. You will also learn how much the learning of your first language carries over into using a new language. There should be significant overlap in techniques. The language after all is just a tool at your disposal. By the time that you learn your third programming language you are really learning how esily you can pick up new things. I highly encourage people to take languages one at a time. You will learn more by getting into a deeper knowledge of your first language than by trying to learn three languages at the same time (like one of my coworkers). Allow yourself to become fluent in your first langauge to the point that you can think in that language the same way that you would a spoken language. If for some reason you find yourself working in a new language before you believe that you have reached the necessary depth in your first language then you should work to bring that new language to the level of understanding that you had in your first language, and continuing in this new language from there.</p>
+<h2>Know Yourself</h2>
+<p>The biggest part of your career, throughout all phases of it, is you. If you are anything like me then you may have managed to reach a suprising age before actually understanding WHO you are, and what your strengths are. Branding is something that gets discussed a lot in some dev circles, and the short version is that you have to know what's important to you, and what you're good at. I highly recommend asking your coworkers that know you best what they think your strengths are. For me personally this is asking questions and just talking to people. I really enjoy learning about things, whether those things are relevant to my job or not. The thing that has been the central pivot of any acknowledgement that I've received are about taking part in discussions and asking questions that move towards goals. Your strengths aren't likely the same as mine, but it's very important that you know what they are.</p>
+<h2>Play to Your Strenghths</h2>
+<p>Once you know what things set you apart from your peers and where your largest amount of value lies, you need to keep these in mind during your work. For me this means that I make sure to ask questions about things that don't seem to make sense. Sometimes this reveals that I'm just the only one in the room that didn't know something, other times it reveals that the entire team had assumed something wrongly. If your strengths lie directly in code work then perhaps you would be able to provide special value in your code reviews or pair/team programming where you could make an impact with the overall code quality. Whatever you do with your streghths, remember that every person on your team also has some strength and you should never assume that you are better than they are.</p>
+<h2>Remember Your Team</h2>
+<p>The best engineers not only provide value in their work, but improve the skills of those around them. This comes in the forms of teaching and of motivating those around them to learn more. Developing a culture of improvement and learning is paramount if a team is going to get better over time. As learning is such a pivotal part of our industry a team/person that is not interested in improvement is a liability to their company as our tools continue to improve. Our languages get new features and flaws are discovered. If we don't grow with our tools then our productivity is actually reducing over time.</p>
+<h2>Advancement Path</h2>
+<p>In order to become a junior developer you need to learn how to write code. These are the basic skills that everyone in the field should have. I expect that everyone reading this understands some amount of computer programming basics and knows that it is the vocabulary that we use to discuss solutions.</p>
+<p>In order to move on to a mid level then you need to understand the tooling itself and how tradeoffs work. Every tool has its strengths and weaknesses. As you work on different projects you will learn about the weaknesses of the tools that you use and the problems that can happen because of this. There is no such thing as a 'best programming language' or 'best framework'. Every tool has an area where it accels. Understanding tradeoffs is what will help you to move into this space.</p>
+<p>As you move toward senior or lead, your skills need to spread more into team culture and dynamics. It becomes important that you be able to mentor other developers. Mentorship doesn't always imply that the mentor knows more than the mentee. We all have gaps in our knowledge and in my experience a mentorship relationship can actually go both ways. The developer that has been in the industry longer can provide direction from that knowledge, and the developer that's been in the industry less time can provide information about different practices or tools that the more experienced dev has no experience with. Being able to identify where your knowledge gaps are and who around you knows the most are very important. In order to make the important decisions that come with more responsibility and title you must be able to evaluate the necessary factors and this often means asking the people that have the most knowledge.</p>
+
+</div>
+
+<div class="post bottom">
+  <hr>
+  <p>Related topics:
+  
+      <a href="/tags/career/" class="tag">career</a>
+      <a href="/tags/coding/" class="tag">coding</a>
+      <a href="/tags/learning/" class="tag">learning</a>
+      <a href="/tags/leadership/" class="tag">leadership</a>
+  </p>
+  <p><a href="/">← Home</a></p>
+</div>
+
+    </main>
+
+    <footer>
+      &copy; Corey McCarty 
+      <br>
+      Thanks for reading! <a href="https://11ty.io">Built using 11ty </a><a href="https://github.com/11ty/eleventy-base-blog">base blog</a>.
+    </footer>
+
+    <!-- Current page: /posts/2021_6_10_career_advancement/ -->
+  </body>
+</html>
