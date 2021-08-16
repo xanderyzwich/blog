@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Challenge with Clean Code</title>
+    <meta name="Description" content="What benefits are there to clean coding?">
+    
+    
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Adventures in Coding">
+
+    <script defer src="https://kit.fontawesome.com/1b01ea6d0e.js" crossorigin="anonymous"></script>
+      
+  </head>
+  <body>
+    <!-- capture the CSS content as a Nunjucks variable -->
+    
+    <!-- feed it through our cssmin filter to minify -->
+    <style>
+      :root{--red:#C5004A;--darkred:#7F0036;--lightgray:#e0e0e0;--gray:#C0C0C0;--darkgray:#333;--navy:#17050F;--blue:#082840;--white:#fff;--university-blue:#003087;--rhythm-blue:#1F3A60;--spirit-blue:#00ADE6;--river-blue:#D0E6E8;--true-blue:#3569A7;--university-gray:#898D8D;--patterson-gray:#717C7D;--highland-gray:#BFCDCB;--highlighter-blue:#0dd5fc;--highlighter-yellow:#fdff32;--highlighter-green:#8cff32;--black:#000;--bluff-beige:#F5E9BD;--font-bitter:'Bitter';font-family:Montserrat}*{box-sizing:border-box}body,html{padding:0;margin:0;font-family:sans-serif;color:var(--university-blue);background-color:var(--white)}::selection{background-color:var(--highlighter-yellow)}p:last-child{margin-bottom:0}.tmpl-post li,img,p{max-width:37.5em}.tmpl-post li,p{line-height:1.45}blockquote p{background-color:var(--rhythm-blue);padding:1em;color:#fff}a[href]{color:var(--university-blue);font-weight:700}main{padding:1rem}main :first-child{margin-top:0}header{border-bottom:1px dashed var(--university-blue)}header:after{content:"";display:table;clear:both}table{margin:1em 0}table td,table th{padding-right:1em}code,pre{font-family:Consolas,Menlo,Monaco,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L","Courier New",Courier,monospace;line-height:1.5}pre{font-size:14px;line-height:1.375;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;-moz-tab-size:2;-o-tab-size:2;tab-size:2;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;padding:1em;margin:.5em 0;background-color:#f6f6f6}.highlight-line{display:block;padding:.125em 1em;text-decoration:none;color:inherit}.highlight-line:empty:before{content:" "}.highlight-line+br{display:none}.highlight-line-isdir{color:#b0b0b0;background-color:#222}.highlight-line-active{background-color:#444;background-color:hsla(0,0%,27%,.8)}.highlight-line-add{background-color:#45844b}.highlight-line-remove{background-color:#902f2f}footer,header{background-color:var(--university-blue);color:var(--white)}header .contact{float:right;padding:0 1rem;margin:1rem 1rem;font-size:1.5rem}footer a[href],header a[href]{color:#fff}.home{float:left;padding:0 1rem;margin:1rem 1rem;font-size:1em}footer{width:100%;text-align:center}foot *{text-align:center}.home :link:not(:hover),footer :link:not(:hover){text-decoration:none}.nav{padding:0;list-style:none;float:left;margin-left:1em}.nav-item{display:inline-block;margin-right:1em}.nav-item a[href]:not(:hover){text-decoration:none}.nav-item-active{font-weight:700;text-decoration:underline}.postlist{list-style:none;padding:0;margin:.2em}.postlist-item{counter-increment:start-from -1}.postlist-item:before{display:inline-block;pointer-events:none;content:"" counter(start-from,decimal-leading-zero) ". ";line-height:100%;text-align:right}.postlist-date,.postlist-item:before{font-size:.8125em;color:var(--darkgray)}.postlist-date{word-spacing:-.5px}.postlist-link{display:inline-block}.postlist-item-active .postlist-link{font-weight:700}.postlist-date,.postlist-link,a.tag{padding:5px 5px;margin:14px 7px}.tmpl-home .postlist-link{font-size:1.1875em;font-weight:700}p.description{margin:1em 0 .5em 2em;margin-block-start:0}#tag-cloud{font-size:20px}h1{color:#000}a.tag{display:inline-block;vertical-align:middle;text-transform:uppercase;font-size:.625em;background-color:var(--university-blue);color:var(--university-gray);border-radius:.25em;text-decoration:none}a[href].tag,a[href].tag:visited{color:#fff}.contact a{padding-right:21px}.warning{background-color:#ffc;padding:1em .625em}.warning ol:only-child{margin:0}.direct-link{font-family:sans-serif;text-decoration:none;font-style:normal;margin-left:.1em}a[href].direct-link,a[href].direct-link:visited{color:transparent}:hover>a[href].direct-link,:hover>a[href].direct-link:visited,a[href].direct-link:focus,a[href].direct-link:focus:visited{color:#aaa}@media only screen and(max-width:600px){main{margin:0 10px}}@media only screen and (min-width:601px){main{margin:0 5%}}@media only screen and (min-width:992px){main{margin:0 10%}}@media only screen and (min-width:1200px){main{margin:0 15%}}body,html{height:100%}body{display:flex;flex-direction:column}main{flex:1 0 auto}footer{flex-shrink:0}
+    </style>
+  
+    <header>
+      <h1 class="home"><a href="/"><i class="fas fa-terminal" aria-hidden="true"></i> Adventures in Coding</a></h1>
+      <ul class="nav"><li class="nav-item"><a href="/resume/">Resume</a></li><li class="nav-item"><a href="/posts/">Blog</a></li><li class="nav-item"><a href="/about/">Bio</a></li></ul>
+      <span class='contact'>
+        <a aria-label="linkedin" href="https://linkedin.mccarty.dev"><i class="fab fa-linkedin"></i></a>
+        <a aria-label="dev dot to" href="https://devto.mccarty.dev"><i class="fab fa-dev"></i></a>
+        <a aria-label="github" href="https://github.mccarty.dev"><i class="fab fa-github"></i></a>
+        <a aria-label="email" href="mailto:Corey@McCarty.dev"><i class="fas fa-envelope"></i></a>
+        <a aria-label="phone number" href="tel:‪(901) 213-6747‬"><i class="fas fa-phone"></i>‬</a>
+      </span>
+    </header>
+
+    <main class="tmpl-post">
+      
+<div class="post top">
+  <h1><i class="fas fa-terminal" aria-hidden="true"></i> Coding Challenge with Clean Code</h1>
+  
+    <a href="/tags/codequality/" class="tag">codequality</a>
+    <a href="/tags/programming/" class="tag">programming</a>
+    <a href="/tags/cleancode/" class="tag">cleancode</a>
+    <a href="/tags/productivity/" class="tag">productivity</a>
+  
+    <p>What benefits are there to clean coding?</p>
+  
+  <hr>
+</div>
+
+<div class="post main">
+  <p>After studying Uncle Bob's Clean Code and trying to practice it as much as possible, I find that it can make a huge improvement to the maintainability or even just readability of a piece of code.</p>
+<p>This coding challenge came up in one of my favorite coding communitites:</p>
+<blockquote>
+<p>Length of the Last Word<br>
+Given a string s consisting of some words separated by some number of spaces, return the length of the last word in the string.<br>
+A word is a maximal substring consisting of non-space characters only.</p>
+</blockquote>
+<p>So, because I like to do challeneges with tests, I put together this bit of unit test using Python's built in unittest package based on the three examples that were given with the challenge.</p>
+<pre class="language-python"><code class="language-python"><span class="token keyword">from</span> unittest <span class="token keyword">import</span> TestCase<br><br><span class="token keyword">def</span> <span class="token function">last_word_length</span><span class="token punctuation">(</span>input_str<span class="token punctuation">)</span><span class="token punctuation">:</span><br>    <span class="token keyword">pass</span><br><br><span class="token keyword">class</span> <span class="token class-name">TestLastWordLength</span><span class="token punctuation">(</span>TestCase<span class="token punctuation">)</span><span class="token punctuation">:</span><br><br>    <span class="token keyword">def</span> <span class="token function">test_one</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span><br>        <span class="token keyword">assert</span><span class="token punctuation">(</span>last_word_length_golf<span class="token punctuation">(</span><span class="token string">'Hello World'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">5</span><br><br>    <span class="token keyword">def</span> <span class="token function">test_two</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span><br>        <span class="token keyword">assert</span><span class="token punctuation">(</span>last_word_length_golf<span class="token punctuation">(</span><span class="token string">'   fly me   to   the moon  '</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">4</span><br><br>    <span class="token keyword">def</span> <span class="token function">test_three</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span><br>        <span class="token keyword">assert</span><span class="token punctuation">(</span>last_word_length_golf<span class="token punctuation">(</span><span class="token string">'luffy is still joyboy'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">6</span><br></code></pre>
+<p>Now, I knew that I could pull this off with a single line of Python. I quickly wrote this:</p>
+<pre class="language-python"><code class="language-python"><span class="token keyword">import</span> re<br><br><span class="token keyword">def</span> <span class="token function">last_word_length</span><span class="token punctuation">(</span>input_str<span class="token punctuation">)</span><span class="token punctuation">:</span><br>    <span class="token keyword">return</span> <span class="token builtin">len</span><span class="token punctuation">(</span>re<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">r'[\W]+'</span><span class="token punctuation">,</span> input_str<span class="token punctuation">.</span>strip<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span></code></pre>
+<p>This does everything that the challenge asks for, but part of the goal of doing these challenges in my community is that we use several different languages and it allows everyone to get more familiar with the language that you used, whether they have ever written it before or not. One liners like this are not usually a good idea for long term maintenance OR teaching. So, I took a minute to clean it up a bit. Having tests laid out made it really easy to know that I'd not introduced any errors.</p>
+<pre class="language-python"><code class="language-python"><span class="token keyword">import</span> re<br><br><span class="token keyword">def</span> <span class="token function">last_word_length</span><span class="token punctuation">(</span>input_str<span class="token punctuation">)</span><span class="token punctuation">:</span><br>    indefinite_whitespace <span class="token operator">=</span> <span class="token string">r'[\W]+'</span><br>    clean_input <span class="token operator">=</span> input_str<span class="token punctuation">.</span>strip<span class="token punctuation">(</span><span class="token punctuation">)</span><br>    words <span class="token operator">=</span> re<span class="token punctuation">.</span>split<span class="token punctuation">(</span>indefinite_whitespace<span class="token punctuation">,</span> clean_input<span class="token punctuation">)</span><br>    <span class="token keyword">return</span> <span class="token builtin">len</span><span class="token punctuation">(</span>words<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span></code></pre>
+<p>Now, it's pretty easy for anyone with a moderate amount of coding ability to understand what's going on. We have a regex that matches any clustering of whitespace. We have an input string that gets trimmed/stripped of it's surrounding whitespace. That string gets split according to the regex. And then we return the length of the last word.</p>
+<p>There are two main things that this technique improves. Breaking the pieces apart reduces the mental overhead of undestanding each piece. Naming the variable helps to document the intention of that line. It also makes the later lines significantly easier to understand by offering those names. That benefit will help you both with the reading and the writing of your code. The other major benefit comes long after this code has been put into version control. The history of this code allows you to tell which part of this was changed when. Instead of a diff showing that something in this block was changed at a, b, c, and d commits, you can see that the regex changed in commit a, the input cleaning changed in b and d and maybe the split call changed in c. This is especially helpful if you have IDE/editor functionality that helps you to see the git blame info for each line.</p>
+
+</div>
+
+<div class="post bottom">
+  <hr>
+  <p>Related topics:
+  
+      <a href="/tags/codequality/" class="tag">codequality</a>
+      <a href="/tags/programming/" class="tag">programming</a>
+      <a href="/tags/cleancode/" class="tag">cleancode</a>
+      <a href="/tags/productivity/" class="tag">productivity</a>
+  </p>
+  <p><a href="/">← Home</a></p>
+</div>
+
+    </main>
+
+    <footer>
+      &copy; Corey McCarty 
+      <br>
+      Thanks for reading! <a href="https://11ty.io">Built using 11ty </a><a href="https://github.com/11ty/eleventy-base-blog">base blog</a>.
+    </footer>
+
+    <!-- Current page: /posts/2021_8_16_clean_coding_challenge/ -->
+  </body>
+</html>
