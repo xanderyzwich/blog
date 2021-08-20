@@ -31,3 +31,5 @@ More often than not, devs find that when/if they get involved with this type of 
 ## Takeaway
 
 You may very well have an amazing idea and find the perfect developer that both believes in the idea, and has endless free time to devote to it, but keep in mind that what you're asking is basically "I had this idea in the shower that I've put no effort into and I'd love for you to spend all of your spare time building this thing for me so that I might be able to make lots of money without doing anything." If you've put in lots of effort and have a well laid out plan for this company that you are starting, you are much more likely to find a developer that's interested. 
+
+Special thanks to [George Spake](https://georgespake.com/blog/) for assisting with this content. 
