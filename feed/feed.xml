@@ -4,7 +4,7 @@
 	<subtitle>Daydreaming of better ways.</subtitle>
 	<link href="https://coreydmccarty.dev/feed/feed.xml" rel="self"/>
 	<link href="https://coreydmccarty.dev/"/>
-	<updated>2021-08-16T00:00:00Z</updated>
+	<updated>2021-08-20T00:00:00Z</updated>
 	<id>https://coreydmccarty.dev/</id>
 	<author>
 		<name>Corey McCarty</name>
@@ -1303,9 +1303,9 @@ but closed to modification&lt;/p&gt;
 		<category term="learning" />
 		<category term="leadership" />
 		<summary>How do you move forward?</summary>
-		<link href="https://coreydmccarty.dev/posts/2021_6_10_career_advancement/"/>
+		<link href="https://coreydmccarty.dev/posts/2021_06_10_career_advancement/"/>
 		<updated>2021-06-10T00:00:00Z</updated>
-		<id>https://coreydmccarty.dev/posts/2021_6_10_career_advancement/</id>
+		<id>https://coreydmccarty.dev/posts/2021_06_10_career_advancement/</id>
 		<content type="html">&lt;p&gt;Once you have figured out a way into your first software development role, it is only logical that you would consider how you can move forward in your career. But it&#39;s not always clear what the next steps are beyond completing the tasks that you are given.&lt;/p&gt;
 &lt;h2&gt;Learning&lt;/h2&gt;
 &lt;p&gt;Firstly, I&#39;d like to say that setting your focus on climbing the ladder quickly is not exactly the best use of your time. No doubt that you&#39;ve figured out that learning is a pretty important part of our career field, and that doesn&#39;t change after getting hired. Having a job does provide a significant amount of direction for your learning. It&#39;s a good first step to get comfortable with the language, frameworks, and tools that your team uses; focus first on what&#39;s relevant to your current project. Learning things that seem small may be greatly helpful when making decisions later.&lt;/p&gt;
@@ -1330,9 +1330,9 @@ but closed to modification&lt;/p&gt;
 		<category term="cleancode" />
 		<category term="productivity" />
 		<summary>What benefits are there to clean coding?</summary>
-		<link href="https://coreydmccarty.dev/posts/2021_8_16_clean_coding_challenge/"/>
+		<link href="https://coreydmccarty.dev/posts/2021_08_16_clean_coding_challenge/"/>
 		<updated>2021-08-16T00:00:00Z</updated>
-		<id>https://coreydmccarty.dev/posts/2021_8_16_clean_coding_challenge/</id>
+		<id>https://coreydmccarty.dev/posts/2021_08_16_clean_coding_challenge/</id>
 		<content type="html">&lt;p&gt;After studying Uncle Bob&#39;s Clean Code and trying to practice it as much as possible, I find that it can make a huge improvement to the maintainability or even just readability of a piece of code.&lt;/p&gt;
 &lt;p&gt;This coding challenge came up in one of my favorite coding communitites:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -1348,6 +1348,30 @@ A word is a maximal substring consisting of non-space characters only.&lt;/p&gt;
 &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; re&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;last_word_length&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;input_str&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;br /&gt;    indefinite_whitespace &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;r&#39;[\W]+&#39;&lt;/span&gt;&lt;br /&gt;    clean_input &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; input_str&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;strip&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;    words &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; re&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;split&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;indefinite_whitespace&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; clean_input&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;words&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now, it&#39;s pretty easy for anyone with a moderate amount of coding ability to understand what&#39;s going on. We have a regex that matches any clustering of whitespace. We have an input string that gets trimmed/stripped of it&#39;s surrounding whitespace. That string gets split according to the regex. And then we return the length of the last word.&lt;/p&gt;
 &lt;p&gt;There are two main things that this technique improves. Breaking the pieces apart reduces the mental overhead of undestanding each piece. Naming the variable helps to document the intention of that line. It also makes the later lines significantly easier to understand by offering those names. That benefit will help you both with the reading and the writing of your code. The other major benefit comes long after this code has been put into version control. The history of this code allows you to tell which part of this was changed when. Instead of a diff showing that something in this block was changed at a, b, c, and d commits, you can see that the regex changed in commit a, the input cleaning changed in b and d and maybe the split call changed in c. This is especially helpful if you have IDE/editor functionality that helps you to see the git blame info for each line.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Pitching Ideas to Developers</title>
+		<category term="productivity" />
+		<category term="freelance" />
+		<category term="programming" />
+		<category term="planning" />
+		<summary>Some things to consider</summary>
+		<link href="https://coreydmccarty.dev/posts/2021_08_20_pitching_to_devs/"/>
+		<updated>2021-08-20T00:00:00Z</updated>
+		<id>https://coreydmccarty.dev/posts/2021_08_20_pitching_to_devs/</id>
+		<content type="html">&lt;p&gt;There&#39;s a trope among developers of the people that have a &amp;quot;great idea&amp;quot; for an app or website, but no coding skills or knowledge. It&#39;s quite common for those people to come to a developer or community looking to find someone interested in putting in the work of creating the thing that they envision. Most of the time it comes as a startup pitch where they expect the developer to put in work with no promise of ever receiving payment.  This is basically asking someone to work for free on the gamble that there will one day be more income than the cost of infrastructure. Many developers tend towards a skeptical or cynical reaction towards this. There was even a whole plot point in the show Silicon Valley about it. One developer&#39;s &lt;a href=&quot;https://medium.com/the-mission/so-you-have-an-app-idea-eh-cbe73d15c997&quot;&gt;reaction can be read here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I&#39;ll share with you some of the information that came out in one such conversation.&lt;/p&gt;
+&lt;h2&gt;Think of this like a startup&lt;/h2&gt;
+&lt;p&gt;If you were starting any other type of business than tech you would put together a specific plan before bringing in any other people. Consider &amp;quot;I have an idea for a business&amp;quot; and put effort into modeling out, describing, and planning how your business works and get lots of feedback.&lt;/p&gt;
+&lt;p&gt;If you had a restaurant idea and went to a chef saying &amp;quot;I have an idea for a restaurant, but I can&#39;t cook and I&#39;m looking for someone to handle the kitchen part.&amp;quot; You had better have a strong business case for why a chef would want to invest their time in your idea.&lt;/p&gt;
+&lt;h2&gt;Planning&lt;/h2&gt;
+&lt;p&gt;There are lots of things that you can plan out without a developer or writing any code at all. You can write the business cases(s), draw out the screens in all sorts of user friendly tools (or on paper), get feedback from potential users about what features they would want, etc.&lt;/p&gt;
+&lt;p&gt;When you come to the point of sitting down with a developer, then you would be handing over a bunch of specifications and they can just build it. The best way to do this would be to have some amount of money to invest to pay the developer to deliver a some bit of the product, This is exactly like you would do if you were prototyping a physical invention.&lt;/p&gt;
+&lt;p&gt;More often than not, devs find that when/if they get involved with this type of thing they aren&#39;t just developers they&#39;re also expected to be designers, marketing, search engine optimization (SEO) experts, and product managers. Suddenly they are doing the work of a whole team (or more) with no promise of ever being paid.&lt;/p&gt;
+&lt;h2&gt;Takeaway&lt;/h2&gt;
+&lt;p&gt;You may very well have an amazing idea and find the perfect developer that both believes in the idea, and has endless free time to devote to it, but keep in mind that what you&#39;re asking is basically &amp;quot;I had this idea in the shower that I&#39;ve put no effort into and I&#39;d love for you to spend all of your spare time building this thing for me so that I might be able to make lots of money without doing anything.&amp;quot; If you&#39;ve put in lots of effort and have a well laid out plan for this company that you are starting, you are much more likely to find a developer that&#39;s interested.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
