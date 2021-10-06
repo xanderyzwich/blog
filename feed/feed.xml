@@ -4,7 +4,7 @@
 	<subtitle>Daydreaming of better ways.</subtitle>
 	<link href="https://coreydmccarty.dev/feed/feed.xml" rel="self"/>
 	<link href="https://coreydmccarty.dev/"/>
-	<updated>2021-08-20T00:00:00Z</updated>
+	<updated>2021-10-06T00:00:00Z</updated>
 	<id>https://coreydmccarty.dev/</id>
 	<author>
 		<name>Corey McCarty</name>
@@ -1373,6 +1373,69 @@ A word is a maximal substring consisting of non-space characters only.&lt;/p&gt;
 &lt;h2&gt;Takeaway&lt;/h2&gt;
 &lt;p&gt;You may very well have an amazing idea and find the perfect developer that both believes in the idea, and has endless free time to devote to it, but keep in mind that what you&#39;re asking is basically &amp;quot;I had this idea in the shower that I&#39;ve put no effort into and I&#39;d love for you to spend all of your spare time building this thing for me so that I might be able to make lots of money without doing anything.&amp;quot; If you&#39;ve put in lots of effort and have a well laid out plan for this company that you are starting, you are much more likely to find a developer that&#39;s interested.&lt;/p&gt;
 &lt;p&gt;Special thanks to &lt;a href=&quot;https://georgespake.com/blog/&quot;&gt;George Spake&lt;/a&gt; for assisting with this content.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Hacktoberfest</title>
+		<category term="hacktoberfest" />
+		<category term="opensource" />
+		<category term="beginners" />
+		<category term="programming" />
+		<summary>What is it and how to participate</summary>
+		<link href="https://coreydmccarty.dev/posts/2021_10_06_hacktoberfest/"/>
+		<updated>2021-10-06T00:00:00Z</updated>
+		<id>https://coreydmccarty.dev/posts/2021_10_06_hacktoberfest/</id>
+		<content type="html">&lt;h2&gt;What is Hacktoberfest?&lt;/h2&gt;
+&lt;p&gt;Hacktoberfest is an effort by Digital Ocean to increase involvement in Open Source projects. &lt;a href=&quot;https://coreydmccarty.dev/posts/2021_10_06_hacktoberfest/hacktoberfest.digitalocean.com&quot;&gt;Sign up here.&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;What is Open Source?&lt;/h2&gt;
+&lt;h3&gt;Definition&lt;/h3&gt;
+&lt;p&gt;Open source is source code that is made freely available for possible modification and redistribution. Products include permission to use the source code, design documents, or content of the product. The open-source model is a decentralized software development model that encourages open collaboration. A main principle of open-source software development is peer production, with products such as source code, blueprints, and documentation freely available to the public. The open-source movement in software began as a response to the limitations of proprietary code.&lt;/p&gt;
+&lt;p&gt;It&#39;s commonly pointed out about open source that it&#39;s &amp;quot;Free as in freedom, not as in beer&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Projects can be big or small, and developers free or paid. Any software project can be made open source by adopting an appropriate license and allowing public contribution.&lt;/p&gt;
+&lt;h3&gt;Examples of  proprietary or closed source software&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Microsoft Windows&lt;/li&gt;
+&lt;li&gt;iOS&lt;/li&gt;
+&lt;li&gt;Oracle SQL Server&lt;/li&gt;
+&lt;li&gt;Java programming language&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;examples of open source software&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Linux&lt;/li&gt;
+&lt;li&gt;Wikipedia&lt;/li&gt;
+&lt;li&gt;Firefox&lt;/li&gt;
+&lt;li&gt;Chromium&lt;/li&gt;
+&lt;li&gt;pip&lt;/li&gt;
+&lt;li&gt;npm&lt;/li&gt;
+&lt;li&gt;Go lang&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;FAQ&lt;/h2&gt;
+&lt;h3&gt;Why is open source software important&lt;/h3&gt;
+&lt;p&gt;Because open source software has freely available source code, if the maintainer ever stops providing updates (or closes the source after a certain point) then the community can take the source and continue development of it.&lt;/p&gt;
+&lt;h3&gt;Why is contributing to open source is important, and what do I get out of doing this FREE work?&lt;/h3&gt;
+&lt;p&gt;Learning is important, and it can be difficult to learn about long term software maintenance in a small single person project. Working on open source software allows you to step into long term support of software even before having a job in the field. You need to read through the docs and figure out what&#39;s going on before you can contribute. This is VERY much like what happens in the real world.&lt;/p&gt;
+&lt;p&gt;Also, if you have issues with the software then you can go and make a fix yourself instead of waiting for the maintainer to schedule and write the change.&lt;/p&gt;
+&lt;h3&gt;What is the most minimal thing I can do to contribute?&lt;/h3&gt;
+&lt;p&gt;Contributions can be any submission to a code repository. It can be to the code itself, tests, build process, or even documentation. It can also be quite valuable to larger projects to even have someone that will ask clarifying questions in new issues.&lt;/p&gt;
+&lt;h3&gt;How are my contributions tracked in a way I can get the swag?&lt;/h3&gt;
+&lt;p&gt;You Register with Digital Ocean at the Hacktoberfest website.&lt;/p&gt;
+&lt;h3&gt;Where can I contribute at (I don&#39;t understand GitHub)?&lt;/h3&gt;
+&lt;p&gt;If you go to the resources section on their webpage there are resources for contibuting no matter your level. There are ways to search for repositories in Github and GitLab. Dev.to has a topic and there is discussion on Twitter. This is one of the few events that manages to permeate throughout dev culture.&lt;/p&gt;
+&lt;h3&gt;I don&#39;t know how to download the codebase so I can contribute?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/&quot;&gt;Free Code Camp - Git Guide&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;How do I find the issues to be fixed?&lt;/h3&gt;
+&lt;p&gt;Issues are listed on Github for a given repository. You can also use &lt;a href=&quot;http://issuehub.pro/&quot;&gt;issuehub.pro&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Who do I talk to in a codebase to make sure I&#39;m doing it correctly?&lt;/h3&gt;
+&lt;p&gt;This will vary pretty widely depending on the project. There will usually be some type of information on the project&#39;s README.md and often a CONTRIBUTING.md&lt;/p&gt;
+&lt;h1&gt;Summary&lt;/h1&gt;
+&lt;h2&gt;How do I contribute?&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Register&lt;/li&gt;
+&lt;li&gt;Make 4 PR&#39;s&lt;/li&gt;
+&lt;li&gt;Get shirt (or have a tree planted in your name)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you&#39;d like to find more open source software to use checkout &lt;a href=&quot;https://sourceforge.net/directory/os%3Awindows/&quot;&gt;SourceForge&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>
