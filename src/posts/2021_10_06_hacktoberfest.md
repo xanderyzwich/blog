@@ -13,7 +13,7 @@ layout: layouts/post.njk
 
 ## What is Hacktoberfest?
 
-Hacktoberfest is an effort by Digital Ocean to increase involvement in Open Source projects. [Sign up here.](hacktoberfest.digitalocean.com)
+Hacktoberfest is an effort by Digital Ocean to increase involvement in Open Source projects. [Sign up here.](https://hacktoberfest.digitalocean.com/)
 
 ## What is Open Source? 
 
