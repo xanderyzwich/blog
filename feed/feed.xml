@@ -4,7 +4,7 @@
 	<subtitle>Daydreaming of better ways.</subtitle>
 	<link href="https://coreydmccarty.dev/feed/feed.xml" rel="self"/>
 	<link href="https://coreydmccarty.dev/"/>
-	<updated>2021-10-06T00:00:00Z</updated>
+	<updated>2022-03-10T00:00:00Z</updated>
 	<id>https://coreydmccarty.dev/</id>
 	<author>
 		<name>Corey McCarty</name>
@@ -1436,6 +1436,27 @@ A word is a maximal substring consisting of non-space characters only.&lt;/p&gt;
 &lt;li&gt;Get shirt (or have a tree planted in your name)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;If you&#39;d like to find more open source software to use checkout &lt;a href=&quot;https://sourceforge.net/directory/os%3Awindows/&quot;&gt;SourceForge&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Perfection vs Completion</title>
+		<category term="development" />
+		<category term="programming" />
+		<category term="craftsmanship" />
+		<category term="journey" />
+		<summary>Is it better to be right or done?</summary>
+		<link href="https://coreydmccarty.dev/posts/2022_03_10_perfection_vs_completion/"/>
+		<updated>2022-03-10T00:00:00Z</updated>
+		<id>https://coreydmccarty.dev/posts/2022_03_10_perfection_vs_completion/</id>
+		<content type="html">&lt;p&gt;It&#39;s extremely common in tech that we find ourselves debating the best way to do something. You can find arguments about anything from text editor selection to number of lines in a function. All of these arguments come from a good place. We want to learn what is best in order to build the best thing that we can. But, what if I told you that a vast majority of these debates have no right or wrong answers?&lt;/p&gt;
+&lt;p&gt;When it comes to tools for writing code there is certainly no shortage. Some people use bare-bones Vim or have it decked out with 100 plugins. There are similar groups of people using VSCode, Atom, Sublime Text, Emacs, JetBrains products, Eclipse, Visual Studio or anything else. Not a single one of these tools is going to do you any good if you don&#39;t know how to use it. The biggest part of tool selection is using something that you are familiar with and taking the time to learn how to use it well. Nearly every code editor out there can be configured to function in very similar ways. The thing that determines how much it helps you is whether you know how to use it.&lt;/p&gt;
+&lt;p&gt;Due to this, there is value in making a decision and sticking with it. At some point you may decide that what you&#39;ve decided isn&#39;t working and choose something else. That&#39;s okay. Too often I see people that are early in their development career stressing over what the best programming language or text editor is, and I&#39;m here to tell you that none is the best at everything. These are just tools. You can turn screws with a manual screwdriver, power screwdriver, drill, or impact driver, and there is a certain amount of overlap in functionality, but purchasing an impact driver for changing the batteries in your kids toys is entirely unnecessary, and may actually present more difficulty than using a small manual screwdriver. The most important questions that you can ask when choosing a tool are centered around &amp;quot;does it do what I need?&amp;quot; and &amp;quot;at what cost?&amp;quot;. Is it best to build front-end and back-end separately? Many times the answer is yes, but if the project is small enough then doing so may actually bring about more difficulty than there is benefit in doing so.&lt;/p&gt;
+&lt;p&gt;Currently, I&#39;m working on modernizing an old website that uses Java Server Pages. The replacement has separated front-end and back-end systems. The front-end is sharp. It&#39;s built with NodeJS, Nuxt, Vue, Vuex, Tailwind, Eslint, and Stylelint. The back-end is built with Java, Spring Boot, Lombok, Hibernate, and several Saas systems that make our life easier. Any one of the tools in our front-end and back-end systems could eat away a week of your time if you wanted to explore all the configuration options. If they don&#39;t get in your way, there it&#39;s usually more helpful to just use the default configuration. Once that configuration is found to not fit some part of your needs, only then should you add whatever configuration is necessary to overcome that limitation. Let the tools enable you to do work. If you spend too much time considering what is possible then you won&#39;t get around to the task at hand. When it comes to code style and linting, I&#39;ve seen people argue both ways on most of the things that can be checked or configured, but in the end you will actually get used to whatever code style is being used. Having all the code match in style allows your brain to look past unnecessary things and read the important bits. At the end of the day, it&#39;s how much you are able to build that matters, not what hammer you used.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In his writings, a wise Italian says that the best is the enemy of the good
+~Voltaire&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
 	</entry>
 </feed>
