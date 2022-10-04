@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adventures in Coding</title>
-    <meta name="Description" content="Recording interesting bits of my life as a developer.">
+    <title>Hacktoberfest with GitKraken</title>
+    <meta name="Description" content="Introduction to Open Source using GitKraken">
     
     
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Adventures in Coding">
@@ -32,97 +32,54 @@
       </span>
     </header>
 
-    <main class="tmpl-home">
+    <main class="tmpl-post">
       
-<table>
-  <thead>
-    <th>URL</th>
-    <th>Page Title</th>
-  </thead>
-  <tbody>
-  <tr>
-    <td><a href="/tags/bulletjournal/"><code>/tags/bulletjournal/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/journal/"><code>/tags/journal/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/promotion/"><code>/tags/promotion/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/advancement/"><code>/tags/advancement/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/cleancode/"><code>/tags/cleancode/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/craftsmanship/"><code>/tags/craftsmanship/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/TDD/"><code>/tags/TDD/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/testing/"><code>/tags/testing/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/cicd/"><code>/tags/cicd/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/automation/"><code>/tags/automation/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/diversity/"><code>/tags/diversity/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/community/"><code>/tags/community/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/wellbeing/"><code>/tags/wellbeing/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/teamwork/"><code>/tags/teamwork/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/journey/"><code>/tags/journey/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/advice/"><code>/tags/advice/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/leadership/"><code>/tags/leadership/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/meta/"><code>/tags/meta/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/blog/"><code>/tags/blog/</code></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="/tags/codenewbie/"><code>/tags/codenewbie/</code></a></td>
-    <td></td>
-  </tr>
-  </tbody>
-</table>
+<div class="post top">
+  <h1><i class="fas fa-terminal" aria-hidden="true"></i> Hacktoberfest with GitKraken</h1>
+  
+    <a href="/tags/hacktoberfest/" class="tag">hacktoberfest</a>
+    <a href="/tags/git/" class="tag">git</a>
+    <a href="/tags/gitkraken/" class="tag">gitkraken</a>
+    <a href="/tags/opensource/" class="tag">opensource</a>
+  
+    <p>Introduction to Open Source using GitKraken</p>
+  
+  <hr>
+</div>
 
+<div class="post main">
+  <p>In the software development community October brings <a href="https://hacktoberfest.com/">Hacktoberfest</a>, a month long event centered around getting more people involved in the open source community. If you aren't familiar with the event you can see my <a href="../2021_10_06_hacktoberfest.md">previous article here</a>.</p>
+<p>In order to contribute to open source projects, typically you will be asked to submit a pull/merge request (PR/MR) with the changes that you've made in order to get those changes into the main project. While there are many great resources to learn git from command line (<a href="learngitbranching.js.org/">like this one</a>), many of us find visualization tools for Git to be a tremendous help. I use <a href="https://gitkraken.mccarty.dev">GitKraken</a> and love it. So I would love to demonstrate how to use this tool to make your first contribution to open source.</p>
+<h2>Terms</h2>
+<p>For the ease of discussion, I'd like to cover basic terms and their common usage. A <strong>repository</strong> is the root directory (and everything inside) that git is tracking for a project. It is most typical that for a small project that you would have one 'remote' location attached. A <strong>remote</strong> can be GitHub, GitLab, or even just another computer that you have access to. A remote isn't actually required, git can be used to track changes just in your computer. The default remote for a repository is typcally called <strong>origin</strong>, and when you have a fork this would be the fork on GitHub or GitLab usually. The original repository that you forked from is referred to as <strong>upstream</strong>.</p>
+<h2>Getting Started</h2>
+<p>The first steps that you will want to do will be to install GitKraken, and connect to the git provider system that you plan on using. GitKraken has integrations with both <a href="https://help.gitkraken.com/gitkraken-client/github-gitkraken-client/">GitHub</a> and <a href="https://help.gitkraken.com/gitkraken-client/gitlab-gitkraken-client/">GitLab</a> that will allow for the easiest level of interaction with those sites through the GitKraken client. I find it best to utilize SSH keys regardless of how I interact with git and the provider as it is more secure than simply saving username and password.</p>
+<p>After you have your client configured and a project found then you will need to fork the original repository. This can be done through GitKraken. First you open the repository, and if the client doesn't detect an existing fork of the project in your account it will present a button to easily do so. Alternatively, if you already have a fork of the project then you can open your fork, and then add a remote to the project to the original project.</p>
+<h2>Long term usage</h2>
+<p>One of the things that is most difficult with maintaining a fork over longer periods is getting the upstream changes into your fork from the original repository. I've talked to professional developers that habitually delete their fork and create a new one to get the changes from upstream. This gets the job done, but is ultimately unnecessary.</p>
+<p>The first thing that you'll need to do is fetch all.</p>
+<p><img src="/img/gk_behind_upstream.png" alt="git history with local behind upstream by many commits"></p>
+<p>You can see here that my local is behind upstream by 11 commits. In order to remedy this, I only need to rebase my local on upstream.</p>
+<p><img src="/img/gk_right_click_upstream.png" alt="selecting &quot;rebase main onto upstream/main&quot;"></p>
+<p>While I have my local main branch checked out, I just need to right click on the upstream branch that has the changes I want, and select &quot;Rebase [mine] onto [other]&quot;. this can be done before or after having made commits as rebase will move your changes to be after the ones in that remote branch.</p>
+<p>Now the next step that I do isn't 100% necessary, but a good practice to get into</p>
+<p><img src="/img/gk_set_upstream.png" alt="select &quot;set upstream&quot; from right click of local branch"></p>
+<p>In order to ensure that I'm pushing to my fork and not the upstream remote, I will check my &quot;set upstream&quot;. Before I started doing this step, I would habitually push to upstream when I had intended to open a pull request. This isn't typically an issue as push access is usually restricted to maintainers and owners.</p>
+<p><img src="/img/gk_what_remote.png" alt="pick remote branch"></p>
+
+</div>
+
+<div class="post bottom">
+  <hr>
+  <p>Related topics:
+  
+      <a href="/tags/hacktoberfest/" class="tag">hacktoberfest</a>
+      <a href="/tags/git/" class="tag">git</a>
+      <a href="/tags/gitkraken/" class="tag">gitkraken</a>
+      <a href="/tags/opensource/" class="tag">opensource</a>
+  </p>
+  <p><a href="/">← Home</a></p>
+</div>
 
     </main>
 
@@ -132,6 +89,6 @@
       Thanks for reading! <a href="https://11ty.io">Built using 11ty </a><a href="https://github.com/11ty/eleventy-base-blog">base blog</a>.
     </footer>
 
-    <!-- Current page: /page-list/4/ -->
+    <!-- Current page: /posts/2022_08_30_gitkracken_hacktoberfest/ -->
   </body>
 </html>
