@@ -1,3 +1,9 @@
+- [ ] Java
+  - [ ] Streams
+  - [ ] Java Utils Package
+  - [ ] Collections Package
+- [ ] Should I Use a Database ?
+
 - [ ] Python
   - [ ] Why Python
   - [ ] Python Dunders presentation  
@@ -52,6 +58,9 @@
 			+ "is this work done?"
 		+ way to track every single person's hours
 			+ "tick the box"
+	+ Accountability
+  	+ culture of learning/doing
+  	+ getting credit
 			
 - [ ] Tools (Text Editors, IDE's, testing)
 	+ how to pick / why to change
