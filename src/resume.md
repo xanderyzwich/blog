@@ -8,26 +8,11 @@ navtitle: Resume
 templateClass: tmpl-resume
 ---
 
-## Skills
-### Languages
-Java/Springboot, JavaScript(Vue), SQL, Python(Django), Groovy, Bash
-
-### Deployments
-AWS (EC2, Elastic Beanstalk, Lambda, SQS, Cloud Search, API Gateway, RDS/MySql, and CloudWatch),  Pivotal Cloud Foundry, RedHat, Tomcat, Springboot, Oracle DB, Datastax/Cassandra NoSQL, JamStack, Android, Arduino
-
-### DevOps
-Git, Gradle, NPM, Jenkins, Bamboo, TravisCI, Nexus
-
-
-## Education
-### University of Memphis
-#### B.S. in Computer Engineering - December 2013
-
-Hands on Study of software and hardware system design of analog and digital circuits, microprocessors, MIPS and Motorola 68HC11 assembly, Arduino, C, Java, Python, and MATLAB. Mathematics secondary included probability, statics, calculus, and differential equations.
+I am a senior engineer with experience as technical lead for 2 engineers. I enjoy leading and developing engineers in and outside work.
 
 ##  Experience
 
-### Summit Professional Education - Lead Developer
+### Staff Software Engineer - Summit Professional Education
 Dec 2021 - Present
 
 + Increase sales through data and tooling improvements
@@ -38,7 +23,7 @@ Dec 2021 - Present
 + Oversee software development team and manage growth of specific front/back end developers into the full stack
 + Improve interdepartmental workflows and understanding through honest discussion of possibilities and improvements
 
-### Juice Plus - Programmer Analyst
+### Senior Software Engineer - Juice Plus
 June 2020 - Dec 2021
 
 + Design and architect new generation of data systems
@@ -46,7 +31,7 @@ June 2020 - Dec 2021
 + Expedite incident mitigation through streamlined information gathering process
 + Support and development of data syncronization tool between Pick multivalue database and Microsoft SQL Server
 
-### Atos|Syntel - Software Engineer
+### Software Engineer - Atos|Syntel
 September 2014 - May 2020
 
 + Streamline DevOps processes for team's 16 applications with GitLab and Jenkins.
@@ -66,8 +51,19 @@ April 2019 - Present
 + Expose new languages, skills, and tools to people of all experience levels.
 + Direct open source efforts for betterment of organization and members.
 
-###  Knights of Columbus - Volunteer
-November 2016 - Present
+## Skills
+### Languages
+Java/Springboot, JavaScript(Vue), SQL, Python(Django), Groovy, Bash
 
-+ Manage social media presence.
-+ Perform in service projects for charity and community.
+### Deployments
+AWS (EC2, Elastic Beanstalk, Lambda, SQS, Cloud Search, API Gateway, RDS/MySql, and CloudWatch),  Pivotal Cloud Foundry, RedHat, Tomcat, Springboot, Oracle DB, Datastax/Cassandra NoSQL, JamStack, Android, Arduino
+
+### DevOps
+Git, Gradle, NPM, Jenkins, Bamboo, TravisCI, Nexus
+
+
+## Education
+### University of Memphis
+#### B.S. in Computer Engineering - December 2013
+
+Hands on Study of software and hardware system design of analog and digital circuits, microprocessors, MIPS and Motorola 68HC11 assembly, Arduino, C, Java, Python, and MATLAB. Mathematics secondary included probability, statics, calculus, and differential equations.
