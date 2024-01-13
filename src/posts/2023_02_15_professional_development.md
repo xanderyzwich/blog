@@ -2,11 +2,16 @@
 title: Developer Career and Job Search/Interview Advice  
 description: Career management isn't always intuitive  
 date: 2023-02-15  
-link: 
+tags:
+  - advancement
+  - career
+  - community
+  - journey
+layout: layouts/post.njk
 ---  
 
 Through every step of acquiring a new job you are telling a story. The story needs to make sense through each of the steps on it's own while still leaving opportunity to learn more through the next steps. 
-
+  
 ## Job Search
 
 The process that we go through for finding a job is always changing due to both our experience, and evolution of the world around us. Early on in your career you will certainly be taking an active part in finding and submitting for job listings. Recruiters will openly admit that they aren't even hired to fill entry or junior level development positions. This means that you will have to be reading through listings and deciding what positions you are interested in and can possibly interview for. 
